@@ -7,6 +7,7 @@ fr:
     homepage: "Accueil"
     about: "A propos"
     projects: "Projets"
+    project: "Projet"
 
   paths:
     # Directories
@@ -15,6 +16,12 @@ fr:
     homepage: ''
     about: "a-propos"
     projects: "projets"
+
+  # ------------------
+  # Header & footer
+  # ------------------
+  header:
+    home: "Accueil"
 
   # ------------------
   # Page translations

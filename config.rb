@@ -49,6 +49,11 @@ helpers URLHelper
 # Middleman fails to reload on helpers edit. This is the solution.
 Dir['helpers/*'].each(&method(:load))
 
+# Dynamic project-page generation
+data.projects.each do |project|
+  proxy "/projets/#{project.fr.slug}/index.html", "templates/project.html", :locals => { :project => project }, :locale => :fr, :ignore => true
+  proxy "en/projects/#{project.en.slug}/index.html", "templates/project.html", :locals => { :project => project }, :locale => :en, :ignore => true
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

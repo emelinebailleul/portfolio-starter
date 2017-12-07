@@ -4,8 +4,12 @@ title: projects
 <h1><%= t('projects.h1') %></h1>
 
 <% data.projects.each do |project| %>
-  <%= project[locale.to_s].name %>
+  <% link_to proxy_url(project[locale.to_s].slug) do %>
+    <%= image_tag "#{project.en.slug}/main.jpg", :alt => project[locale.to_s].name + ' cover image' %><br>
+    <%= project[locale.to_s].name %>
+  <% end %>
 <% end %>
+
 
 <br><br>
 <%= link_translate(:en) %>
