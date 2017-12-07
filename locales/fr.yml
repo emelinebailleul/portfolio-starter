@@ -1,0 +1,14 @@
+---
+fr:
+  hello: "Bonjour"
+  about: "A propos"
+
+  titles:
+    homepage: "Accueil"
+    about: "A propos"
+
+  paths:
+    # Directories
+
+    # Paths
+    about: "a-propos"
