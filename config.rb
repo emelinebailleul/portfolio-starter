@@ -64,7 +64,7 @@ configure :development do
 end
 
 configure :build do
-  config[:host] = "https://bastienrobert.fr"
+  config[:host] = "https://portfolio-starter.netlify.com"
 
   activate :minify_html
   activate :minify_css
