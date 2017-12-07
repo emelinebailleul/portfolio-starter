@@ -71,7 +71,7 @@ configure :build do
   activate :minify_javascript
   activate :imageoptim
   activate :gzip
-  activate :critical, :binary => '/usr/local/bin/critical'
+  activate :critical
 
   # SEO
   activate :sitemap, :gzip => false, :hostname => config[:host]
