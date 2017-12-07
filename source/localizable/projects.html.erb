@@ -5,7 +5,7 @@ title: projects
 
 <% data.projects.each do |project| %>
   <% link_to proxy_url(project[locale.to_s].slug) do %>
-    <%= image_tag "#{project.en.slug}/main.jpg", :alt => project[locale.to_s].name + ' cover image' %><br>
+    <%= project_image(project, 'main.jpg', 'cover image') %><br>
     <%= project[locale.to_s].name %>
   <% end %>
 <% end %>

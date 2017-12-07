@@ -9,4 +9,8 @@ module ApplicationHelper
     end
   end
 
+  def project_image(project, image, alt)
+    return image_tag "#{project[I18n.default_locale].slug}/#{image}", :alt => project[locale.to_s].name + alt
+  end
+
 end
