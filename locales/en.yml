@@ -1,14 +1,29 @@
 ---
 en:
-  hello: "Hello"
-  about: "About"
-
+  # ------------------
+  # Root translations
+  # ------------------
   titles:
     homepage: "Homepage"
     about: "About"
+    projects: "Projects"
 
   paths:
     # Directories
 
     # Paths
+    homepage: ''
     about: "about"
+    projects: "projects"
+
+  # ------------------
+  # Page translations
+  # ------------------
+  homepage:
+    h1: "Home"
+
+  about:
+    h1: "About"
+
+  projects:
+    h1: "Projects"

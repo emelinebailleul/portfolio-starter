@@ -1,0 +1,12 @@
+---
+title: projects
+---
+<h1><%= t('projects.h1') %></h1>
+
+<% data.projects.each do |project| %>
+  <%= project[locale.to_s].name %>
+<% end %>
+
+<br><br>
+<%= link_translate(:en) %>
+<%= link_translate(:fr) %>
