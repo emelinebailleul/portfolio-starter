@@ -11,6 +11,12 @@ activate :directory_indexes
 activate :i18n, :mount_at_root => :fr
 # Using asset helpers
 activate :asset_hash
+# Using sprockets
+activate :sprockets
+# Loading images asynchronously
+activate :async_image
+# Middleman i18n can't convert page URL to another language. This is the solution.
+activate :transpath
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -41,10 +47,6 @@ Dir["helpers/*.rb"].each {|file| require file }
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 helpers ApplicationHelper
-
-# Middleman i18n can't convert page URL to another language. This is the solution.
-require "lib/url_middleware"
-helpers URLHelper
 
 # Middleman fails to reload on helpers edit. This is the solution.
 Dir['helpers/*'].each(&method(:load))
