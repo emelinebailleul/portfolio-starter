@@ -23,6 +23,18 @@ Use the following helper :
 - *'cover image'*: your alt (project name will be added before this)
 - *'options' array*: your options, like the class, the alt, or other things like that. 'Alt' is formated like that : _project name + alt property you pass in the array_
 
+If you want, you can use [middleman-async-image](https://github.com/bastienrobert/middleman-async-image) by passing the option async to true, like this: `<%= project_image(project, 'main.jpg', {'async' => true}) %>`
+
 ### Locales
-Project locale text -> data/projects.yml
-Other locales, other pages... -> locales/
+| Project locales | data/projects.yml |
+|-----------------|-------------------|
+| Other locales   | locales/          |
+
+### Current page link
+Using [middleman-aria_current](https://github.com/thoughtbot/middleman-aria_current), use the `<%= current_link_to "Label", "/path" %>` helper and when you'll be on the same path, the link gonna get the aria-current attribute.
+
+### Path translation
+You can use it to translate each path to another language. The utilisation of this gem is a bit difficult, but useful when you get it. [Check the documentation](https://github.com/bastienrobert/middleman-transpath) and [the wiki](https://github.com/bastienrobert/middleman-transpath/wiki/) to know more, examples will help you a lot.
+
+### Async image loading
+Using [middleman-async-image](https://github.com/bastienrobert/middleman-async-image), it'll add a new folder named 'compress' in your image path, and it gonna compress a lot your image, to load it asynchronously. Use the following helper to get it: `<%= image_async_tag(path, options) %>`

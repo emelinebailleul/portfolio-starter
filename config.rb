@@ -1,10 +1,11 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+## This enable a lot of things
+# Autoprefixer
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
-
 # Pretty URLs
 activate :directory_indexes
 # Localization
@@ -17,6 +18,8 @@ activate :sprockets
 activate :async_image
 # Middleman i18n can't convert page URL to another language. This is the solution.
 activate :transpath
+# For indicating an active link
+activate :aria_current
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -41,7 +44,7 @@ page 'sitemap.xml', layout: false
 #   },
 # )
 
-# Helpers
+## Helpers
 # Requires all helpers
 Dir["helpers/*.rb"].each {|file| require file }
 # Methods defined in the helpers block are available in templates
@@ -51,20 +54,22 @@ helpers ApplicationHelper
 # Middleman fails to reload on helpers edit. This is the solution.
 Dir['helpers/*'].each(&method(:load))
 
-# Dynamic project-page generation
+
+## Proxy - Dynamic pages
+# Project-page generation
 data.projects.each do |project|
   proxy "/projets/#{project.fr.slug}/index.html", "templates/project.html", :locals => { :project => project }, :locale => :fr, :ignore => true, :data => { :slug => project.fr.slug }
   proxy "en/projects/#{project.en.slug}/index.html", "templates/project.html", :locals => { :project => project }, :locale => :en, :ignore => true, :data => { :slug => project.en.slug }
 end
 
-# Build-specific configuration
-# https://middlemanapp.com/advanced/configuration/#environment-specific-settings
-
+## Build-specific configuration
+# Under development
 configure :development do
   config[:host] = "http://localhost:4567"
   activate :livereload
 end
 
+# Under deploy
 configure :build do
   config[:host] = "https://portfolio-starter.netlify.com"
 
