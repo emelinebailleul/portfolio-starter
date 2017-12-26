@@ -9,9 +9,7 @@ en:
     projects: "Projects"
     project: "Project"
 
-  paths:
-    # Directories
-
+  paths:    
     # Paths
     homepage: ''
     about: "about"

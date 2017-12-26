@@ -125,7 +125,7 @@ GEM
     middleman-sprockets (4.1.1)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
-    middleman-transpath (0.0.1)
+    middleman-transpath (0.0.2)
       middleman-core (>= 4.2.1)
     minitest (5.10.3)
     padrino-helpers (0.13.3.4)
@@ -172,7 +172,7 @@ DEPENDENCIES
   middleman-robots (= 1.3.0)
   middleman-sitemap!
   middleman-sprockets
-  middleman-transpath
+  middleman-transpath (~> 0.0.2)
   tzinfo-data
   wdm (~> 0.1)
 

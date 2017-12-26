@@ -5,13 +5,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title><%= data.meta.title + " | " + t("titles.#{current_page.data.title}") ||
-    data.meta.title + " | Holà" %></title>
+    <title><%= data.meta.title + " | " + title_translate %></title>
     <meta name="description" content="<%= data.meta.description || t('descriptions.#{current_page.data.title}') %>">
 
     <!-- Facebook Open Graph data -->
     <meta property="og:title" content="<%= data.meta.title + ' | ' + t('titles.#{current_page.data.title}') ||
-    data.meta.title + ' | Holà' %>" />
+    data.meta.title %>" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="<%= config[:host] + '/' + current_page.url %>" />
     <meta property="og:image" content="<%= data.meta.image %>" />

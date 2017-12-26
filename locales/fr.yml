@@ -10,8 +10,6 @@ fr:
     project: "Projet"
 
   paths:
-    # Directories
-
     # Paths
     homepage: ''
     about: "a-propos"

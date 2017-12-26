@@ -1,5 +1,12 @@
 ---
-title: project
+slug: homepage
+dynamic:
+  enable: true
+  data: project
+  name: name
+  slug: slug
+dir:
+  - projects
 ---
 <h1><%= project[locale.to_s].name %></h1>
 <%= project_image(project, 'main.jpg', {

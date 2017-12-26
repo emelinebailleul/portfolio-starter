@@ -53,8 +53,8 @@ Dir['helpers/*'].each(&method(:load))
 
 # Dynamic project-page generation
 data.projects.each do |project|
-  proxy "/projets/#{project.fr.slug}/index.html", "templates/project.html", :locals => { :project => project }, :locale => :fr, :ignore => true
-  proxy "en/projects/#{project.en.slug}/index.html", "templates/project.html", :locals => { :project => project }, :locale => :en, :ignore => true
+  proxy "/projets/#{project.fr.slug}/index.html", "templates/project.html", :locals => { :project => project }, :locale => :fr, :ignore => true, :data => { :slug => project.fr.slug }
+  proxy "en/projects/#{project.en.slug}/index.html", "templates/project.html", :locals => { :project => project }, :locale => :en, :ignore => true, :data => { :slug => project.en.slug }
 end
 
 # Build-specific configuration

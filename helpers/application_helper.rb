@@ -9,9 +9,9 @@ module ApplicationHelper
     end
   end
 
-  def project_image(p, i, opt)
+  def project_image(p, i, opt={})
     opt['alt'] != nil ? opt['alt'] = p[locale.to_s].name + opt['alt'] : p[locale.to_s].name
-    return image_tag("#{p[I18n.default_locale].slug}/#{i}", opt)
+    return image_async_tag("#{p[I18n.default_locale].slug}/#{i}", opt)
   end
 
 end
