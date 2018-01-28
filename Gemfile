@@ -13,7 +13,6 @@ gem 'middleman-critical', '~>0.0.2'
 # Misc
 gem 'middleman-autoprefixer', '~> 2.7'
 gem 'middleman-transpath', '~>0.0.2'
-gem 'middleman-aria_current'
 gem 'middleman-livereload'
 
 # SEO

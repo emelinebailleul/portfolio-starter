@@ -81,8 +81,6 @@ GEM
       middleman-cli (= 4.2.1)
       middleman-core (= 4.2.1)
       sass (>= 3.4.0, < 4.0)
-    middleman-aria_current (0.1.1)
-      middleman-core (~> 4.0)
     middleman-async-image (0.0.1)
       middleman-core (>= 4.2.1)
       rmagick (>= 2.0.0)
@@ -165,7 +163,6 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (~> 4.2)
-  middleman-aria_current
   middleman-async-image
   middleman-autoprefixer (~> 2.7)
   middleman-critical (~> 0.0.2)
