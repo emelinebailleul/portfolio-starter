@@ -31,7 +31,7 @@ If you want, you can use [middleman-async-image](https://github.com/bastienrober
 | Other locales   | locales/          |
 
 ### Current page link
-Using [middleman-aria_current](https://github.com/thoughtbot/middleman-aria_current), use the `<%= current_link_to "Label", "/path" %>` helper and when you'll be on the same path, the link gonna get the aria-current attribute.
+Using [middleman-transpath_aria_current](https://github.com/bastienrobert/middleman-transpath_aria_current) (fork from [thoughtbot](https://github.com/thoughtbot/middleman-aria_current)) use the `<%= current_link_to "Label", "THE KEY OF THE PATH YOU SET IN LOCALES" %>` helper and when you'll be on the same path, the link gonna get the aria-current attribute.
 
 ### Path translation
 You can use it to translate each path to another language. The utilisation of this gem is a bit difficult, but useful when you get it. [Check the documentation](https://github.com/bastienrobert/middleman-transpath) and [the wiki](https://github.com/bastienrobert/middleman-transpath/wiki/) to know more, examples will help you a lot.

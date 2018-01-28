@@ -6,6 +6,13 @@ GIT
       middleman-core (>= 3.2.2)
 
 GIT
+  remote: https://github.com/bastienrobert/middleman-transpath_aria_current
+  revision: b3f14ad0706ccc1e5d007031f76b1e3ad8bff210
+  specs:
+    middleman-transpath_aria_current (0.1)
+      middleman-core (~> 4.0)
+
+GIT
   remote: https://github.com/plasticine/middleman-imageoptim
   revision: a539caef0d2f9a23704ed36cf36c7945d2282c62
   specs:
@@ -173,6 +180,7 @@ DEPENDENCIES
   middleman-sitemap!
   middleman-sprockets
   middleman-transpath (~> 0.0.2)
+  middleman-transpath_aria_current!
   tzinfo-data
   wdm (~> 0.1)
 
