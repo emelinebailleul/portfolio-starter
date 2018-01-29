@@ -5,9 +5,8 @@ gem 'middleman', '~> 4.2'
 
 # Assets management
 gem 'middleman-minify-html'
-gem 'middleman-sprockets'
 gem 'middleman-imageoptim', :github => 'plasticine/middleman-imageoptim'
-gem 'middleman-async-image'
+gem 'middleman-async-image', :path => '/Users/bastien/Documents/WWW/middleman-async-image'
 gem 'middleman-critical', '~>0.0.2'
 
 # Misc

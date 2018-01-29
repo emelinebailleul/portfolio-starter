@@ -12,16 +12,18 @@ activate :directory_indexes
 activate :i18n, :mount_at_root => :fr
 # Using asset helpers
 activate :asset_hash
-# Using sprockets
-activate :sprockets do |c|
-  c.expose_middleman_helpers = true
-end
 # Loading images asynchronously
 activate :async_image
 # Middleman i18n can't convert page URL to another language. This is the solution.
 activate :transpath
 # For indicating an active link
 activate :transpath_aria_current
+
+activate :external_pipeline,
+  name: :webpack,
+  command: build? ? "npm run build:assets" : "npm run start:assets",
+  source: ".tmp/webpack_output",
+  latency: 1
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/

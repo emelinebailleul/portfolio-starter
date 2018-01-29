@@ -1,3 +1,1 @@
-//= require async-image
-
-// import Hello from './components/Hello.js'
+import Hello from './components/Hello.js'
