@@ -1,19 +1,19 @@
 GIT
-  remote: https://github.com/bastienrobert/middleman-sitemap
+  remote: git://github.com/bastienrobert/middleman-sitemap.git
   revision: b52c2256d4188761122804cbb79ceb6cd1afdf6b
   specs:
     middleman-sitemap (0.0.13)
       middleman-core (>= 3.2.2)
 
 GIT
-  remote: https://github.com/bastienrobert/middleman-transpath_aria_current
-  revision: b3f14ad0706ccc1e5d007031f76b1e3ad8bff210
+  remote: git://github.com/bastienrobert/middleman-transpath_aria_current.git
+  revision: 8e9af874d0cf035f2d45a9e3a2095c0d8e1653e5
   specs:
     middleman-transpath_aria_current (0.1)
       middleman-core (~> 4.0)
 
 GIT
-  remote: https://github.com/plasticine/middleman-imageoptim
+  remote: git://github.com/plasticine/middleman-imageoptim.git
   revision: a539caef0d2f9a23704ed36cf36c7945d2282c62
   specs:
     middleman-imageoptim (0.2.1)
@@ -50,7 +50,7 @@ GEM
     erubis (2.7.0)
     eventmachine (1.2.5)
     execjs (2.7.0)
-    exifr (1.3.1)
+    exifr (1.3.3)
     fast_blank (1.0.0)
     fastimage (2.1.0)
     ffi (1.9.18)
@@ -74,7 +74,7 @@ GEM
       fspath (>= 2.1, < 4)
       image_optim (~> 0.19)
     image_size (1.5.0)
-    in_threads (1.4.0)
+    in_threads (1.5.0)
     kramdown (1.14.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -88,7 +88,7 @@ GEM
       middleman-cli (= 4.2.1)
       middleman-core (= 4.2.1)
       sass (>= 3.4.0, < 4.0)
-    middleman-async-image (0.0.1)
+    middleman-async-image (0.0.3)
       middleman-core (>= 4.2.1)
       rmagick (>= 2.0.0)
     middleman-autoprefixer (2.8.0)
@@ -142,7 +142,7 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.12.0)
-    progress (3.3.1)
+    progress (3.4.0)
     public_suffix (3.0.0)
     rack (2.0.3)
     rack-livereload (0.3.16)

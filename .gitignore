@@ -2,6 +2,8 @@
 .cache
 .DS_Store
 .sass-cache
+.tmp/
 build/
 dist/
 source/images/compress
+node_modules/

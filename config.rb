@@ -13,7 +13,9 @@ activate :i18n, :mount_at_root => :fr
 # Using asset helpers
 activate :asset_hash
 # Using sprockets
-activate :sprockets
+activate :sprockets do |c|
+  c.expose_middleman_helpers = true
+end
 # Loading images asynchronously
 activate :async_image
 # Middleman i18n can't convert page URL to another language. This is the solution.

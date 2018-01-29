@@ -1,9 +1,9 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title><%= data.meta.title + " | " + title_translate %></title>
     <meta name="description" content="<%= data.meta.description || t('descriptions.#{current_page.data.title}') %>">
@@ -21,7 +21,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="<%= data.meta.twitter %>">
     <meta name="twitter:title" content="<%= data.meta.title + ' | ' + t('titles.#{current_page.data.title}') ||
-    data.meta.title + ' | Holà' %>">
+    data.meta.title %>">
     <meta name="twitter:description" content="<%= data.meta.description || t('descriptions.#{current_page.data.title}') %>">
     <meta name="twitter:creator" content="<%= data.meta.twitter %>">
     <meta name="twitter:image:src" content="<%= data.meta.image %>">
@@ -32,6 +32,7 @@
     <%= partial 'layouts/partials/header' %>
     <%= yield %>
     <%= partial 'layouts/partials/footer' %>
-    <%= javascript_include_tag "application" %>
+
+    <%= javascript_include_tag "all" %>
   </body>
 </html>
