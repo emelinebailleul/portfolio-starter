@@ -12,7 +12,10 @@ activate :directory_indexes
 activate :i18n, :mount_at_root => :fr
 # Using asset helpers
 activate :asset_hash do |f|
-  f.ignore = 'images/static/*'
+  f.ignore = [
+    'images/static/*',
+    'images/compress/*'
+  ]
 end
 # Loading images asynchronously
 activate :async_image
