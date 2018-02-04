@@ -11,7 +11,9 @@ activate :directory_indexes
 # Localization
 activate :i18n, :mount_at_root => :fr
 # Using asset helpers
-activate :asset_hash
+activate :asset_hash do |f|
+  f.ignore = 'images/static/*'
+end
 # Loading images asynchronously
 activate :async_image
 # Middleman i18n can't convert page URL to another language. This is the solution.
@@ -29,9 +31,9 @@ activate :external_pipeline,
 # https://middlemanapp.com/basics/layouts/
 
 # Per-page layout changes
-page '/*.xml', layout: false
-page '/*.json', layout: false
-page '/*.txt', layout: false
+page '/*.xml',      layout: false
+page '/*.json',     layout: false
+page '/*.txt',      layout: false
 page 'sitemap.xml', layout: false
 
 # With alternative layout
