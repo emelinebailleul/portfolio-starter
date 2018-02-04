@@ -22,13 +22,6 @@ GIT
       middleman-cli
       middleman-core (>= 3.1)
 
-PATH
-  remote: /Users/bastien/Documents/WWW/middleman-async-image
-  specs:
-    middleman-async-image (0.0.3)
-      middleman-core (>= 4.2.1)
-      rmagick (>= 2.0.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -95,6 +88,9 @@ GEM
       middleman-cli (= 4.2.1)
       middleman-core (= 4.2.1)
       sass (>= 3.4.0, < 4.0)
+    middleman-async-image (0.0.3)
+      middleman-core (>= 4.2.1)
+      rmagick (>= 2.0.0)
     middleman-autoprefixer (2.8.0)
       autoprefixer-rails (>= 7.0.1, < 8.0.0)
       middleman-core (>= 3.3.3)
@@ -168,7 +164,7 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (~> 4.2)
-  middleman-async-image!
+  middleman-async-image
   middleman-autoprefixer (~> 2.7)
   middleman-critical (~> 0.0.2)
   middleman-imageoptim!
