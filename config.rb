@@ -86,7 +86,10 @@ configure :build do
   activate :minify_html
   activate :minify_css
   activate :minify_javascript
-  activate :imageoptim
+  activate :imageoptim do |options|
+    options.manifest = true
+    options.pngout = false
+  end
   activate :gzip
   activate :critical
 
