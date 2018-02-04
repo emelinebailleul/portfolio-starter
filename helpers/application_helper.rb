@@ -11,11 +11,7 @@ module ApplicationHelper
 
   def project_image(p, i, opt={})
     opt['alt'] != nil ? opt['alt'] = p[locale.to_s].name + opt['alt'] : p[locale.to_s].name
-    if (opt['async'] == true)
-      return image_async_tag("#{p[I18n.default_locale].slug}/#{i}", opt)
-    else
-      image_tag("#{p[I18n.default_locale].slug}/#{i}", opt)
-    end
+    image_tag("#{p[I18n.default_locale].slug}/#{i}", opt)
   end
 
 end

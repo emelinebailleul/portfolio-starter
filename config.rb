@@ -17,8 +17,6 @@ activate :asset_hash do |f|
     'images/compress/*'
   ]
 end
-# Loading images asynchronously
-activate :async_image
 # Middleman i18n can't convert page URL to another language. This is the solution.
 activate :transpath
 # For indicating an active link
