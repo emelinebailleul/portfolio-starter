@@ -36,6 +36,9 @@ page '/*.json',     layout: false
 page '/*.txt',      layout: false
 page 'sitemap.xml', layout: false
 
+# Ignore files from build
+ignore 'javascripts/components/*'
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 

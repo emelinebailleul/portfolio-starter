@@ -24,7 +24,7 @@ module.exports = {
         use: 'babel-loader',
         exclude: /node_modules/
       }, {
-        test: /\.scss$/,
+        test: /\.(css|scss)$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [
@@ -52,6 +52,6 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({ 'process.env.NODE_ENV': JSON.stringify('production') }),
-    new ExtractTextPlugin({ filename: 'css/app.css' })
+    new ExtractTextPlugin({ filename: 'stylesheets/all.css' })
   ]
 };
