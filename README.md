@@ -1,5 +1,6 @@
 # Portfolio
 Let's make a portfolio starter
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/bastienrobert/portfolio-starter)
 
 ## Setup
 - Fork this repository (https://github.com/bastienrobert/portfolio-starter/fork).
