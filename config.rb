@@ -36,6 +36,7 @@ page '/*.xml',      layout: false
 page '/*.json',     layout: false
 page '/*.txt',      layout: false
 page 'sitemap.xml', layout: false
+page '404.html',    layout: false, :directory_index => false
 
 # Ignore files from build
 ignore 'javascripts/components/*'
