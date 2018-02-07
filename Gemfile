@@ -10,7 +10,7 @@ gem 'middleman-critical', '~>0.0.2'
 
 # Misc
 gem 'middleman-autoprefixer', '~> 2.7'
-gem 'middleman-transpath', '~>0.0.2'
+gem 'middleman-transpath', '~>0.0.3'
 gem 'middleman-transpath_aria_current', :github => 'bastienrobert/middleman-transpath_aria_current'
 gem 'middleman-livereload'
 

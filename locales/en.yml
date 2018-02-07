@@ -9,7 +9,10 @@ en:
     projects: "Projects"
     project: "Project"
 
-  paths:    
+  descriptions:
+    homepage: "Here is a description for the homepage"
+
+  paths:
     # Paths
     homepage: ''
     about: "about"

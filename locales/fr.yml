@@ -9,6 +9,9 @@ fr:
     projects: "Projets"
     project: "Projet"
 
+  descriptions:
+    homepage: "La description pour la page d'accueil"
+
   paths:
     # Paths
     homepage: ''
