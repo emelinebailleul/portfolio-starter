@@ -4,12 +4,12 @@ slug: projects
 <h1><%= t('projects.h1') %></h1>
 
 <% data.projects.each do |project| %>
-  <% link_to proxy_url(project[locale.to_s].slug) do %>
+  <% link_to proxy_url(project.slug) do %>
     <%= project_image(project, 'main.jpg', {
       'alt' => 'cover image',
       'class' => 'cover'
       }) %>
     <br>
-    <%= project[locale.to_s].name %>
+    <%= project.name %>
   <% end %>
 <% end %>

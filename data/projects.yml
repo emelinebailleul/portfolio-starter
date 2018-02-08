@@ -1,8 +1,6 @@
-- fr:
-    name: Premier projet
+- name: First project
+  slug: first-project
+  fr:
     description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
-    slug: premier-projet
   en:
-    name: First Project
     description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
-    slug: first-project

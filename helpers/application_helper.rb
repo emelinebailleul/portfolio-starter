@@ -10,8 +10,8 @@ module ApplicationHelper
   end
 
   def project_image(p, i, opt={})
-    opt['alt'] != nil ? opt['alt'] = p[locale.to_s].name + opt['alt'] : p[locale.to_s].name
-    image_tag("#{p[I18n.default_locale].slug}/#{i}", opt)
+    opt['alt'] != nil ? opt['alt'] = p.name + ' ' + opt['alt'] : p.name
+    image_tag("#{p.slug}/#{i}", opt)
   end
 
 end

@@ -126,7 +126,7 @@ GEM
       middleman-core (>= 3.2)
     middleman-robots (1.3.0)
       middleman (>= 4.0)
-    middleman-transpath (0.0.3)
+    middleman-transpath (0.0.4)
       middleman-core (>= 4.2.1)
     minitest (5.11.3)
     padrino-helpers (0.13.3.4)
@@ -167,7 +167,7 @@ DEPENDENCIES
   middleman-minify-html
   middleman-robots (= 1.3.0)
   middleman-sitemap!
-  middleman-transpath (~> 0.0.3)
+  middleman-transpath (~> 0.0.4)
   middleman-transpath_aria_current!
   tzinfo-data
   wdm (~> 0.1)
