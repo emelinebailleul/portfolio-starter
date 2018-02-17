@@ -1,6 +1,14 @@
-- name: First project
-  slug: first-project
+- name: Sounds in Bordeaux
+  slug: sounds-in-bordeaux
+  projectNumber: 01
+  url: www.soundsinbordeaux.com
+  nextProjectSlug:
+  team:
   fr:
     description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    labelTeam:
+    labelUrl:
   en:
     description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    labelTeam:
+    labelUrl:

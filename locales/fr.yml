@@ -4,10 +4,10 @@ fr:
   # Root translations
   # ------------------
   titles:
-    homepage: "Accueil"
-    about: "A propos"
-    projects: "Projets"
-    project: "Projet"
+    homepage: "accueil"
+    about: "à propos"
+    projects: "projets"
+    project: "projet"
 
   descriptions:
     homepage: "La description pour la page d'accueil"

@@ -4,10 +4,10 @@ en:
   # Root translations
   # ------------------
   titles:
-    homepage: "Homepage"
-    about: "About"
-    projects: "Projects"
-    project: "Project"
+    homepage: "home"
+    about: "about"
+    projects: "projects"
+    project: "project"
 
   descriptions:
     homepage: "Here is a description for the homepage"
@@ -15,8 +15,8 @@ en:
   paths:
     # Paths
     homepage: ''
-    about: "about"
-    projects: "projects"
+    about: "about.html"
+    projects: "projects.html"
 
   # ------------------
   # Header & footer
