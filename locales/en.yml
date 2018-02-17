@@ -15,8 +15,8 @@ en:
   paths:
     # Paths
     homepage: ''
-    about: "about.html"
-    projects: "projects.html"
+    about: "about"
+    projects: "projects"
 
   # ------------------
   # Header & footer
