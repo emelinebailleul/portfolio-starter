@@ -34,7 +34,40 @@ fr:
     <br><br>Vous pouvez voir mon travail ici et en savoir un peu plus sur mon parcours là."
 
   about:
-    h1: "A propos"
+    intro: "Je suis Emeline Bailleul, étudiante en multimédia spécialisée en design d’interfaces et expérience utilisateur. J’ai également de l’expérience en développement front end à l’agence Disko.
+    <br><br>
+    A la recherche d’un stage de 6 mois à partir du 16 avril, je serais ravie de travailler à vos côtés dans la conception d’interfaces
+    <br><br>
+    Vous pouvez me contacter ici, ainsi que voir mon cv là."
+
+    studies:
+      h2: "Études"
+      h3-1: "2014/2016"
+      p-1: "Licence Langues Étrangères Appliquées <br>- Université de Bordeaux"
+      h3-2: "2016/2018"
+      p-2: "DUT Métiers du Multimédia et de l’Internet <br>- IUT Bordeaux Montaigne"
+
+    work:
+      h2: "Expérience"
+      h3-1: "06/2017 au 09/2017"
+      p-1: "Développeur front end à Disko
+      <br>Clients: Hennessy, Schmidt, Roxim, Santander, Grandir."
+      h3-2: ""
+      p-2: ""
+
+    skills:
+      h2: "Compétences"
+      h3-1: "Logiciels"
+      p-1: "Sketch, Principle, Axure, Zeplin, InVision, Marvel, Suite adobe (Photoshop, Illustrator, After Effects, Première Pro), Final Cut Pro."
+      h3-2: "Développement web"
+      p-2: "HTML, CSS, SASS, Stylus, Javascript, jQuery, Bootstrap, Foundation, Gulp, Twig."
+
+    more:
+      h2: "Divers"
+      h3-1: "Langues"
+      p-1: "Français (langue maternelle), anglais (courant)."
+      h3-2: "2017 et 2018"
+      p-2: "Concours d’éloquence de l’IUT Bordeaux Montaigne."
 
   projects:
     h1: "Projets"
