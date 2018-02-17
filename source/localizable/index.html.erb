@@ -2,6 +2,11 @@
 slug: homepage
 ---
 
-<h1>
-  <%= t('homepage.h1') %>
-</h1>
+<section id="home" class="wrapper">
+  <h1 class="home-intro"><%= t('homepage.h1') %>
+    <% link_to '/', locale: :en do %>
+      bite
+      <% end %>
+  </h1>
+
+</section>

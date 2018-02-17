@@ -5,8 +5,8 @@ fr:
   # ------------------
   titles:
     homepage: "Accueil"
-    about: "À propos"
-    projects: "Projets"
+    about: "à propos"
+    projects: "projets"
     project: "Projet"
 
   descriptions:
@@ -22,13 +22,16 @@ fr:
   # Header & footer
   # ------------------
   header:
-    home: "Accueil"
-
+    home: "accueil"
+    about: "à propos"
+    projects: "projets"
   # ------------------
   # Page translations
   # ------------------
   homepage:
-    h1: "Accueil"
+    h1: "Emeline, étudiante en design UI/UX et développement web et mobile.
+    <br><br>Soucieuse aussi bien de l’esthetisme que de l’experience utilisateur, j’aime concevoir des interfaces alliant efficience et harmonie.
+    <br><br>Vous pouvez voir mon travail ici et en savoir un peu plus sur mon parcours là."
 
   about:
     h1: "A propos"

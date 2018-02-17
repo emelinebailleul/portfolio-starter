@@ -1,5 +1,16 @@
 <header>
-  <%= current_link_to t('titles.homepage'), 'homepage' %>
-  <%= current_link_to t('titles.projects'), 'projects' %>
-  <%= current_link_to t('titles.about'), 'about' %>
+
+  <ul class="menu">
+    <li class="menu-item"><%= current_link_to t('titles.homepage'), 'homepage' %></li>
+    <li class="menu-item"><%= current_link_to t('titles.projects'), 'projects' %></li>
+    <li class="menu-item"><%= current_link_to t('titles.about'), 'about' %></li>
+    <li class="menu-item lang">
+      <% if locale == :fr %>
+          <%= link_translate(:en) %>
+        <% else %>
+          <%= link_translate(:fr) %>
+        <% end %>
+    </li>
+  </ul>
+
 </header>

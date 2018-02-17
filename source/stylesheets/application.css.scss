@@ -1,32 +1,7 @@
-@import "fonts";
+@import "init/fonts";
+@import "init/reset";
+@import "init/breakpoint";
 
-body {
-  color: #000;
-  font-family: "HK Grotesk", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
-}
+@import "page/homepage";
 
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
-}
-
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
-
-img {
-  max-width: 10vw;
-}
-
-// When you're on the link
-[aria-current] {
-  font-weight: 700;
-  font-style: italic;
-}
+@import "partials/header";

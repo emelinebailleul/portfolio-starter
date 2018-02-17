@@ -1,0 +1,35 @@
+.menu {
+  display: flex;
+  max-width: calc(1024px + 7vh);
+  padding: 50px 7vh 0 7vh;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  z-index: 9;
+
+  &-item {
+    width: 25%;
+    list-style: none;
+    text-transform: lowercase;
+    a {
+      text-decoration: none;
+      font-size: 2vh;
+      font-weight: normal;
+      mix-blend-mode: difference;
+      color: #fff;
+      transition: .25s ease-in-out;
+      opacity: .5;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    a[aria-current] {
+      opacity: 1;
+    }
+  }
+  &-item.lang {
+    text-transform: uppercase;
+    text-align: right;
+  }
+}
