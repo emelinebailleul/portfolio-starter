@@ -21,3 +21,5 @@ gem 'middleman-robots', '1.3.0'
 # Windows compatibility
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
+
+#gem 'fluffyjs'

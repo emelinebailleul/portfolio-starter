@@ -1,0 +1,71 @@
+#about {
+  color: #fff;
+  padding: 150px 7vh 50px;
+  max-width: calc(1024px + 7vh);
+
+  #intro {
+    margin-bottom: 100px;
+    p {
+      font-size: 3vh;
+      font-weight: 700;
+      max-width: 600px;
+    }
+  }
+
+  #cv {
+
+    .cv-section {
+      margin-bottom: 50px;
+      .section-title {
+        margin-bottom: 20px;
+        font-size: 3.75vh;
+        font-weight: bold;
+      }
+      .article-title {
+        margin-bottom: 10px;
+        font-size: 2.25vh;
+        font-weight: bold;
+      }
+      article {
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 2.25vh;
+        font-weight: normal;
+      }
+    }
+
+  }
+
+  @include breakpoint(tablet) {
+    .cv-section {
+      display: flex;
+      flex-wrap: wrap;
+      .section-title {
+        width: 100%;
+      }
+      article {
+        width: 50%;
+      }
+      article:nth-child(2) {
+        padding-right: 25px;
+      }
+    }
+  }
+
+  @include breakpoint(laptop) {
+    #intro {
+      padding-left: calc(100%/3);
+    }
+    .cv-section {
+      display: flex;
+      .section-title, article {
+        width: calc(100% /3);
+      }
+      article:nth-child(2) {
+        padding-right: 25px;
+      }
+    }
+  }
+
+}
