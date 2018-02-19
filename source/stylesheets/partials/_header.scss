@@ -21,7 +21,7 @@
       color: #fff;
       transition: all .25s ease-in-out;
       &:hover {
-        
+
       }
     }
 
@@ -40,14 +40,6 @@
     text-align: right;
   }
 
-}
-
-@for $i from 1 through 6 {
-  .menu .menu-item:nth-child(6n+#{$i}) {
-    a {
-      transition-delay: 0.1s*$i;
-    }
-  }
 }
 
 .menu.visible {
