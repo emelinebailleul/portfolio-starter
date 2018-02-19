@@ -1,20 +1,34 @@
 class isInViewport {
   constructor () {
-    const sections = document.querySelectorAll('.project-card');
 
-    document.onload = function() {
-      // Don't run the rest of the code if every section is already visible
-      if (document.querySelectorAll('section.project-card:not(.visible)').length === 0) return;
+    var inViewport = function (elem) {
+        var distance = elem.getBoundingClientRect();
+        return (
+            distance.top >= 0 &&
+            distance.left >= 0 &&
+            distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            distance.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    };
 
-      // Run this code for every section in sections
-      for (const section of sections) {
-        if (section.getBoundingClientRect().top <= window.innerHeight * 0.75 && section.getBoundingClientRect().top > 0) {
-          section.classList.add('visible');
-        } else {
-          section.classList.remove('visible');
+    var elems = document.querySelectorAll('[data-animate]');
+
+    window.onload = function() {
+      for (var elem of elems) {
+        if (inViewport(elem)) {
+          elem.classList.add('visible');
         }
       }
-    };
+    }
+
+    document.onscroll = function() {
+      for (var elem of elems) {
+        if (inViewport(elem)) {
+          elem.classList.add('visible');
+        }
+      }
+    }
+
   }
 }
 

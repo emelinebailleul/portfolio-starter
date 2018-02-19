@@ -1,0 +1,44 @@
+.project-header {
+  color: #fff;
+  max-width: calc(1024px + 7vh);
+  padding: 50px 7vh 0 7vh;
+  margin: auto;
+  .project-number {
+    text-indent: 60px;
+    font-size: 3vh;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      background: #fff;
+      height: 2px;
+      width: 45px;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  h1.project-name {
+    font-size: 5vh;
+  }
+  .project-desc {
+    font-size: 3vh;
+    font-weight: normal;
+  }
+  .small-title {
+    font-weight: bold;
+    font-size: 3vh;
+  }
+  @include breakpoint(tablet) {
+    h1.project-name, h2.project-number {
+      width: calc((100%/6) * 4);
+      margin: auto;
+    }
+    section.main-infos {
+      margin: auto;
+      justify-content: center;
+      width: calc((100%/6) * 4);
+      display: flex;
+    }
+  }
+}

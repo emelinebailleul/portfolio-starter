@@ -1,0 +1,118 @@
+#projects {
+  padding: 200px 7vh 50px;
+  max-width: calc(1024px + 7vh);
+
+  .project-card {
+    margin-bottom: 100px;
+    .img-bg {
+      height: 300px;
+      width: 100%;
+      padding: 2.5vw;
+      display: block;
+      display: flex;
+      align-items: center;
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        background: #000;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        transition: .5s cubic-bezier(.03,.13,.08,1);
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .infos {
+      color: #fff;
+      margin-top: 25px;
+      position: relative;
+      transform: translateY(50%);
+      transition: .75s cubic-bezier(.03,.13,.08,1);
+      opacity: 0;
+
+      &:after {
+        content: '';
+        position: absolute;
+        background: #000;
+        height: 0%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 2;
+        transition: .75s cubic-bezier(.03,.13,.08,1);
+      }
+
+      .project {
+        &-number {
+          font-size: 3vh;
+          text-indent: 60px;
+          position: relative;
+          &:before {
+            content: '';
+            position: absolute;
+            background: #fff;
+            height: 2px;
+            width: 45px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+        &-name {
+          font-size: 5vh;
+        }
+      }
+    }
+  }
+
+  @include breakpoint(tablet) {
+
+    a:nth-child(even) {
+      .project-card {
+        flex-direction: row-reverse;
+        .infos {
+          text-align: right;
+          padding-left: inherit;
+          padding-right: 100px;
+          .project-number:before {
+            right: 45px;
+            left: inherit;
+          }
+        }
+      }
+    }
+
+    .project-card {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 150px;
+      .img-bg {
+        padding: 8vh;
+        width: 50%;
+        height: 400px;
+      }
+      .infos {
+        padding-left: 100px;
+        width: 50%;
+      }
+    }
+  }
+
+  section.project-card.visible {
+    picture.img-bg:after {
+      height: 0%;
+    }
+    article.infos {
+      transform: translateY(0);
+      opacity: 1;
+      &:after {
+        height: 0%;
+      }
+    }
+  }
+
+}

@@ -1,14 +1,53 @@
 - name: Sounds in Bordeaux
   slug: sounds-in-bordeaux
-  projectNumber: 01
+  number: '01'
   url: www.soundsinbordeaux.com
   nextProjectSlug:
-  team:
+  team: Edouard Bérard, Bastien Robert
+  color: "#304FFE"
   fr:
     description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
-    labelTeam:
-    labelUrl:
+    labelTeam: Équipe
+    labelUrl: Site web
+    role: 'Design<br>Développement front end'
   en:
     description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
-    labelTeam:
-    labelUrl:
+    labelTeam: Team
+    labelUrl: Website
+    role: 'Design<br>Front end development'
+
+- name: Capsule
+  slug: capsule
+  number: '02'
+  url: www.capsule-bordeaux.fr
+  nextProjectSlug:
+  team: Joshua Richard, Bastien Robert
+  color: "#4A95EC"
+  fr:
+    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    labelTeam: Team
+    labelUrl: Website
+    role: Design UX<br>Gestion de projet
+  en:
+    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    labelTeam: Équipe
+    labelUrl: Site web
+    role: UX design<br>Project management
+
+- name: Mandat
+  slug: mandat
+  number: '03'
+  url: offline
+  nextProjectSlug:
+  team: Joshua Richard
+  color: "#57BFB4"
+  fr:
+    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    labelTeam: Team
+    labelUrl: Website
+    role: Design UX<br>Gestion de projet
+  en:
+    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    labelTeam: Équipe
+    labelUrl: Site web
+    role: UX design<br>Project management

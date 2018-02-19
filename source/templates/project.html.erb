@@ -10,9 +10,17 @@ dynamic:
 dir:
   - projects
 ---
-<h1><%= project.name %></h1>
-<p><%= project[locale.to_s].description %></p>
-<%= project_image(project, 'main.jpg', {
-  'class' => 'cover',
-  'async' => true
-  }) %>
+
+<main id="project" class="wrapper">
+  <%= partial 'layouts/partials/projects/project-header' %>
+  
+  <!-- <%= project_image(project, 'main.png', {
+    'class' => 'cover',
+    'async' => true
+    }) %> -->
+
+    <%= partial 'layouts/partials/projects/project-slider' %>
+
+</main>
+
+<%= partial 'layouts/partials/projects/btn-next' %>

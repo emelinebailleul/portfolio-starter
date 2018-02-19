@@ -2,16 +2,27 @@
 slug: projects
 ---
 <main id="projects" class="wrapper">
-  <h1><%= t('projects.h1') %></h1>
+
 
   <% data.projects.each do |project| %>
     <% link_to proxy_url(project.slug) do %>
-      <%= project_image(project, 'main.jpg', {
-        'alt' => 'cover image',
-        'class' => 'cover'
-        }) %>
-      <br>
-      <%= project.name %>
+      <section class="project-card" data-animate>
+
+        <picture class="img-bg" style="background-color: <%= project.color%>;">
+          <%= project_image(project, 'main.png', {
+            'alt' => 'cover image',
+            'class' => 'cover'
+            }) %>
+        </picture>
+
+        <article class="infos">
+          <h3 class="project-number"><%= project.number %></h3>
+          <h2 class="project-name"><%= project.name %></h2>
+          <p class="project-role"><%= project.role %></p>
+        </article>
+
+      </section>
     <% end %>
   <% end %>
+
 </main>
