@@ -9,7 +9,11 @@
       <h3 class="small-title"><%= project[locale.to_s].labelTeam %></h3>
       <p><%= project.team %></p>
       <h3 class="small-title"><%= project[locale.to_s].labelUrl %></h3>
-      <a href="<%= project.url %>"><%= project.url %></a>
+      <% if project.url == "offline" %>
+        <p class="offline">offline</p>
+      <% else %>
+        <a href="<%= project.url %>"><%= project.url %></a>
+      <% end %>
     </aside>
 
     <article class="project-desc">
