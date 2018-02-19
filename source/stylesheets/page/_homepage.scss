@@ -7,6 +7,13 @@
     color: #fff;
     font-size: 5vh;
     max-width: 900px;
+    opacity: 0;
+    transition: all 1s cubic-bezier(.19,1,.22,1);
+    transform: translateY(-25%);
+  }
+  .home-intro.visible {
+    opacity: 1;
+    transform: translateY(0%);
   }
 
 }

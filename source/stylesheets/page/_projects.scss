@@ -5,6 +5,7 @@
   .project-card {
     margin-bottom: 100px;
     .img-bg {
+      transition: 1s cubic-bezier(.03,.13,.08,1);
       height: 300px;
       width: 100%;
       padding: 2.5vw;
@@ -93,7 +94,7 @@
       .img-bg {
         padding: 8vh;
         width: 50%;
-        height: 400px;
+        height: 300px;
       }
       .infos {
         padding-left: 100px;

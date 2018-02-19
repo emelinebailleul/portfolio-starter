@@ -3,6 +3,9 @@
   max-width: calc(1024px + 7vh);
   padding: 50px 7vh 0 7vh;
   margin: auto;
+  cursor: image-url("cursor-down.png");
+  min-height: 100vh;
+
   .project-number {
     text-indent: 60px;
     font-size: 3vh;
@@ -18,27 +21,55 @@
       transform: translateY(-50%);
     }
   }
+
   h1.project-name {
     font-size: 5vh;
+    margin-bottom: 50px;
   }
+
   .project-desc {
-    font-size: 3vh;
+    font-size: 2.75vh;
     font-weight: normal;
   }
+
   .small-title {
     font-weight: bold;
     font-size: 3vh;
+    margin-bottom: 10px;
   }
+
+  aside p, aside a {
+    margin-bottom: 25px;
+  }
+
   @include breakpoint(tablet) {
+
+    aside {
+      padding-right: 50px;
+    }
+
     h1.project-name, h2.project-number {
       width: calc((100%/6) * 4);
       margin: auto;
     }
+
+    h1.project-name {
+      margin: 0 auto 50px;
+    }
+
     section.main-infos {
       margin: auto;
       justify-content: center;
       width: calc((100%/6) * 4);
       display: flex;
     }
+
   }
+
+  @for $i from 1 through 6 {
+    .main-infos *:nth-child(6n+#{$i}) {
+      transition-delay: 0.1s*$i;
+    }
+  }
+
 }

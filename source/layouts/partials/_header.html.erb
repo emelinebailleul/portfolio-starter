@@ -1,11 +1,11 @@
 <header>
 
-  <ul class="menu">
+  <ul class="menu" data-animate>
     <li class="menu-item"><%= current_link_to t('titles.homepage'), 'homepage' %></li>
     <li class="menu-item"><%= current_link_to t('titles.projects'), 'projects' %></li>
     <li class="menu-item"><%= current_link_to t('titles.about'), 'about' %></li>
     <li class="menu-item"></li>
-    <li class="menu-item contact"><a href="">Contact</a></li>
+    <li class="menu-item contact"><a href="mailto:hello@emelinebailleul.com">Contact</a></li>
     <li class="menu-item lang">
       <% if locale == :fr %>
           <%= link_translate(:en) %>

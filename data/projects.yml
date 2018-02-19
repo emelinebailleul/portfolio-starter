@@ -1,26 +1,30 @@
 - name: Sounds in Bordeaux
   slug: sounds-in-bordeaux
-  number: '01'
+  number: "01"
   url: www.soundsinbordeaux.com
-  nextProjectSlug:
+  nextProjectName: Capsule
+  nextProjectSlug: capsule
   team: Edouard Bérard, Bastien Robert
   color: "#304FFE"
   fr:
-    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: "Ce projet est une initiave étudiante visant à faire connaitre les artistes et événements techno à Bordeaux. Notre objectif premier était de favoriser la découverte d'événements et d'artistes pour l'utilisateur.
+    <br><br>Sounds in Bordeaux a été mon projet majeur durant mes 2 années d'études à l'IUT et celui où j'ai pu appronfondir réellement appronfondir l'étude de nos utilisateurs ainsi que leurs comportements."
     labelTeam: Équipe
     labelUrl: Site web
-    role: 'Design<br>Développement front end'
+    role: "Design<br>Développement front end"
   en:
-    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: "This student initiave aim to make known techno artists and events in Bordeaux. User discovering events, places and artists in his own city was our first objective through this project.
+    <br><br>Sounds in Bordeaux was my main project during my last 2 years of studies and the first time I had to understand the most of the user’s needs."
     labelTeam: Team
     labelUrl: Website
-    role: 'Design<br>Front end development'
+    role: "Design<br>Front end development"
 
 - name: Capsule
   slug: capsule
-  number: '02'
+  number: "02"
   url: www.capsule-bordeaux.fr
-  nextProjectSlug:
+  nextProjectName: Mandat
+  nextProjectSlug: mandat
   team: Joshua Richard, Bastien Robert
   color: "#4A95EC"
   fr:
@@ -36,9 +40,10 @@
 
 - name: Mandat
   slug: mandat
-  number: '03'
+  number: "03"
   url: offline
-  nextProjectSlug:
+  nextProjectName: Frank Gehry
+  nextProjectSlug: sounds-in-bordeaux
   team: Joshua Richard
   color: "#57BFB4"
   fr:

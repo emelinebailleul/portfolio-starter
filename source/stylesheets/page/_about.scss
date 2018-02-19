@@ -1,21 +1,32 @@
 #about {
   color: #fff;
-  padding: 150px 7vh 50px;
+  padding: 200px 7vh 50px;
   max-width: calc(1024px + 7vh);
 
   #intro {
     margin-bottom: 100px;
+    opacity: 0;
+    transform: translateY(-15%);
+    transition: 1s cubic-bezier(.03,.13,.08,1);
     p {
       font-size: 3vh;
-      font-weight: 700;
+      font-weight: normal;
       max-width: 600px;
     }
+  }
+
+  section#intro.visible {
+    opacity: 1;
+    transform: translateY(0%);
   }
 
   #cv {
 
     .cv-section {
+      opacity: 0;
+      transform: translateY(-50%);
       margin-bottom: 50px;
+      transition: 1s cubic-bezier(.03,.13,.08,1);
       .section-title {
         margin-bottom: 20px;
         font-size: 3.75vh;
@@ -34,7 +45,10 @@
         font-weight: normal;
       }
     }
-
+    .cv-section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   @include breakpoint(tablet) {
@@ -67,5 +81,4 @@
       }
     }
   }
-
 }

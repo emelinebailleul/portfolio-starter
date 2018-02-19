@@ -13,10 +13,13 @@ class isInViewport {
 
     var elems = document.querySelectorAll('[data-animate]');
 
+
     window.onload = function() {
       for (var elem of elems) {
         if (inViewport(elem)) {
           elem.classList.add('visible');
+        } else {
+          elem.classList.remove('visible');
         }
       }
     }
@@ -25,6 +28,8 @@ class isInViewport {
       for (var elem of elems) {
         if (inViewport(elem)) {
           elem.classList.add('visible');
+        } else {
+          elem.classList.remove('visible');
         }
       }
     }

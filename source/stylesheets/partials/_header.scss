@@ -13,21 +13,22 @@
     list-style: none;
     text-transform: lowercase;
     a {
+      opacity: 0;
+      transform: translateY(-100%);
       text-decoration: none;
       font-size: 2.25vh;
       font-weight: normal;
-      mix-blend-mode: difference;
       color: #fff;
-      transition: .25s ease-in-out;
-      opacity: .5;
+      transition: all .25s ease-in-out;
       &:hover {
-        opacity: 1;
+        
       }
     }
 
     a[aria-current] {
-      opacity: 1;
+      font-weight: bold;
     }
+
   }
 
   &-item.contact {
@@ -39,4 +40,21 @@
     text-align: right;
   }
 
+}
+
+@for $i from 1 through 6 {
+  .menu .menu-item:nth-child(6n+#{$i}) {
+    a {
+      transition-delay: 0.1s*$i;
+    }
+  }
+}
+
+.menu.visible {
+  .menu-item {
+    a {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }
