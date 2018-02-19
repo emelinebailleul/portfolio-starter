@@ -10,10 +10,17 @@
     opacity: 0;
     transition: all 1s cubic-bezier(.19,1,.22,1);
     transform: translateY(-25%);
+    margin-bottom: 20px;
   }
   .home-intro.visible {
     opacity: 1;
     transform: translateY(0%);
+  }
+
+  @for $i from 1 through 6 {
+    .home-intro:nth-child(6n+#{$i}) {
+      transition-delay: 0.1s*$i;
+    }
   }
 
 }

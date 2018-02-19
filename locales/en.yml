@@ -28,9 +28,9 @@ en:
   # Page translations
   # ------------------
   homepage:
-    h1: "I’m Emeline, UI/UX design student with some skills in front end development, currently based in Bordeaux.
-   <br><br>Aesthetic is as mush important as usability in my work, I love design interfaces combining great user experience and graphic harmony.
-   <br><br>You can check my work here and learn more about me and my skills here."
+    intro-1: "I’m Emeline, UI/UX design student with some skills in front end development, currently based in Bordeaux."
+    intro-2: "Aesthetic is as mush important as usability in my work, I love design interfaces combining great user experience and graphic harmony."
+    intro-3: "You can check my work here and learn more about me and my skills here."
 
   about:
     intro: "I’m Emeline Bailleul, french digital design student, specialised in interface and user experience design with some experience in front end development.
