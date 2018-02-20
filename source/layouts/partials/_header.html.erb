@@ -1,18 +1,20 @@
 <header>
+  <%= ('titles.paths') %>
+  <div class="menu-btn" id="menu-btn">
+      <span></span>
+  </div>
 
   <ul class="menu" data-animate>
     <li class="menu-item"><%= current_link_to t('titles.homepage'), 'homepage' %></li>
     <li class="menu-item"><%= current_link_to t('titles.projects'), 'projects' %></li>
     <li class="menu-item"><%= current_link_to t('titles.about'), 'about' %></li>
     <li class="menu-item"></li>
-    <li class="menu-item contact"><a href="mailto:hello@emelinebailleul.com">Contact</a></li>
-    <li class="menu-item lang">
-      <% if locale == :fr %>
-          <%= link_translate(:en) %>
-        <% else %>
-          <%= link_translate(:fr) %>
-        <% end %>
-    </li>
+    <li class="menu-item contact"><a href="mailto:hello@emelinebailleul.com"><%= t('titles.contact') %></a></li>
+    <% if locale == :fr %>
+        <li class="menu-item lang" id="linkTo-en"><%= link_translate(:en)  %></li>
+      <% else %>
+        <li class="menu-item lang" id="linkTo-fr"><%= link_translate(:fr) %></li>
+      <% end %>
   </ul>
 
 </header>

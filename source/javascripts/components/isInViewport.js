@@ -4,7 +4,7 @@ class isInViewport {
     var inViewport = function (elem) {
         var distance = elem.getBoundingClientRect();
         return (
-            distance.top >= 0 &&
+            distance.top >= -800 &&
             distance.left >= 0 &&
             distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
             distance.right <= (window.innerWidth || document.documentElement.clientWidth)

@@ -8,6 +8,7 @@ fr:
     about: "à propos"
     projects: "projets"
     project: "Projet"
+    contact: "contact"
 
   descriptions:
     homepage: "La description pour la page d'accueil"

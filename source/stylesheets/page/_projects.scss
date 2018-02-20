@@ -3,16 +3,17 @@
   max-width: calc(1024px + 7vh);
 
   .project-card {
-    margin-bottom: 100px;
+    margin-bottom: 25px;
     .img-bg {
       transition: 1s cubic-bezier(.03,.13,.08,1);
-      height: 300px;
+      height: 250px;
       width: 100%;
       padding: 2.5vw;
       display: block;
       display: flex;
       align-items: center;
       position: relative;
+      overflow: hidden;
       &:after {
         content: '';
         position: absolute;
@@ -90,7 +91,7 @@
     .project-card {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 150px;
+      margin-bottom: 50px;
       .img-bg {
         padding: 8vh;
         width: 50%;
@@ -116,4 +117,38 @@
     }
   }
 
+  #sounds-in-bordeaux {
+    .img-bg img {
+      transform: translateY(10%);
+    }
+  }
+
+  #capsule {
+
+  }
+
+  #mandat {
+    .img-bg {
+      padding: 0;
+      text-align: center;
+      img {
+        height: 80%;
+        width: auto;
+        margin: auto;
+      }
+    }
+  }
+
+  #frank-gehry {
+    .img-bg {
+      padding: 5vh auto;
+      text-align: center;
+    }
+  }
+}
+
+@include breakpoint(mobileonly) {
+  #projects {
+    padding: 10vh 7vh;
+  }
 }

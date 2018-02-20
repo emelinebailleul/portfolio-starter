@@ -8,6 +8,7 @@ en:
     about: "About"
     projects: "Projects"
     project: "Project"
+    contact: "Say hello"
 
   descriptions:
     homepage: "Here is a description for the homepage"

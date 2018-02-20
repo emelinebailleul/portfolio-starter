@@ -1,14 +1,13 @@
 .project-header {
   color: #fff;
   max-width: calc(1024px + 7vh);
-  padding: 50px 7vh 0 7vh;
+  padding: 50px 7vh 50px 7vh;
   margin: auto;
-  cursor: image-url("cursor-down.png");
   min-height: 100vh;
 
   .project-number {
     text-indent: 60px;
-    font-size: 3vh;
+    font-size: 4vh;
     position: relative;
     &:before {
       content: '';
@@ -23,13 +22,16 @@
   }
 
   h1.project-name {
-    font-size: 5vh;
+    font-size: 7vh;
     margin-bottom: 50px;
   }
 
   .project-desc {
     font-size: 2.75vh;
     font-weight: normal;
+    p {
+      line-height: 2;
+    }
   }
 
   .small-title {
@@ -38,12 +40,16 @@
     margin-bottom: 10px;
   }
 
+  aside {
+    margin-bottom: 25px;
+  }
+
   aside p, aside a {
     margin-bottom: 25px;
   }
 
   @include breakpoint(tablet) {
-
+    padding: 50px 7vh 150px 7vh;
     aside {
       padding-right: 50px;
     }
@@ -54,7 +60,7 @@
     }
 
     h1.project-name {
-      margin: 0 auto 50px;
+      margin: 0 auto 100px;
     }
 
     section.main-infos {

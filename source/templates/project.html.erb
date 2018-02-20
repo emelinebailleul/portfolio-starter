@@ -13,14 +13,16 @@ dir:
 
 <main id="project" class="wrapper">
   <%= partial 'layouts/partials/projects/project-header' %>
-  
+
   <!-- <%= project_image(project, 'main.png', {
     'class' => 'cover',
     'async' => true
     }) %> -->
 
-    <%= partial 'layouts/partials/projects/project-slider' %>
+  <%= partial 'layouts/partials/projects/project-slider.html.erb' %>
+
+  <%= partial 'layouts/partials/projects/phoneMockups.html.erb' %>
 
 </main>
 
-<%= partial 'layouts/partials/projects/btn-next' %>
+<%= partial 'layouts/partials/projects/btn-next.html.erb' %>

@@ -6,7 +6,7 @@ slug: projects
 
   <% data.projects.each do |project| %>
     <% link_to proxy_url(project.slug) do %>
-      <section class="project-card" data-animate>
+      <section id="<%= project.slug %>" class="project-card" data-animate>
 
         <picture class="img-bg" style="background-color: <%= project.color%>;">
           <%= project_image(project, 'main.png', {

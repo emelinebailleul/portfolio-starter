@@ -1,6 +1,6 @@
 class Hello {
   constructor () {
-    console.log('Hello')
+    console.log('Looking for something?')
   }
 }
  export default new Hello
