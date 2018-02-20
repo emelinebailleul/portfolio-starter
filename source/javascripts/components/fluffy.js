@@ -1,7 +1,3 @@
-import Hello from './components/Hello.js'
-import isInViewport from './components/isInViewport.js'
-import menuMobile from './components/menuMobile.js'
-
 /*! Fluffy.js v2.1.1 | (c) 2016 Sebastian Prein | http://mzdr.github.io/fluffy.js/ */
 
 // using https://github.com/umdjs/umd/blob/master/templates/returnExports.js
@@ -842,7 +838,6 @@ import menuMobile from './components/menuMobile.js'
 
             // Fluffy is ready
             if (this.container) {
-              alert('ready')
                 this.container.classList.add('is-ready');
             }
 
