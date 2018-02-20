@@ -67,4 +67,7 @@ a {
   z-index: 5;
   padding-top: 150px;
   margin: auto;
+  @media screen and (max-width: 37.5em) {
+    padding-top: 50px;
+  }
 }

@@ -1,4 +1,4 @@
-@include breakpoint(tablet) {
+@include breakpoint(phablet) {
   .menu {
     position: fixed;
     z-index: 9;

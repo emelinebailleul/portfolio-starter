@@ -1,6 +1,9 @@
 #projects {
   padding: 200px 7vh 50px;
   max-width: calc(1024px + 7vh);
+  @include breakpoint(mobileonly) {
+    padding-top: 50px 7vh 50px;
+  }
 
   .project-card {
     margin-bottom: 25px;
