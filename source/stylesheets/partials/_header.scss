@@ -67,6 +67,7 @@ header {
 
   @include breakpoint(mobileonly) {
     h5.page-title {
+      max-width: 45vw;
       z-index: 6;
       font-weight: normal;
       color: #fff;

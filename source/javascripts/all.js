@@ -1,6 +1,7 @@
 import Hello from './components/Hello.js'
 import isInViewport from './components/isInViewport.js'
 import menuMobile from './components/menuMobile.js'
+import loader from './components/loader.js'
 
 /*! Fluffy.js v2.1.1 | (c) 2016 Sebastian Prein | http://mzdr.github.io/fluffy.js/ */
 
