@@ -9,9 +9,9 @@
     text-indent: 60px;
     font-size: 4vh;
     position: relative;
-    color: #000;
+    color: #fff;
+    opacity: 0;
     transition: .5s cubic-bezier(.43,.01,.25,1);
-    transition-delay: .25s;
     &:before {
       content: '';
       position: absolute;
@@ -21,15 +21,18 @@
       left: 0;
       top: 50%;
       transform: translateY(-50%);
-      transition: .25s cubic-bezier(.43,.01,.25,1);
+      transition: .5s cubic-bezier(.43,.01,.25,1);
     }
   }
 
   h1.project-name {
     font-size: 7vh;
-    transition: .25s cubic-bezier(.43,.01,.25,1);
+    transform: translateY(80%);
+    transition: opacity .25s cubic-bezier(.43,.01,.25,1), transform .5s cubic-bezier(.43,.01,.25,1);
+    transition-delay: .55s;
     margin-bottom: 50px;
-    color: #000;
+    opacity: 0;
+    color: #fff;
   }
 
   .project-desc {
@@ -37,9 +40,11 @@
     font-weight: normal;
     p {
       line-height: 2;
-      color: #000;
-      transition: .25s cubic-bezier(.43,.01,.25,1);
-      transition-delay: .25s;
+      color: #fff;
+      opacity: 0;
+      transform: translateY(50%);
+      transition: opacity 1s cubic-bezier(.43,.01,.25,1);
+      transition-delay: 1.5s;
     }
   }
 
@@ -47,21 +52,24 @@
     font-weight: bold;
     font-size: 3vh;
     margin-bottom: 10px;
-    color: #000;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(80%);
     transition: .25s cubic-bezier(.43,.01,.25,1);
-    transition-delay: .25s;
+    transition-delay: 1.2s;
   }
 
   aside {
     margin-bottom: 25px;
-    transition-delay: .25s;
   }
 
   aside p, aside a {
     margin-bottom: 25px;
-    color: #000;
-    transition: .25s cubic-bezier(.43,.01,.25,1);
-    transition-delay: .25s;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(50%);
+    transition: .5s cubic-bezier(.43,.01,.25,1);
+    transition-delay: 1.25s;
   }
 
   @include breakpoint(tablet) {
@@ -94,34 +102,14 @@
     }
 
   }
-
-  @for $i from 1 through 6 {
-    .main-infos *:nth-child(6n+#{$i}) {
-      transition-delay: 0.1s*$i;
-    }
-  }
-
 }
 
 .project-header.visible {
-  .project-number {
-    color: #fff;
-    &:before {
-      width: 45px;
-    }
+  .project-number, h1.project-name, .project-desc p, .small-title, aside p, aside a {
+    transform: translateY(0);
+    opacity: 1;
   }
-  h1.project-name {
-    color: #fff;
-  }
-  .project-desc {
-    p {
-      color: #fff;
-    }
-  }
-  .small-title {
-    color: #fff;
-  }
-  aside p, aside a{
-    color: #fff;
+  .project-number:before {
+    width: 45px;
   }
 }
