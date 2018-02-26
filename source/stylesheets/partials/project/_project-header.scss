@@ -9,21 +9,27 @@
     text-indent: 60px;
     font-size: 4vh;
     position: relative;
+    color: #000;
+    transition: .5s cubic-bezier(.43,.01,.25,1);
+    transition-delay: .25s;
     &:before {
       content: '';
       position: absolute;
       background: #fff;
       height: 2px;
-      width: 45px;
+      width: 0px;
       left: 0;
       top: 50%;
       transform: translateY(-50%);
+      transition: .25s cubic-bezier(.43,.01,.25,1);
     }
   }
 
   h1.project-name {
     font-size: 7vh;
+    transition: .25s cubic-bezier(.43,.01,.25,1);
     margin-bottom: 50px;
+    color: #000;
   }
 
   .project-desc {
@@ -31,6 +37,9 @@
     font-weight: normal;
     p {
       line-height: 2;
+      color: #000;
+      transition: .25s cubic-bezier(.43,.01,.25,1);
+      transition-delay: .25s;
     }
   }
 
@@ -38,14 +47,21 @@
     font-weight: bold;
     font-size: 3vh;
     margin-bottom: 10px;
+    color: #000;
+    transition: .25s cubic-bezier(.43,.01,.25,1);
+    transition-delay: .25s;
   }
 
   aside {
     margin-bottom: 25px;
+    transition-delay: .25s;
   }
 
   aside p, aside a {
     margin-bottom: 25px;
+    color: #000;
+    transition: .25s cubic-bezier(.43,.01,.25,1);
+    transition-delay: .25s;
   }
 
   @include breakpoint(tablet) {
@@ -85,4 +101,27 @@
     }
   }
 
+}
+
+.project-header.visible {
+  .project-number {
+    color: #fff;
+    &:before {
+      width: 45px;
+    }
+  }
+  h1.project-name {
+    color: #fff;
+  }
+  .project-desc {
+    p {
+      color: #fff;
+    }
+  }
+  .small-title {
+    color: #fff;
+  }
+  aside p, aside a{
+    color: #fff;
+  }
 }

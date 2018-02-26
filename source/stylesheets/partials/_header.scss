@@ -20,12 +20,11 @@ header {
         list-style: none;
         text-transform: lowercase;
         a {
-          opacity: 0;
           transform: translateY(-100%);
           text-decoration: none;
           font-size: 2.25vh;
           font-weight: normal;
-          color: #fff;
+          color: #000;
           transition: all .25s ease-in-out;
           &:hover {
             // TO DO
@@ -59,7 +58,7 @@ header {
   .menu.visible {
     .menu-item {
       a {
-        opacity: 1;
+        color: #fff;
         transform: translateY(0);
       }
     }
