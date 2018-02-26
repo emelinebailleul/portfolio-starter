@@ -12,14 +12,15 @@ class isInViewport {
     };
 
     var elems = document.querySelectorAll('[data-animate]');
+    var els = document.querySelectorAll('[data-animate-auto]');
 
     // Animate on load
     window.onload = function() {
       console.log('loaded1')
-      for (var elem of elems) {
-        if (inViewport(elem) == true) {
+      for (var el of els) {
+        if (inViewport(el) == true) {
           console.log('loaded2')
-          elem.classList.add('visible');
+          el.classList.add('visible');
         }
       }
     }
