@@ -1,5 +1,5 @@
-- name: Sounds in Bordeaux
-  slug: sounds-in-bordeaux
+- name: "Sounds in Bordeaux"
+  slug: "sounds-in-bordeaux"
   number: "01"
   url: www.soundsinbordeaux.com
   nextProjectName: Capsule
@@ -28,12 +28,12 @@
   team: Joshua Richard, Bastien Robert
   color: "#4A95EC"
   fr:
-    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: "FR Lorem ipsum dolor sit amet, consectetur adipisicing elit"
     labelTeam: Team
     labelUrl: Website
     role: Design UX<br>Gestion de projet
   en:
-    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: "EN Lorem ipsum dolor sit amet, consectetur adipisicing elit"
     labelTeam: Équipe
     labelUrl: Site web
     role: UX design<br>Project management
@@ -47,12 +47,12 @@
   team: Joshua Richard
   color: "#57BFB4"
   fr:
-    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: "FR Lorem ipsum dolor sit amet, consectetur adipisicing elit"
     labelTeam: Team
     labelUrl: Website
     role: Design UI/UX
   en:
-    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    description: "EN Lorem ipsum dolor sit amet, consectetur adipisicing elit"
     labelTeam: Équipe
     labelUrl: Site web
     role: UI/UX Design

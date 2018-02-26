@@ -1,0 +1,7 @@
+.video-container {
+  background: #fafafa;
+  height: 300px;
+  @include breakpoint(tablet) {
+    height: 800px;
+  }
+}

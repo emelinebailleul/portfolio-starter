@@ -6,12 +6,10 @@ class menuMobile {
 
     button.onclick = function () {
     	if (open) {
-    		console.log('open')
     		this.classList.add('cross')
         menu.classList.add('open')
     		open = !open;
     	} else {
-    		console.log('closed');
     		this.classList.remove('cross')
         menu.classList.remove('open')
     		open = !open;

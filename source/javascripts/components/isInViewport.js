@@ -12,7 +12,7 @@ class isInViewport {
     };
 
     var elems = document.querySelectorAll('[data-animate]');
-
+    var loader = document.getElementById('loader');
 
     window.onload = function() {
       for (var elem of elems) {

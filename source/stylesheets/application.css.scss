@@ -14,5 +14,61 @@
 @import "partials/project/project-slider";
 @import "partials/project/btn-project";
 @import "partials/project/phoneMockups";
+@import "partials/project/video";
 
 @import "partials/header";
+
+#loader {
+  display: none;
+  #progress, #progress:after {
+    display: none;
+  }
+}
+
+#loader.visible {
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 99;
+  position: fixed;
+
+  #progress {
+    background: black;
+    height: 100vh;
+    position: fixed;
+    z-index: 9;
+    transition: 1s ease-in-out;
+    animation: loading linear infinite;
+    &:after {
+      position: absolute;
+      z-index: 19;
+      content: "0%";
+      display: block;
+      text-align: center;
+      font-size: 40vh;
+      color: red;
+      mix-blend-mode: difference;
+      animation: percentage linear infinite;
+    }
+  }
+
+}
+
+@keyframes loading {
+  0% {
+    width: 0;
+  } 100% {
+    width: 100%;
+  }
+}
+
+@keyframes percentage {
+  @for $i from 1 through 100 {
+    $percentage: $i + "%";
+    #{$percentage} {
+      content: $percentage;
+    }
+  }
+}

@@ -13,5 +13,5 @@ module ApplicationHelper
     opt['alt'] != nil ? opt['alt'] = p.name + ' ' + opt['alt'] : p.name
     image_tag("#{p.slug}/#{i}", opt)
   end
-
+  
 end
