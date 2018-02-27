@@ -27,6 +27,19 @@
     <!-- Google Webmaster Tools -->
     <meta name="google-site-verification" content="<%= data.meta.google %>" />
 
+    <!-- Favicons -->
+    <% if (current_page.data.slug == "sounds-in-bordeaux") %>
+      <%= favicon_tag 'images/favicon/favicon-sib.png' %>
+    <% elsif (current_page.data.slug == "capsule") %>
+      <%= favicon_tag 'images/favicon/favicon-cap.png' %>
+    <% elsif (current_page.data.slug == "mandat") %>
+      <%= favicon_tag 'images/favicon/favicon-man.png' %>
+    <% elsif (current_page.data.slug == "frank-gehry") %>
+      <%= favicon_tag 'images/favicon/favicon-geh.png' %>
+    <% else %>
+      <%= favicon_tag 'images/favicon/favicon.png' %>
+    <% end %>
+
 
     <%= stylesheet_link_tag "application" %>
   </head>

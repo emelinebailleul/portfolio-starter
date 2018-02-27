@@ -24,10 +24,12 @@ dir:
 
   <%= partial 'layouts/partials/projects/fluffy-slider.html.erb' %>
 
-  <% if (project.slug == "mandat") %>
-      <%= partial 'layouts/partials/projects/phoneMockups.html.erb' %>
+  <% if (current_page.data.slug == "mandat") %>
+    <%= partial 'layouts/partials/projects/phoneMockups.html.erb' %>
+  <% elsif (current_page.data.slug == "capsule") %>
+    <%= partial 'layouts/partials/projects/video.html.erb' %>
   <% end %>
-  
+
 </main>
 
 <div class="safari-bug"></div>

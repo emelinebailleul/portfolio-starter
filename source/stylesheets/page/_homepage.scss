@@ -6,9 +6,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 200px 0 75px;
+  padding: 150px 0 75px;
 
   .home-intro {
+    width: 100%;
     max-width: calc(1024px + 7vh);
     padding: 0 7vh 0 7vh;
     margin: auto;

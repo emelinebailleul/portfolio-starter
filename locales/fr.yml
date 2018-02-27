@@ -30,7 +30,7 @@ fr:
   # Page translations
   # ------------------
   homepage:
-    intro-1: "Enchanté! Je suis Emeline, étudiante en dernière année de DUT MMI, passionnée de design et du web."
+    intro-1: "Enchanté!<br> Je suis Emeline, étudiante en dernière année de DUT MMI, passionnée de design et du web."
     intro-2: "Soucieuse aussi bien de l’esthétisme que de l’expérience utilisateur, j’aime concevoir des interfaces alliant efficience et harmonie."
     intro-3: "Vous pouvez voir [mon travail ici](/projets) et en savoir un peu plus sur [mon parcours là](/a-propos)."
 
@@ -80,4 +80,4 @@ fr:
     labelTeam: "Équipe"
 
   footer:
-    p: Design et développement maison avec le starter de [Bastien Robert](https://github.com/bastienrobert/portfolio-starter).
+    p: Design et développement fait main, avec le starter de [Bastien Robert](https://github.com/bastienrobert/portfolio-starter).

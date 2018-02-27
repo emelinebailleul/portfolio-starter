@@ -33,10 +33,11 @@ footer {
       flex-direction: row;
       align-items: center;
       div.dot {
-        height: 10px;
-        width: 10px;
+        height: 13px;
+        width: 13px;
         margin: 0 15px;
-        background: linear-gradient(to right, #8a8cff 8%, #4d9dff 97%);
+        background: linear-gradient(-234deg, #4DAEFF 0%, #B98BFF 99%);
+        border-radius: 10px;
       }
     }
 
