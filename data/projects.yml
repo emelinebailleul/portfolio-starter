@@ -26,7 +26,7 @@
   nextProjectSlug: "mandat"
   team: "Joshua Richard, Bastien Robert"
   primaryColor: "#4A95EC"
-  secondaryColor: "#fff"
+  secondaryColor: "#fcfcfc"
   fr:
     description: "FR Lorem ipsum dolor sit amet, consectetur adipisicing elit"
     role: "Design UX
@@ -62,8 +62,10 @@
   primaryColor: "#F2CB02"
   secondaryColor: "#fff"
   fr:
-    description: "FR Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    description: "Pour un projet en histoire de l’art, nous avons développé un one page retraçant la vie et les travaux de l’architecte Frank Gehry.
+    <br>La navigation est à la fois vertical et horizontal, pour permettre de passer de sa vie à ses oeuvres."
     role: "Design UI/UX"
   en:
-    description: "EN Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    description: "During a history of art class, we had to design a simple website about an artiste or movement. I choosed the architect Frank Gehry and designed a minimalist website divided in two part.
+    <br>The navigation is horizontal and vertical, to swith between his life and his work."
     role: "UI/UX Design"

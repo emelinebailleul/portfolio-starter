@@ -1,0 +1,9 @@
+.video-container {
+  width: 100vw;
+  padding: 200px 7vh;
+  text-align: center;
+  display: block;
+  video {
+    max-width: 65vw;
+  }
+}
