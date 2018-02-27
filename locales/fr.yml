@@ -31,7 +31,8 @@ fr:
   # ------------------
   homepage:
     intro-1: "<strong>Enchanté!</strong> Je suis Emeline, étudiante en design UI/UX et développement web & mobile, avec un peu d'expérience en développement front."
-    intro-2: "Soucieuse aussi bien de l’esthétisme que de l’expérience utilisateur, j’aime concevoir des interfaces alliant efficience et harmonie."
+    intro-2: "Soucieuse aussi bien de l’esthétisme que de l'efficience, j’aime et recherche à toujouer allier le beau et l’efficace rendre l'expérience utilisateur simple, intuitive et agréable."
+    # concevoir des interfaces alliant efficience et harmonie.
     intro-3: "Vous pouvez voir [mon travail ici](/projets) et en savoir un peu plus sur [mon parcours là](/a-propos)."
 
   about:
