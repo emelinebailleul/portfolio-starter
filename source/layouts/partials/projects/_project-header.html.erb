@@ -6,9 +6,9 @@
     <aside>
       <h3 class="small-title">Role</h3>
       <p><%= project[locale.to_s].role %></p>
-      <h3 class="small-title"><%= project[locale.to_s].labelTeam %></h3>
+      <h3 class="small-title"><%= t('projects.labelTeam') %></h3>
       <p><%= project.team %></p>
-      <h3 class="small-title"><%= project[locale.to_s].labelUrl %></h3>
+      <h3 class="small-title"><%= t('projects.labelUrl') %></h3>
       <% if project.url == "offline" %>
         <p class="offline">offline</p>
       <% else %>

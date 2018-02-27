@@ -7,5 +7,4 @@ const Fluffy = require('./components/fluffy.js');
 console.log(Fluffy.version);
 
 // Start automatic detection
-
-Fluffy.create(myElement);
+Fluffy.create('[data-fluffy-content]');

@@ -1,77 +1,69 @@
 - name: "Sounds in Bordeaux"
   slug: "sounds-in-bordeaux"
   number: "01"
-  url: www.soundsinbordeaux.com
-  nextProjectName: Capsule
-  nextProjectSlug: capsule
-  team: Edouard Bérard, Bastien Robert
-  color: "#304FFE"
+  url: "www.soundsinbordeaux.com"
+  nextProjectName: "Capsule"
+  nextProjectSlug: "capsule"
+  team: "Edouard Bérard, Bastien Robert"
+  primaryColor: "#304FFE"
+  secondaryColor: "#FAFAFA"
   fr:
     description: "Ce projet est une initiave étudiante visant à faire connaitre les artistes et événements techno à Bordeaux. Notre objectif premier était de favoriser la découverte d'événements et d'artistes pour l'utilisateur.
-    <br><br>Sounds in Bordeaux a été mon projet majeur durant mes 2 années d'études à l'IUT et celui où j'ai réellement pu appronfondir l'étude de nos utilisateurs ainsi que leurs attentes en venant sur la plateforme."
-    labelTeam: Équipe
-    labelUrl: Site web
-    role: "Design<br>Développement front end"
+    <br>
+    Sounds in Bordeaux a été mon projet majeur durant mes 2 années d'études à l'IUT et celui où j'ai réellement pu appronfondir l'étude de nos utilisateurs ainsi que leurs attentes en venant sur la plateforme."
+    role: "Design <br>Développement front end"
   en:
     description: "This student initiave aim to make known techno artists and events in Bordeaux. User discovering events, places and artists in his own city was our first objective through this project.
-    <br><br>Sounds in Bordeaux was my main project during my last 2 years of studies and the first time I had to understand the most of the user’s needs."
-    labelTeam: Team
-    labelUrl: Website
-    role: "Design<br>Front end development"
+    <br>
+    Sounds in Bordeaux was my main project during my last 2 years of studies and the first time I had to understand the most of the user’s needs."
+    role: "Design <br>Front end development"
 
-- name: Capsule
-  slug: capsule
+- name: "Capsule"
+  slug: "capsule"
   number: "02"
-  url: www.capsule-bordeaux.fr
-  nextProjectName: Mandat
-  nextProjectSlug: mandat
-  team: Joshua Richard, Bastien Robert
-  color: "#4A95EC"
+  url: "www.capsule-bordeaux.fr"
+  nextProjectName: "Mandat"
+  nextProjectSlug: "mandat"
+  team: "Joshua Richard, Bastien Robert"
+  primaryColor: "#4A95EC"
+  secondaryColor: "#fff"
   fr:
     description: "FR Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-    labelTeam: Team
-    labelUrl: Website
-    role: Design UX<br>Gestion de projet
+    role: "Design UX
+    <br>Gestion de projet"
   en:
     description: "EN Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-    labelTeam: Équipe
-    labelUrl: Site web
-    role: UX design<br>Project management
+    role: "UX design
+    <br>Project management"
 
-- name: Mandat
-  slug: mandat
+- name: "Mandat"
+  slug: "mandat"
   number: "03"
-  url: offline
-  nextProjectName: Frank Gehry
-  nextProjectSlug: frank-gehry
-  team: Joshua Richard
-  color: "#57BFB4"
+  url: "offline"
+  nextProjectName: "Frank Gehry"
+  nextProjectSlug: "frank-gehry"
+  team: "Joshua Richard"
+  primaryColor: "#57BFB4"
+  secondaryColor: "#fff"
   fr:
     description: "FR Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-    labelTeam: Team
-    labelUrl: Website
-    role: Design UI/UX
+    role: "Design UI/UX"
   en:
     description: "EN Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-    labelTeam: Équipe
-    labelUrl: Site web
-    role: UI/UX Design
+    role: "UI/UX Design"
 
-- name: Frank Gehry
-  slug: frank-gehry
+- name: "Frank Gehry"
+  slug: "frank-gehry"
   number: "04"
-  url: offline
-  nextProjectName: Sounds in Bordeaux
-  nextProjectSlug: sounds-in-bordeaux
+  url: "offline"
+  nextProjectName: "Sounds in Bordeaux"
+  nextProjectSlug: "sounds-in-bordeaux"
   team: ""
-  color: "#F2CB02"
+  primaryColor: "#F2CB02"
+  secondaryColor: "#fff"
   fr:
-    description: FR Lorem ipsum dolor sit amet, consectetur adipisicing elit
-    labelTeam: Team
-    labelUrl: Website
-    role: Design UI/UX
+    description: "FR Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    role: "Design UI/UX"
   en:
-    description: EN Lorem ipsum dolor sit amet, consectetur adipisicing elit
-    labelTeam: Équipe
-    labelUrl: Site web
-    role: UI/UX Design
+    description: "EN Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+    role: "UI/UX Design"

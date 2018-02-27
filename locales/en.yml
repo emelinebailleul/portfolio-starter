@@ -15,7 +15,7 @@ en:
 
   paths:
     # Paths
-    homepage: ''
+    homepage: ""
     about: "about"
     projects: "projects"
 
@@ -31,25 +31,25 @@ en:
   homepage:
     intro-1: "I’m Emeline, UI/UX design student with some skills in front end development, currently based in Bordeaux."
     intro-2: "Aesthetic is as mush important as usability in my work, I love design interfaces combining great user experience and graphic harmony."
-    intro-3: "You can check my work here and learn more about me and my skills here."
+    intro-3: "You can check [my work here](/projects) and learn more about me and [my skills here](/about)."
 
   about:
     intro: "I’m Emeline Bailleul, french digital design student, specialised in interface and user experience design with some experience in front end development.
-    <br><br>I’m currently based in Bordeaux, but looking for a 6 months internship in Paris, starting on the 16th of april. I’d loved to work with you on your projects and help you design
-    <br><br>Feel free to email me here or check my résumé here."
+    I’m currently based in Bordeaux, but looking for a 6 months internship in Paris, starting on the 16th of april. I’d loved to work with you on your projects and help you design
+    Feel free to [email me](mailto:hello@emelinebailleul.com) here or check [my résumé here]()."
     studies:
       h2: "Studies"
       h3-1: "2014/2016"
       p-1: "Applied Foreign Languages specialised in english and russian.
-      <br>- University of Bordeaux"
+      - University of Bordeaux"
       h3-2: "2016/2018"
       p-2: "University Technology Degree in Digital Media & Internet.
-      <br>- University of Bordeaux"
+      - University of Bordeaux"
     work:
       h2: "Work"
       h3-1: "06/2017 to 09/2017"
       p-1: "Front end developer at Disko agency
-      <br>Clients: Hennessy, Schmidt, Roxim, Santander, Grandir."
+      Clients: Hennessy, Schmidt, Roxim, Santander, Grandir."
       h3-2: "2016/2018"
       p-2: ""
     skills:
@@ -67,4 +67,6 @@ en:
 
   projects:
     h1: "Projects"
-    next: 'Next project'
+    next: "Next project"
+    labelUrl: "Web site"
+    labelTeam: "Team"

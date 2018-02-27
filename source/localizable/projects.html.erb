@@ -8,7 +8,7 @@ slug: projects
     <% link_to proxy_url(project.slug) do %>
       <section id="<%= project.slug %>" class="project-card" data-animate>
 
-        <picture class="img-bg" style="background-color: <%= project.color%>;">
+        <picture class="img-bg" style="background-color: <%= project.primaryColor %>;">
           <%= project_image(project, 'main.png', {
             'alt' => 'cover image',
             'class' => 'cover'

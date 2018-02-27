@@ -13,6 +13,7 @@
     height: 50%;
     margin: auto;
     min-height: 320px;
+    min-width: 100vw;
     position: relative;
     -webkit-transition: background-color 1s 600ms, opacity 600ms 600ms;
     transition: background-color 1s 600ms, opacity 600ms 600ms;
@@ -102,10 +103,9 @@
 
 [data-fluffy-content] {
   opacity: 0;
-  background: #fff;
   -webkit-transition: opacity 600ms 600ms;
   transition: opacity 600ms 600ms;
-  padding: 100px;
+  width: 100%;
   img {
     max-width: 600px;
     vertical-align: top;

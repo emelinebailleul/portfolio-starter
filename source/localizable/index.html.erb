@@ -4,11 +4,11 @@ slug: homepage
 
 <main id="home" class="wrapper">
 
-  <h1 class="home-intro" data-animate-auto><%= t('homepage.intro-1') %></h1>
-  <h2 class="home-intro" data-animate-auto><%= t('homepage.intro-2') %></h2>
-  <h2 class="home-intro" data-animate-auto><%= t('homepage.intro-3') %></h2>
-    <% link_to '/', locale: :en do %>
+  <h1 class="home-intro" data-animate-auto><%= markdown t('homepage.intro-1') %></h1>
+  <h2 class="home-intro" data-animate-auto><%= markdown t('homepage.intro-2') %></h2>
+  <h2 class="home-intro" data-animate-auto><%= markdown t('homepage.intro-3') %></h2>
+    <!-- <% link_to '/', locale: :en do %>
       bite
-      <% end %>
+    <% end %> -->
 
 </main>
