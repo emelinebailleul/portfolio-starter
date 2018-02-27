@@ -11,7 +11,7 @@ en:
     contact: "Say hello"
 
   descriptions:
-    homepage: "Here is a description for the homepage"
+    homepage: "Emeline Bailleul | UI/UX design & digital project management french student."
 
   paths:
     # Paths
@@ -29,13 +29,13 @@ en:
   # Page translations
   # ------------------
   homepage:
-    intro-1: "Nice to e-meet you!<br>I’m Emeline, UI/UX design student with some skills in front end development."
+    intro-1: "<strong>Nice to e-meet you!</strong> I’m Emeline, UI/UX design and digital project management student with some skills in front end development."
     intro-2: "Aesthetic is as mush important as usability in my work, I love design interfaces combining great user experience and graphic harmony."
     intro-3: "You can check [my work here](/projects) and learn more about me and [my skills here](/en/about)."
 
   about:
-    intro: "I’m Emeline Bailleul, french digital design student, specialised in interface and user experience design with some experience in front end development.
-    <br>I’m currently based in Bordeaux, but looking for a 6 months internship in Paris, starting on the 16th of april. I’d loved to work with you on your projects and help you design
+    intro: "I’m Emeline Bailleul, french digital design student based in Bordeaux until april, specialised in interface and user experience design with some experience in front end development.
+    <br><br>I'm currently looking for an 6 moths end-of-study internship in Paris starting on the 16th of april, possibly leading to a study contract. I would love to work as an UX designer and project manager.
     <br><br>Feel free to [email me](mailto:hello@emelinebailleul.com) here or check [my résumé here]()."
     studies:
       h2: "Studies"
@@ -74,4 +74,4 @@ en:
     labelTeam: "Team"
 
   footer:
-    p: Designed and developped by me with [Bastien's starter](https://github.com/bastienrobert/portfolio-starter).
+    p: Designed and developped by me,<br> with [Bastien's starter](https://github.com/bastienrobert/portfolio-starter).
