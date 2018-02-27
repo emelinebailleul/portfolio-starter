@@ -1,15 +1,21 @@
 #home {
-  max-width: calc(1024px + 7vh);
-  padding: 200px 7vh 0 7vh;
-  margin: auto;
+  position: relative;
+  z-index: 1;
+  background: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 200px 0 75px;
 
   .home-intro {
+    max-width: calc(1024px + 7vh);
+    padding: 0 7vh 0 7vh;
+    margin: auto;
     color: #000;
     font-size: 5vh;
-    max-width: 900px;
     transition: all 1s cubic-bezier(.19,1,.22,1);
     transform: translateY(25%);
-    margin-bottom: 20px;
   }
   .home-intro.visible {
     color: #fff;

@@ -35,8 +35,8 @@ en:
 
   about:
     intro: "I’m Emeline Bailleul, french digital design student, specialised in interface and user experience design with some experience in front end development.
-    I’m currently based in Bordeaux, but looking for a 6 months internship in Paris, starting on the 16th of april. I’d loved to work with you on your projects and help you design
-    Feel free to [email me](mailto:hello@emelinebailleul.com) here or check [my résumé here]()."
+    <br>I’m currently based in Bordeaux, but looking for a 6 months internship in Paris, starting on the 16th of april. I’d loved to work with you on your projects and help you design
+    <br><br>Feel free to [email me](mailto:hello@emelinebailleul.com) here or check [my résumé here]()."
     studies:
       h2: "Studies"
       h3-1: "2014/2016"
@@ -49,24 +49,29 @@ en:
       h2: "Work"
       h3-1: "06/2017 to 09/2017"
       p-1: "Front end developer at Disko agency
-      Clients: Hennessy, Schmidt, Roxim, Santander, Grandir."
-      h3-2: "2016/2018"
-      p-2: ""
+      <br>Clients: Hennessy, Schmidt, Roxim, Santander, Grandir."
+      h3-2: "01/2010"
+      p-2: "Graphic designer print at BHB Communication"
     skills:
       h2: "Skills"
       h3-1: "Softwares"
       p-1: "Sketch, Principle, Axure, Zeplin, InVision, Marvel, Suite adobe (Photoshop, Illustrator, After Effects, Première Pro), Final Cut Pro."
       h3-2: "Web development"
       p-2: "HTML, CSS, SASS, Stylus, Javascript, jQuery, Bootstrap, Foundation, Gulp, Twig."
+      h3-3: "Languages"
+      p-3: "French (native), english (fluent)"
     more:
       h2: "More"
-      h3-1: "Languages"
-      p-1: "French (native), english (fluent)"
-      h3-2: "2017 and 2018"
+      h3-1: "2017 & 2018"
       p-2: "University speech contest"
+      h3-2: "09/2017"
+      p-2: "Video recording of the APM meeting in Bordeaux."
 
   projects:
     h1: "Projects"
     next: "Next project"
     labelUrl: "Web site"
     labelTeam: "Team"
+
+  footer:
+    p: Designed and developped by me with [Bastien's starter](https://github.com/bastienrobert/portfolio-starter).

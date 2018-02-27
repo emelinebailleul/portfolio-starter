@@ -3,26 +3,29 @@ slug: projects
 ---
 <main id="projects" class="wrapper">
 
+  <section class="projects-container">
+    <% data.projects.each_with_index do |project, index| %>
+      <% link_to proxy_url(project.slug) do %>
+        <section id="<%= project.slug %>" class="project-card" data-animate<%= '-auto' if index == 0 %>>
 
-  <% data.projects.each do |project| %>
-    <% link_to proxy_url(project.slug) do %>
-      <section id="<%= project.slug %>" class="project-card" data-animate>
+          <picture class="img-bg" style="background-color: <%= project.primaryColor %>;">
+            <%= project_image(project, 'main.png', {
+              'alt' => 'cover image',
+              'class' => 'cover'
+              }) %>
+          </picture>
 
-        <picture class="img-bg" style="background-color: <%= project.primaryColor %>;">
-          <%= project_image(project, 'main.png', {
-            'alt' => 'cover image',
-            'class' => 'cover'
-            }) %>
-        </picture>
+          <article class="infos">
+            <h3 class="project-number"><%= project.number %></h3>
+            <h2 class="project-name"><%= project.name %></h2>
+            <p class="project-role"><%= project[locale.to_s].role %></p>
+          </article>
 
-        <article class="infos">
-          <h3 class="project-number"><%= project.number %></h3>
-          <h2 class="project-name"><%= project.name %></h2>
-          <p class="project-role"><%= project[locale.to_s].role %></p>
-        </article>
-
-      </section>
+        </section>
+      <% end %>
     <% end %>
-  <% end %>
-
+  </section>
 </main>
+
+<div class="sf-bg"></div>
+<%= partial 'layouts/partials/footer' %>

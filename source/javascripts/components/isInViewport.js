@@ -14,10 +14,12 @@ class isInViewport {
 
 
     window.onload = function() {
-      console.log('loaded');
       var elems = document.querySelectorAll('[data-animate-auto]')
       for (var elem of elems) {
         elem.classList.add('visible')
+        if (inViewport(elem)) {
+          elem.classList.add('visible')
+        }
       }
     }
 

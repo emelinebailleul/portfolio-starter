@@ -19,15 +19,15 @@ dir:
     'async' => true
     }) %> -->
 
-  <% if (project.slug == "mandat") %>
-      <%= partial 'layouts/partials/projects/phoneMockups.html.erb' %>
-  <% end %>
-
   <%= partial 'layouts/partials/projects/video.html.erb' %>
 
 
   <%= partial 'layouts/partials/projects/fluffy-slider.html.erb' %>
 
+  <% if (project.slug == "mandat") %>
+      <%= partial 'layouts/partials/projects/phoneMockups.html.erb' %>
+  <% end %>
+  
 </main>
 
 <div class="safari-bug"></div>

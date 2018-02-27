@@ -1,7 +1,13 @@
 #about {
   color: #fff;
-  padding: 200px 7vh 50px;
-  max-width: calc(1024px + 7vh);
+  background: #000;
+
+  .container {
+    margin: auto;
+    padding: 50px 7vh 250px;
+    max-width: calc(1024px + 7vh);
+  }
+
 
   #intro {
     margin-bottom: 100px;
@@ -78,6 +84,10 @@
       }
       article:nth-child(2) {
         padding-right: 25px;
+      }
+      .third {
+        margin-left: calc(100% / 3);
+        margin-top: 25px;
       }
     }
   }

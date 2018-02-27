@@ -95,7 +95,7 @@
       display: flex;
     }
     .offline {
-      opacity: .5;
+      opacity: 0;
       text-decoration: line-through;
       &:hover {
         cursor: not-allowed;
@@ -109,6 +109,9 @@
   .project-number, h1.project-name, .project-desc p, .small-title, aside p, aside a {
     transform: translateY(0);
     opacity: 1;
+  }
+  .offline {
+    opacity: .5 !important;
   }
   .project-number:before {
     width: 45px;
