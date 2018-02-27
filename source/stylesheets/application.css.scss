@@ -1,6 +1,5 @@
 @import "init/fonts";
 @import "init/reset";
-@import "init/fluffy";
 @import "init/breakpoint";
 
 @import "page/homepage";
@@ -11,10 +10,9 @@
 @import "partials/header";
 
 @import "partials/project/project-header";
-@import "partials/project/project-slider";
+@import "partials/project/fluffy-slider";
 @import "partials/project/btn-project";
 @import "partials/project/phoneMockups";
-@import "partials/project/video";
 
 @import "partials/header";
 

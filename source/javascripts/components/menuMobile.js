@@ -1,7 +1,7 @@
 class menuMobile {
   constructor () {
     var button = document.getElementById('menu-btn');
-    var menu = document.querySelector('[data-animate]');
+    var menu = document.querySelector('[data-animate-auto]');
     var open = false;
 
     button.onclick = function () {

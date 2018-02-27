@@ -14,7 +14,19 @@ dir:
 <main id="project" class="wrapper">
   <%= partial 'layouts/partials/projects/project-header' %>
 
+  <!-- <%= project_image(project, 'main.png', {
+    'class' => 'cover',
+    'async' => true
+    }) %> -->
 
+  <% if (project.slug == "mandat") %>
+      <%= partial 'layouts/partials/projects/phoneMockups.html.erb' %>
+  <% end %>
+
+  <%= partial 'layouts/partials/projects/video.html.erb' %>
+
+
+  <%= partial 'layouts/partials/projects/fluffy-slider.html.erb' %>
 
 </main>
 

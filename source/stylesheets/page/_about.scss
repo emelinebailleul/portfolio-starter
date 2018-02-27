@@ -6,7 +6,7 @@
   #intro {
     margin-bottom: 100px;
     opacity: 0;
-    transform: translateY(-15%);
+    transform: translateY(15%);
     transition: 1s cubic-bezier(.03,.13,.08,1);
     p {
       font-size: 3vh;
@@ -24,7 +24,7 @@
 
     .cv-section {
       opacity: 0;
-      transform: translateY(-50%);
+      transform: translateY(50%);
       margin-bottom: 50px;
       transition: 1s cubic-bezier(.03,.13,.08,1);
       .section-title {

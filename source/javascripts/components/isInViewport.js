@@ -2,7 +2,7 @@ class isInViewport {
   constructor () {
 
     var inViewport = function (elem) {
-      var distance = elem.getBoundingClientRect();
+      var distance = elem.getBoundingClientRect()
       return (
         distance.top >= 0 &&
         distance.left >= 0 &&
@@ -14,7 +14,7 @@ class isInViewport {
 
 
     window.onload = function() {
-      //document.getElementById('sounds-in-bordeaux').classList.add('visible')
+      console.log('loaded');
       var elems = document.querySelectorAll('[data-animate-auto]')
       for (var elem of elems) {
         elem.classList.add('visible')

@@ -8,13 +8,13 @@
   color: "#304FFE"
   fr:
     description: "Ce projet est une initiave étudiante visant à faire connaitre les artistes et événements techno à Bordeaux. Notre objectif premier était de favoriser la découverte d'événements et d'artistes pour l'utilisateur.
-    <br><br>Sounds in Bordeaux a été mon projet majeur durant mes 2 années d'études à l'IUT et celui où j'ai réellement pu appronfondir l'étude de nos utilisateurs ainsi que leurs attentes en venant sur la plateforme. Toute léquipe a pu apprendre et évoluer durant ces 2 dernières années et le project avec."
+    <br><br>Sounds in Bordeaux a été mon projet majeur durant mes 2 années d'études à l'IUT et celui où j'ai réellement pu appronfondir l'étude de nos utilisateurs ainsi que leurs attentes en venant sur la plateforme."
     labelTeam: Équipe
     labelUrl: Site web
     role: "Design<br>Développement front end"
   en:
     description: "This student initiave aim to make known techno artists and events in Bordeaux. User discovering events, places and artists in his own city was our first objective through this project.
-    <br><br>Sounds in Bordeaux was my main project during my last 2 years of studies and the first time I had to understand the most of the user’s needs. We learned and improved ourselves over these 2 years and so did the website."
+    <br><br>Sounds in Bordeaux was my main project during my last 2 years of studies and the first time I had to understand the most of the user’s needs."
     labelTeam: Team
     labelUrl: Website
     role: "Design<br>Front end development"

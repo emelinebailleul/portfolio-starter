@@ -18,7 +18,10 @@ header {
         width: calc(100% /6);
         list-style: none;
         text-transform: lowercase;
+
         a {
+          position: relative;
+          width: auto;
           opacity: 0;
           transform: translateY(-100%);
           text-decoration: none;
@@ -26,12 +29,34 @@ header {
           font-weight: normal;
           color: #fff;
           transition: all .25s ease-in-out;
+
+          &:after {
+            content: '';
+            transition: .25s cubic-bezier(.43,.01,.25,1);
+            position: absolute;
+            background: #fff;
+            height: 2px;
+            width: 0%;
+            right: 0;
+            bottom: 0;
+          }
+
           &:hover {
-            // TO DO
+            opacity: 0;
+            &:after {
+              width: 100%;
+              right: 0;
+              left: 0%;
+            }
           }
         }
         a[aria-current] {
           font-weight: bold;
+          &:after {
+            width: 100%;
+            right: 0;
+            left: 0%;
+          }
         }
       }
       &-item.contact {
@@ -59,7 +84,7 @@ header {
     .menu-item {
       a {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateY(-0);
       }
     }
   }
