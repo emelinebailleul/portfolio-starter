@@ -35,16 +35,16 @@ en:
 
   about:
     intro: "I’m Emeline Bailleul, french digital design student based in Bordeaux until april, specialised in interface and user experience design with some experience in front end development.
-    <br><br>I'm currently looking for an 6 moths end-of-study internship in Paris starting on the 16th of april, possibly leading to a study contract. I would love to work as an UI/UX designer and project management.
+    <br><br>I'm currently looking for an 6 months end-of-study internship in Paris. Starting on april 16, possibly leading to a study contract as a UI/UX designer.
     <br><br>Feel free to [email me here](mailto:hello@emelinebailleul.com) and download [my résumé here](/images/static/cv-en.pdf)."
     studies:
       h2: "Studies"
       h3-1: "2016/2018"
-      p-1: "University Technologic Degree in Digital Media & Internet.
-      <br>- University of Bordeaux"
+      p-1: "Technical University Degree in Digital Media & Internet.
+      <br>- Bordeaux University Institute of Technology"
       h3-2: "2014/2016"
       p-2: "Applied Foreign Languages specialised in english and russian.
-      <br>- University of Bordeaux"
+      <br>- Bordeaux University"
     work:
       h2: "Work"
       h3-1: "06/2017 to 09/2017"
@@ -63,7 +63,7 @@ en:
     more:
       h2: "More"
       h3-1: "2017 & 2018"
-      p-2: "Speech contest of the University of Bordeaux."
+      p-2: "Speech contest of the Bordeaux University."
       h3-2: "09/2017"
       p-2: "Video recording of the APM meeting in Bordeaux."
 
