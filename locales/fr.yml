@@ -31,15 +31,15 @@ fr:
   # ------------------
   homepage:
     intro-1: "<strong>Enchanté!</strong> Je suis Emeline, étudiante en design UI/UX et développement web & mobile, avec un peu d'expérience en développement front."
-    intro-2: "Soucieuse aussi bien de l’esthétisme que de l'efficience, j’aime et recherche à toujouer allier le beau et l’efficace rendre l'expérience utilisateur simple, intuitive et agréable."
+    intro-2: "Soucieuse aussi bien de l’esthétisme que de l'efficience, j’aime et recherche à toujours allier le beau et l'utile pour rendre l'expérience utilisateur simple, intuitive et agréable."
     # concevoir des interfaces alliant efficience et harmonie.
     intro-3: "Vous pouvez voir [mon travail ici](/projets) et en savoir un peu plus sur [mon parcours là](/a-propos)."
 
   about:
     intro: "Je suis Emeline Bailleul, étudiante en dernière année de DUT MMI à Bordeaux, spécialisée en design d’interfaces et expérience utilisateur.
-    <br><br>Je recherche actuellement un stage de fin d'études à compter du 16 avril jusqu'en septembre dans le design UX et la gestion de projet.
+    <br><br>Je recherche actuellement un stage de fin d'études à compter du 16 avril jusqu'en septembre dans le design UI/UX et la gestion de projet.
     <br><br>
-    Vous pouvez me [contacter ici](mailto:hello@emelinebailleul.com), ainsi que voir [mon cv là]()."
+    Vous pouvez me [contacter ici](mailto:hello@emelinebailleul.com)."
 
     studies:
       h2: "Études"
