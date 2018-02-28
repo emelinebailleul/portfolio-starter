@@ -4,7 +4,7 @@
   url: "www.soundsinbordeaux.com"
   nextProjectName: "Capsule"
   nextProjectSlug: "capsule"
-  team: "[Edouard Bérard](https://www.edouardberard.com), [Bastien Robert](https://www.bastienrobert.com)"
+  team: "[Edouard Bérard](https://www.edouardberard.com), [Bastien Robert](https://www.bastienrobert.fr)"
   primaryColor: "#304FFE"
   secondaryColor: "#FAFAFA"
   fr:
@@ -13,9 +13,9 @@
     Sounds in Bordeaux a été mon projet majeur durant mes 2 années d'études à l'IUT et celui où j'ai réellement pu appronfondir l'étude de nos utilisateurs ainsi que leurs attentes en venant sur la plateforme."
     role: "Design <br>Développement front end"
   en:
-    description: "This student initiave aim to make known techno artists and events in Bordeaux. User discovering events, places and artists in his own city was our first objective through this project.
+    description: "This is a student initiave, aiming to make known techno artists and events in Bordeaux. User discovery was our first objective through this project.
     <br><br>
-    Sounds in Bordeaux was my main project during my last 2 years of studies and the first time I had to understand the most of the user’s needs."
+    Sounds in Bordeaux was my main project during my last 2 years of studies and the first time I had the chance to study users needs and behavior."
     role: "Design <br>Front end development"
 
 - name: "Capsule"
@@ -24,7 +24,7 @@
   url: "www.capsule-bordeaux.fr"
   nextProjectName: "Mandat"
   nextProjectSlug: "mandat"
-  team: "[Joshua Richard](joshuarichard.com), [Bastien Robert](bastienrobert.com)"
+  team: "[Joshua Richard](joshuarichard.com), [Bastien Robert](https://www.bastienrobert.fr)"
   primaryColor: "#4A95EC"
   secondaryColor: "#fcfcfc"
   fr:
@@ -71,7 +71,7 @@
   secondaryColor: "#fff"
   fr:
     description: "Ce site présente la vie et les principaux travaux de l'architecte canado-américain Frank Gehry. C'est un one page simple avec une double navigation à la fois vertical et horizontal.
-    <br><br>D'un côté sont présenté une mosaic de ses oeuvres menant à une page donnant plus de détails et quelques anecdotes au visiteur. De l'autre, on trouve un résumé de sa vie, de ses influences et ses distinctions."
+    <br><br>D'un côté sont présenté ses oeuvres dans une mosaic de photos, menant à une page avec plus de détails et quelques anecdotes. De l'autre, on trouve un résumé de sa vie, de ses influences et ses distinctions."
     role: "Design UI/UX"
   en:
     description: "For a art history class, I designed a simple website presenting Frank Gehry's life and work.
