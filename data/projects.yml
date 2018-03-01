@@ -21,7 +21,7 @@
 - name: "Capsule"
   slug: "capsule"
   number: "02"
-  url: "www.capsule-bordeaux.fr"
+  url: "https://www.capsule-bordeaux.fr"
   nextProjectName: "Mandat"
   nextProjectSlug: "mandat"
   team: "[Joshua Richard](joshuarichard.com), [Bastien Robert](https://www.bastienrobert.fr)"
@@ -70,8 +70,8 @@
   primaryColor: "#F2CB02"
   secondaryColor: "#fff"
   fr:
-    description: "Ce site présente la vie et les principaux travaux de l'architecte canado-américain Frank Gehry. C'est un one page simple avec une double navigation à la fois vertical et horizontal.
-    <br><br>D'un côté sont présenté ses oeuvres dans une mosaic de photos, menant à une page avec plus de détails et quelques anecdotes. De l'autre, on trouve un résumé de sa vie, de ses influences et ses distinctions."
+    description: "Ce site présente la vie et les principaux travaux de l'architecte canado-américain Frank Gehry. C'est un one page simple avec une double navigation à la fois verticale et horizontale.
+    <br><br>D'un côté sont présentées ses oeuvres dans une mosaïque de photos, menant à une page avec plus de détails et quelques anecdotes. De l'autre, on trouve un résumé de sa vie, de ses influences et ses distinctions."
     role: "Design UI/UX"
   en:
     description: "For a history of art class, I designed a simple website showing Frank Gehry's life and work.

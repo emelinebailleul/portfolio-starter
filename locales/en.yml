@@ -31,11 +31,11 @@ en:
   homepage:
     intro-1: "<strong>Nice to e-meet you!</strong> I’m Emeline, UI/UX design and digital project management student with some skills in front end development."
     intro-2: "Aesthetic is as mush important as usability in my work, I love and always try to combine harmony and efficiency to create a simple, intuitive and pleasant user experience."
-    intro-3: "You can check [my work here](/projects) and learn more about me and [my skills here](/en/about)."
+    intro-3: "You can check [my work here](/en/projects) and learn more about me and [my skills here](/en/about)."
 
   about:
     intro: "I’m Emeline Bailleul, french digital design student based in Bordeaux until april, specialised in interface and user experience design with some experience in front end development.
-    <br><br>I'm currently looking for an 6 months end-of-study internship in Paris. Starting on april 16, possibly leading to a study contract as a UI/UX designer.
+    <br><br>I'm currently looking for an end-of-study internship as a UI/UX designer in Paris. This 6 months experience is starting on april 16th and can possibly be extended to a study contract.
     <br><br>Feel free to [email me here](mailto:hello@emelinebailleul.com) and download [my résumé here](/images/static/cv-en.pdf)."
     studies:
       h2: "Studies"
@@ -63,7 +63,7 @@ en:
     more:
       h2: "More"
       h3-1: "2017 & 2018"
-      p-2: "Speech contest of the Bordeaux University."
+      p-1: "Speech contest of the Bordeaux University."
       h3-2: "09/2017"
       p-2: "Video recording of the APM meeting in Bordeaux."
 
