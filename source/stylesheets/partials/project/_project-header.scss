@@ -1,3 +1,12 @@
+@include breakpoint(tablet) {
+  aside {
+    width: calc((100% / 6)*2);
+  }
+  .project-desc {
+    width: calc((1024px /6)*3);
+  }
+}
+
 .project-header {
   color: #fff;
   max-width: calc(1024px + 7vh);
@@ -39,7 +48,6 @@
   .project-desc {
     font-size: 2.25vh;
     font-weight: normal;
-    width: calc((1024px /6)*3);
     p {
       line-height: 2;
       color: #fff;
@@ -63,7 +71,6 @@
 
   aside {
     margin-bottom: 25px;
-    width: calc((100% / 6)*2);
   }
 
   aside p, aside a {

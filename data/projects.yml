@@ -1,7 +1,7 @@
 - name: "Sounds in Bordeaux"
   slug: "sounds-in-bordeaux"
   number: "01"
-  url: "www.soundsinbordeaux.com"
+  url: "https://www.soundsinbordeaux.com"
   nextProjectName: "Capsule"
   nextProjectSlug: "capsule"
   team: "[Edouard Bérard](https://www.edouardberard.com), [Bastien Robert](https://www.bastienrobert.fr)"

@@ -9,6 +9,12 @@
 @keyframes moveLeft { to { transform: translateX(-20px); }}
 
 [data-fluffy-container] {
+  @include breakpoint(mobileonly) {
+    display: none;
+  }
+}
+
+[data-fluffy-container] {
     background-color: rgba(255, 255, 255, 0.1);
     height: 50%;
     margin: auto;
