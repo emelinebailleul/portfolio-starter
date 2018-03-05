@@ -23,7 +23,9 @@ dir:
     <%= partial 'layouts/partials/projects/video.html.erb' %>
   <% end %>
 
-  <%= partial 'layouts/partials/projects/fluffy-slider.html.erb' %>
+  <% if (current_page.data.slug != "hello-pass") %>
+    <%= partial 'layouts/partials/projects/fluffy-slider.html.erb' %>
+  <% end %>
 
   <% if (current_page.data.slug == "mandat") %>
     <%= partial 'layouts/partials/projects/phoneMockups.html.erb' %>

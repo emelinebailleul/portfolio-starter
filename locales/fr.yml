@@ -36,7 +36,7 @@ fr:
     intro-3: "Vous pouvez voir [mon travail ici](/projets) et en savoir un peu plus sur [mon parcours là](/a-propos)."
 
   about:
-    intro: "Je suis Emeline Bailleul, étudiante en dernière année de DUT MMI à Bordeaux, spécialisée en design d’interfaces et expérience utilisateur.
+    intro: "Je suis Emeline Bailleul, étudiante en dernière année de DUT MMI à Bordeaux, spécialisée en design centré expérience utilisateur. Toujours à la recherche de nouveaux projets et problèmes à résoudre.
     <br><br>Je recherche actuellement un stage de fin d'études à compter du 16 avril jusqu'en septembre dans le design UI/UX et la gestion de projet.
     <br><br>
     Vous pouvez me [contacter ici](mailto:hello@emelinebailleul.com) et voir [mon cv là](/images/static/cv-fr.pdf)."
@@ -63,9 +63,11 @@ fr:
       h3-1: "Logiciels"
       p-1: "Sketch, Principle, Axure, Zeplin, InVision, Marvel, Suite adobe (Photoshop, Illustrator, After Effects, Première Pro), Final Cut Pro."
       h3-2: "Développement web"
-      p-2: "HTML, CSS, SASS, Stylus, Javascript, jQuery, Bootstrap, Foundation, Gulp, Twig."
-      h3-3: "Langues"
-      p-3: "Français (langue maternelle), anglais (courant)."
+      p-2: "HTML, CSS, Javascript, Github, SASS, Stylus, , jQuery, Bootstrap, Foundation, Gulp, Twig."
+      h3-3: "Méthodes"
+      p-3: "UX (persona, workflow, wireframes, user journey, etc), gestion de projet agile & scrum."
+      h3-4: "Langues"
+      p-4: "Français (langue maternelle), anglais (courant)."
 
     more:
       h2: "Divers"

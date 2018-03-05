@@ -34,7 +34,7 @@ en:
     intro-3: "You can check [my work here](/en/projects) and learn more about me and [my skills here](/en/about)."
 
   about:
-    intro: "I’m Emeline Bailleul, french digital design student based in Bordeaux until april, specialised in interface and user experience design with some experience in front end development.
+    intro: "I’m Emeline Bailleul, french digital design student based in Bordeaux until april, specialised in user experience design with some skills in front end development. Always looking for new projects and problems to solve.
     <br><br>I'm currently looking for an end-of-study internship as a UI/UX designer in Paris. This 6 months experience is starting on april 16th and can possibly be extended to a study contract.
     <br><br>Feel free to [email me here](mailto:hello@emelinebailleul.com) and download [my résumé here](/images/static/cv-en.pdf)."
     studies:
@@ -57,9 +57,11 @@ en:
       h3-1: "Softwares"
       p-1: "Sketch, Principle, Axure, Zeplin, InVision, Marvel, Suite adobe (Photoshop, Illustrator, After Effects, Première Pro), Final Cut Pro."
       h3-2: "Web development"
-      p-2: "HTML, CSS, SASS, Stylus, Javascript, jQuery, Bootstrap, Foundation, Gulp, Twig."
-      h3-3: "Languages"
-      p-3: "French (native), english (fluent)"
+      p-2: "HTML, CSS, Javascript, Github, SASS, Stylus, , jQuery, Bootstrap, Foundation, Gulp, Twig."
+      h3-3: "Theory"
+      p-3: "UX (persona, workflow, wireframes, user journey, etc), agile & scrum method."
+      h3-4: "Languages"
+      p-4: "French (native), english (fluent)."
     more:
       h2: "More"
       h3-1: "2017 & 2018"

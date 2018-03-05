@@ -83,7 +83,7 @@
       .section-title, article {
         width: calc(100% /3);
       }
-      article:nth-child(2) {
+      article:nth-child(even) {
         padding-right: 25px;
       }
       .third {
