@@ -1,68 +1,80 @@
 - name: "Sounds in Bordeaux"
   slug: "sounds-in-bordeaux"
   number: "01"
+  date: "2016-2017"
   url: "https://www.soundsinbordeaux.com"
-  nextProjectName: "Capsule"
-  nextProjectSlug: "capsule"
+  nextProjectName: "Mandat"
+  nextProjectSlug: "mandat"
   team: "Jonah Alle Monne, Raphael Arrayago, Bastien Bahuet, [Edouard Bérard](https://www.edouardberard.com), Laurène Carré, Clément Champion, Romain Chartaud et [Bastien Robert](https://www.bastienrobert.fr)"
   primaryColor: "#304FFE"
   secondaryColor: "#FAFAFA"
   fr:
-    description: "Ce projet est une initiative étudiante visant à faire connaitre les artistes et événements techno à Bordeaux. Notre objectif premier était de favoriser la découverte d'événements et d'artistes pour l'utilisateur.
+    description: "Similaire au concept de Resident Advisor, ce projet est une initiative étudiante visant à faire connaître la scène électro bordelaise en présentant une sélection d'événements et en référençant les artistes locaux.
     <br><br>
-    Sounds in Bordeaux a été mon projet majeur durant mes 2 années d'études à l'IUT et celui où j'ai réellement pu appronfondir l'étude de nos utilisateurs ainsi que leurs attentes en venant sur la plateforme."
-    role: "Designer UI<br>Développeuse front end"
+    Notre objectif premier était de favoriser la découverte d'événements et d'artistes par l'utilisateur ainsi que leur donner les informations recherchées le plus rapidement possible, tout en gardant un design sobre et minimaliste. Sur la page d'accueil, nous avons choisi de mettre en place deux sliders proposant directement des événements ou artistes. Les informations importantes des événements (lieu, prix et date) sont en bleu et en gras pour ressortir par rapport au reste du contenu.
+    <br><br>
+    Sounds in Bordeaux a été mon projet majeur durant mes 2 années d'études à l'IUT et celui où j'ai réellement pu approfondir l'étude de nos utilisateurs ainsi que leurs attentes en venant sur la plateforme."
+    role: "Designer UI<br>Développeuse front"
   en:
-    description: "This is a student initiave, aiming to make known techno artists and events in Bordeaux. User discovery was our first objective through this project.
+    description: "Sounds in Bordeaux is a student initiave, aiming to make known techno artists and events in Bordeaux.
+    <br><br>
+    Our main objective was to introduce our users to unknown artists and events in his own city, give him quickly the main info he's looking for and keep a minimalist and simple design. We put 2 sliders on our home page, each showing artists or events near of the user. The main info are bold and electric blue, our third color, so it stands out of all the content.
     <br><br>
     Sounds in Bordeaux was my main project during my last 2 years of studies and the first time I had the chance to study users needs and behavior."
-    role: "UI Designer <br>Front end developer"
+    role: "UI Designer<br>Front end developer"
+
+- name: "Mandat"
+  slug: "mandat"
+  number: "02"
+  date: "04/2017"
+  url: "offline"
+  nextProjectName: "Capsule"
+  nextProjectSlug: "capsule"
+  team: "[Joshua Richard](https://joshuarichard.com), Livy Bertrand, Galawesh Héril, [Elisa Mauger](https://www.elisamauger.com), Ambre Palanque, Paul Bonneau, Edouard Bérard."
+  primaryColor: "#57BFB4"
+  secondaryColor: "#fff"
+  fr:
+    description: "Mandat est un jeu simple où le joueur fait face à des décisions binaires. Chacune de ses décisions a des conséquences sur les trois jauges qu'il doit maintenir au-dessus de 0 pour ne pas perdre la partie. Ce jeu est le résultat d'un workshop de 5 jours, quelques mois avant le dernier tour des élections présidentielles. J'ai travaillé sur la création de l'identité graphique avec Joshua, puis je me suis occupé du design UX et UI de l'application web.
+    <br><br>
+    Pour l'identité visuelle, nous avons choisi de dériver les couleurs du drapeau français (bleu-vert, rouge-orangé et blanc) et deux fonts sans serif très arrondies pour correspondre au ton humoristique et bienveillant de Mandat.
+    <br><br>
+    Pour le design de l'interface, nous voulions rendre l'expérience utilisateur simple, concentrer son attention sur les décisions et les jauges à maintenir. Nous avons opté pour un fonctionnement tinder-like avec un système de 'swipe', l'interaction est simple et intuitive."
+    role: "Designer UX & UI"
+  en:
+    description: "Mandat is a Reigns like game. The player take the role of the french president and faces binary decisions. Each of them have different consequences on the 3 gauges he has to maintain above 0% to continue the game as far as he can.
+    <br><br>
+    I have worked on the brand identity with Joshua Richard and on the UX/UI design of the web app.
+    I have also helped to develop the game with the CSS framework Bootstrap."
+    role: "UX & UI Designer"
 
 - name: "Capsule"
   slug: "capsule"
-  number: "02"
+  number: "03"
+  date: "2017-2018"
   url: "https://www.capsule-bordeaux.fr"
-  nextProjectName: "Mandat"
-  nextProjectSlug: "mandat"
+  nextProjectName: "Frank Gehry"
+  nextProjectSlug: "frank-gehry"
   team: "[Joshua Richard](https://joshuarichard.com), [Bastien Robert](https://www.bastienrobert.fr)"
   primaryColor: "#4A95EC"
   secondaryColor: "#fcfcfc"
   fr:
-    description: "Capsule est un e-shop éphémère présentant chaque mois une séléction de produits d'un créateur bordelais.
+    description: "Capsule est un e-shop éphémère présentant chaque mois une sélection de produits d'un créateur bordelais.
     <br>Dans ce projet, j'étais en charge de l'UX et la bonne conduite du projet, du benchmark, à la création des personas jusqu'aux sprint backlog.
-    <br>Une fois que la cadre du projet était parfaitement établis, je me suis occupé de contacter les créateurs et les médias influents afin de produire le contenu du site et faire parler de lui."
+    <br><br>
+    Une fois que le cadre du projet était établi, je me suis occupé de contacter les créateurs et les médias influents afin de produire le contenu du site et commencer la communication sur les réseaux sociaux."
     role: "Designer UX
     <br>Chef de projet"
   en:
     description: "Capsule is an ephemeral e-shop, selling products made by creator from Bordeaux, during a month.
     <br>Here I worked as UX designer and project manager with Joshua Richard as art director and UI designer. Our main goal was to create an identity for Capsule, matching with the several creators’ identities.
-    <br>Once the benchmark, personas and wireframes were done, my role was to coordinate developer and creative. I also had to contact creators and manage the website content."
+    <br>Once the benchmark, personas and wireframes were done, my role was to coordinate developers and creatives. In the same time, I was in charge of the intern communication, find and contact creators to fill the website."
     role: "UX designer
     <br>Project manager"
-
-- name: "Mandat"
-  slug: "mandat"
-  number: "03"
-  url: "offline"
-  nextProjectName: "Frank Gehry"
-  nextProjectSlug: "frank-gehry"
-  team: "[Joshua Richard](https://joshuarichard.com), Livy Bertrand, Galawesh Héril, [Elisa Mauger](https://www.elisamauger.com), Ambre Palanque, Paul Bonneau, Edouard Bérard."
-  primaryColor: "#57BFB4"
-  secondaryColor: "#fff"
-  fr:
-    description: "Mandat est un jeu simple où le joueur fait face à des décisions binaires. Chacune de ses décisons a des conséquences sur les trois jauges qu'il doit maintenir au dessus de 0 pour ne pas perdre la partie.
-    <br><br>J'ai travaillé sur la création de l'identité du jeu et plus particulièrement sur le design UX/UI de l'application web.
-    J'ai également participé à l'intégration avec le framework CSS Bootstrap."
-    role: "Designer UX & UI"
-  en:
-    description: "Mandat is a Reigns like game. The player take the role of the french president and faces binary decisions. Each of them have different consequences on the 3 gauges he has to maintain above 0% to continue the game as far as he can.
-    <br><br>I have worked on the brand identity with Joshua Richard and on the UX/UI design of the web app.
-    I have also helped to develop the game with the CSS framework Bootstrap."
-    role: "UX & UI Designer"
 
 - name: "Frank Gehry"
   slug: "frank-gehry"
   number: "04"
+  date: "2016"
   url: "offline"
   nextProjectName: "HelloPass"
   nextProjectSlug: "hello-pass"
@@ -71,16 +83,17 @@
   secondaryColor: "#fff"
   fr:
     description: "Ce site présente la vie et les principaux travaux de l'architecte canado-américain Frank Gehry. C'est un one page simple avec une double navigation à la fois verticale et horizontale.
-    <br><br>D'un côté sont présentées ses oeuvres dans une mosaïque de photos, menant à une page avec plus de détails et quelques anecdotes. De l'autre, on trouve un résumé de sa vie, de ses influences et ses distinctions."
+    <br><br>D'un côté, sont présentées ses œuvres dans une mosaïque de photos, menant à une page avec plus de détails et quelques anecdotes. De l'autre, on trouve un résumé de sa vie, de ses influences et ses distinctions."
     role: "Designer UI/UX"
   en:
     description: "For a history of art class, I designed a simple website showing Frank Gehry's life and work.
-    <br><br>This one page has a double navigation, vertical and horizontal, to allow the visitor to swith between his life on the left, and his work on thr right. The work part is a mosaic of his buildings pictures, each leading to a more detailed page with the main infos and some anecdotes."
+    <br><br>This one page has a double navigation, vertical and horizontal, to allow the visitor to switch between his life on the left and his work on thr right. The work part is a mosaic of his buildings pictures, each leading to a more detailed page with the main info and some anecdotes."
     role: "UI/UX Designer"
 
 - name: "HelloPass"
   slug: "hello-pass"
   number: "05"
+  date: "2018"
   url: "offline"
   nextProjectName: "Sounds in Bordeaux"
   nextProjectSlug: "sounds-in-bordeaux"
@@ -88,12 +101,12 @@
   primaryColor: "#12E391"
   secondaryColor: "#fff"
   fr:
-    description: "HelloPass est une carte interactive solidaire à destination des réfugiés vivant ou souhaitant s'installer à Bordeaux. On y retrouve tous les lieux nécessaires à leur intégration en France, des soupes populaires aux instituttions officielles, en passant par les centres communautaires.
-    <br><br>Dans ce projet, je suis chargée du design UX et de la coordination. HelloPass est encore en cours de production et sera disponnible le 13 avril prochain."
+    description: "HelloPass est une carte interactive solidaire à destination des réfugiés vivant ou souhaitant s'installer à Bordeaux. On y retrouve tous les lieux nécessaires à leur intégration en France, des soupes populaires aux institutions officielles, en passant par les centres communautaires.
+    <br><br>Dans ce projet, je suis chargée du design UX et de la coordination. HelloPass est encore en cours de production et sera disponible le 13 avril prochain."
     role: "Chef de projet
     <br>Designer UX"
   en:
     description: "HelloPass is an integral online map for refugees living or moving Bordeaux. Our goal is to help them moving in and integrate more easily in the city by centralizing informations in a single place.
-    <br><br>Here I work as product owner and ux designer (benchmark, personas, wireframes, product & sprint backlog). The project has only started on march 1st and it will be avaible on april 13th."
+    <br><br>Here I work as product owner and ux designer (benchmark, personas, wireframes, product & sprint backlog). The project has only started on march 1st, and it will be available on april 13th."
     role: "Project manager
     <br>UX Designer"

@@ -43,7 +43,8 @@ html {
 * {
   box-sizing: border-box;
   &::selection {
-    color: #F9FF00;
+    background-color: pink;
+    color: black;
   }
 }
 

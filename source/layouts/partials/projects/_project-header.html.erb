@@ -8,12 +8,15 @@
       <p><%= project[locale.to_s].role %></p>
       <h3 class="small-title"><%= t('projects.labelTeam') %></h3>
       <p><%= markdown project.team %></p>
+      <h3 class="small-title">Date</h3>
+      <p><%= project.date %></p>
       <h3 class="small-title"><%= t('projects.labelUrl') %></h3>
       <% if project.url == "offline" %>
         <p class="offline">offline</p>
       <% else %>
         <a href="<%= project.url %>"><%= t('projects.seeSite') %></a>
       <% end %>
+
     </aside>
 
     <article class="project-desc">
