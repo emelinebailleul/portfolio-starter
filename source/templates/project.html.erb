@@ -12,7 +12,7 @@ dir:
 ---
 
 <main id="project" class="wrapper">
-  <%= partial 'layouts/partials/projects/project-header' %>
+  <%= partial 'partials/project-header' %>
 
   <!-- <%= project_image(project, 'main.png', {
     'class' => 'cover',
@@ -20,19 +20,19 @@ dir:
     }) %> -->
 
   <% if (current_page.data.slug == "capsule") %>
-    <%= partial 'layouts/partials/projects/video.html.erb' %>
+    <%= partial 'partials/video' %>
   <% end %>
 
   <% if (current_page.data.slug != "hello-pass") %>
-    <%= partial 'layouts/partials/projects/fluffy-slider.html.erb' %>
+    <%= partial 'partials/fluffy-slider' %>
   <% end %>
 
   <% if (current_page.data.slug == "mandat") %>
-    <%= partial 'layouts/partials/projects/phoneMockups.html.erb' %>
+    <%= partial 'partials/phoneMockups' %>
   <% end %>
 
 </main>
 
 <div class="safari-bug"></div>
 
-<%= partial 'layouts/partials/projects/btn-next.html.erb' %>
+<%= partial 'partials/btn-next' %>
