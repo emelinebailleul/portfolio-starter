@@ -36,45 +36,48 @@ fr:
     intro-3: "Vous pouvez voir [mon travail ici](/projets) et en savoir un peu plus sur [mon parcours là](/a-propos)."
 
   about:
-    intro: "Je suis Emeline Bailleul, étudiante en dernière année de DUT MMI à Bordeaux, spécialisée en design centré expérience utilisateur. Toujours à la recherche de nouveaux projets et problèmes à résoudre.
-    <br><br>Je recherche actuellement un stage de fin d'études à compter du 16 avril jusqu'en septembre dans le design UI/UX et la gestion de projet.
+    intro: "Je suis Emeline Bailleul, UX / UI designer à Keecker, spécialisée en design centré expérience utilisateur. Toujours à la recherche de nouveaux projets et problèmes à résoudre.
     <br><br>
     Vous pouvez me [contacter ici](mailto:hello@emelinebailleul.com) et voir [mon cv là](/images/static/cv-fr.pdf)."
 
     studies:
       h2: "Études"
-      h3-1: "2014/2016"
-      p-1: "Licence Langues Étrangères Appliquées
-      - Université de Bordeaux"
+      h3-1: "2018/2019"
+      p-1: "Concepteur Designer UX
+      - Campus Fonderie de l'Image"
       h3-2: "2016/2018"
       p-2: "DUT Métiers du Multimédia et de l’Internet
       - IUT Bordeaux Montaigne"
+      h3-3: "2014/2016"
+      p-3: "Licence Langues Étrangères Appliquées
+      - Université de Bordeaux"
 
     work:
-      h2: "Expérience"
-      h3-1: "06/2017 au 09/2017"
-      p-1: "Développeur front end à Disko
+      h2: "Expériences"
+      h3-1: "Poste actuel"
+      p-1: "UX/UI Designer à Keecker <br>
+      Tests utilisateurs, illustrations, dessins techniques, design UI mobile et web, réflexion et recommandation sur l’onboarding et l’expérience utilisateur globale."
+      h3-2: "06/2017 au 09/2017"
+      p-2: "Développeur Front End à Disko
       Clients: Hennessy, Schmidt, Roxim, Santander, Grandir."
-      h3-2: "01/2010"
-      p-2: "Graphiste print à BHB Communication Nice"
 
     skills:
       h2: "Compétences"
-      h3-1: "Logiciels"
-      p-1: "Sketch, Principle, Axure, Zeplin, InVision, Marvel, Suite adobe (Photoshop, Illustrator, After Effects, Première Pro), Final Cut Pro."
-      h3-2: "Développement web"
-      p-2: "HTML, CSS, Javascript, Github, SASS, Stylus, , jQuery, Bootstrap, Foundation, Gulp, Twig."
-      h3-3: "Méthodes"
-      p-3: "UX (persona, workflow, wireframes, user journey, etc), gestion de projet agile & scrum."
-      h3-4: "Langues"
-      p-4: "Français (langue maternelle), anglais (courant)."
+      h3-1: "Domaines"
+      p-1: "Design UI et UX, motion design, photographie, montage vidéo, illustration, branding, développement front."
+      h3-2: "Outils"
+      p-2: "Suite Adobe (Photoshop, Illustrator, InDesign, After Effects), Sketch, InVision App, Marvel, Zeplin, Principle, Github."
+      h3-3: "Langues"
+      p-3: "Français (langue maternelle), anglais (courant)."
 
     more:
       h2: "Divers"
-      h3-1: "2017 et 2018"
-      p-1: "Concours d’éloquence de l’IUT Bordeaux Montaigne."
-      h3-2: "09/2017"
-      p-2: "Captation vidéo de la conférence APM à Bordeaux."
+      h3-1: "Depuis 06/2018"
+      p-1: "Rédactrice web à Lofi, webzine sur la musique éléctronique."
+      h3-2: "2017 et 2018"
+      p-2: "Concours d’éloquence de l’IUT Bordeaux Montaigne."
+      h3-3: "09/2017"
+      p-3: "Captation vidéo de la conférence APM à Bordeaux."
 
   projects:
     h1: "Projets"

@@ -89,7 +89,7 @@
     }
 
     h1.project-name, h2.project-number {
-      width: calc((100%/6) * 4);
+      width: 100%;
       margin: auto;
     }
 
@@ -100,7 +100,7 @@
     section.main-infos {
       margin: auto;
       justify-content: space-between;
-      width: calc((100%/6) * 4);
+      width: 100%;
       display: flex;
     }
     .offline {

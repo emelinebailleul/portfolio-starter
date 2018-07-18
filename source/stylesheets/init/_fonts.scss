@@ -28,3 +28,13 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'HK Grotesk';
+    src: font-url('HKGrotesk/HKGrotesk-Light.eot');
+    src: font-url('HKGrotesk/HKGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+         font-url('HKGrotesk/HKGrotesk-Light.woff2') format('woff2'),
+         font-url('HKGrotesk/HKGrotesk-Light.woff') format('woff'),
+         font-url('HKGrotesk/HKGrotesk-Light.ttf') format('ttf');
+    font-weight: 100;
+    font-style: thin;
+}

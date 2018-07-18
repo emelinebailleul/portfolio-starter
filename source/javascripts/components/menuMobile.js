@@ -1,4 +1,5 @@
 class menuMobile {
+  
   constructor () {
     var button = document.getElementById('menu-btn');
     var menu = document.querySelector('[data-animate-auto]');
@@ -16,6 +17,7 @@ class menuMobile {
     	}
     }
   }
+
 }
 
 export default new menuMobile

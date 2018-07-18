@@ -42,14 +42,14 @@
       .article-title {
         margin-bottom: 10px;
         font-size: 2.25vh;
-        font-weight: bold;
+        font-weight: bold
       }
       article {
         margin-bottom: 25px;
       }
       p {
         font-size: 2.25vh;
-        font-weight: normal;
+        font-weight: thin;
       }
     }
     .cv-section.visible {
@@ -80,15 +80,13 @@
     }
     .cv-section {
       display: flex;
-      .section-title, article {
+      .section-title {
+        width: 100%;
+        margin-bottom: 25px;
+      }
+      article {
         width: calc(100% /3);
-      }
-      article:nth-child(even) {
         padding-right: 25px;
-      }
-      .third {
-        margin-left: calc(100% / 3);
-        margin-top: 25px;
       }
     }
   }
