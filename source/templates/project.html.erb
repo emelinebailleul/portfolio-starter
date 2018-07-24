@@ -14,11 +14,6 @@ dir:
 <main id="project" class="wrapper">
   <%= partial 'partials/project-header' %>
 
-  <!-- <%= project_image(project, 'main.png', {
-    'class' => 'cover',
-    'async' => true
-    }) %> -->
-
   <% if (current_page.data.slug == "capsule") %>
     <%= partial 'partials/video' %>
   <% end %>
