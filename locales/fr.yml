@@ -38,19 +38,19 @@ fr:
   about:
     intro: "Je suis Emeline Bailleul, futur étudiante au Campus Fonderie de l'Image en UX design. Je suis à la recherche d'un contrat d'apprentissage de 1 an à compter de fin septembre début octobre.
     <br><br>
-    Vous pouvez me [contacter ici](mailto:hello@emelinebailleul.com), voir [mon cv là](/images/static/cv-fr.pdf) et télécharger [mon book ici](/images/static/book-fr.pdf)."
+    Vous pouvez me [contacter ici](mailto:hello@emelinebailleul.com) et voir [mon cv là](/images/static/cv-fr.pdf)."
 
     studies:
       h2: "Études"
       h3-1: "2018/2019"
-      p-1: "Concepteur Designer UX
-      - Campus Fonderie de l'Image"
+      p-1: "L3 Concepteur Designer UX - Campus Fonderie de l'Image"
+      s-1: "Recherche et conception graphique, méthodologie de l’User Centered Design, gestion de projet, design de support de communication visuelle."
       h3-2: "2016/2018"
-      p-2: "DUT Métiers du Multimédia et de l’Internet
-      - IUT Bordeaux Montaigne"
+      p-2: "DUT Métiers du Multimédia et de l’Internet - IUT Bordeaux Montaigne"
+      s-2: "Design UI/UX, développement web et mobile, communication, gestion de projet agile et marketing."
       h3-3: "2014/2016"
-      p-3: "Licence Langues Étrangères Appliquées
-      - Université de Bordeaux"
+      p-3: "Licence Langues Étrangères Appliquées - Université de Bordeaux"
+      s-3: "Anglais, russe, cultures étrangères, droit, management et communication."
 
     work:
       h2: "Expériences"

@@ -11,9 +11,11 @@
     <li class="menu-item"></li>
     <li class="menu-item contact"><a href="mailto:hello@emelinebailleul.com"><%= t('titles.contact') %></a></li>
     <% if locale == :fr %>
-        <li class="menu-item lang" id="linkTo-en"><%= link_translate(:en)  %></li>
+        <li class="menu-item lang" id="linkTo-en"><%= link_translate(:fr)%>
+        <p id="nonactive"><%= link_translate(:en)%></p></li>
       <% else %>
-        <li class="menu-item lang" id="linkTo-fr"><%= link_translate(:fr) %></li>
+        <li class="menu-item lang" id="linkTo-fr"><p id="nonactive"><%= link_translate(:fr)%></p>
+        <%= link_translate(:en)%></li>
     <% end %>
   </ul>
 

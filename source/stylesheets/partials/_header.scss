@@ -73,6 +73,11 @@ header {
       }
       &-item.lang {
         text-transform: uppercase;
+        display: inline;
+        p#nonactive {
+          opacity: .5;
+          display: inline;
+        }
       }
     }
     .menu-btn {

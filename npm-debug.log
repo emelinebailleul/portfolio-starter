@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'start:assets' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 verbose run-script [ 'prestart:assets', 'start:assets', 'poststart:assets' ]
+5 info lifecycle portfolio@1.0.0~prestart:assets: portfolio@1.0.0
+6 silly lifecycle portfolio@1.0.0~prestart:assets: no script for prestart:assets, continuing
+7 info lifecycle portfolio@1.0.0~start:assets: portfolio@1.0.0
+8 verbose lifecycle portfolio@1.0.0~start:assets: unsafe-perm in lifecycle true
+9 verbose lifecycle portfolio@1.0.0~start:assets: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/kremlin/Sites/emelinebailleul.com-v2/portfolio-starter/node_modules/.bin:/Users/kremlin/.rvm/gems/ruby-2.3.1/bin:/Users/kremlin/.rvm/gems/ruby-2.3.1@global/bin:/Users/kremlin/.rvm/rubies/ruby-2.3.1/bin:/Users/kremlin/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+10 verbose lifecycle portfolio@1.0.0~start:assets: CWD: /Users/kremlin/Sites/emelinebailleul.com-v2/portfolio-starter
+11 silly lifecycle portfolio@1.0.0~start:assets: Args: [ '-c',
+11 silly lifecycle   'NODE_ENV=development webpack --watch --config webpack.dev.config.js' ]
+12 verbose stack Error: write EPIPE
+12 verbose stack     at exports._errnoException (util.js:1022:11)
+12 verbose stack     at WriteWrap.afterWrite (net.js:801:14)
+13 verbose cwd /Users/kremlin/Sites/emelinebailleul.com-v2/portfolio-starter
+14 error Darwin 17.6.0
+15 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "start:assets"
+16 error node v6.9.2
+17 error npm  v3.10.9
+18 error code EPIPE
+19 error errno EPIPE
+20 error syscall write
+21 error write EPIPE
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
