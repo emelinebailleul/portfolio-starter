@@ -37,13 +37,13 @@
   fr:
     description: "Hellopass est une carte interactive en ligne, réunissant tous les lieux, associations, organismes et collectifs capables d’aider et soutenir l’installation des migrants à Bordeaux.
     Ce projet s’est déroulé en deux temps, 3 jours de conception puis quelques semaines plus tard, 5 jours de réalisation. J’étais cheffe de projet avec un autre étudiant pour une équipe de 15. Je me suis également occupé du design UX en amont des 5 jours de réalisation.
-    <br><br>Durant la conception et la réalisation du projet, plusieurs problèmes nous sont apparus. Tout d’abord, il nous fallait comprendre des utilisateurs à la situation et culture très différente de la notre et dont toute les informations dis- ponibles publiquement sont souvent basées à partir de clichés.
+    <br><br>Durant la conception et la réalisation du projet, plusieurs problèmes nous sont apparus. Tout d’abord, il nous fallait comprendre des utilisateurs à la situation et culture très différente de la notre et dont toute les informations disponibles publiquement sont souvent basées à partir de clichés.
     Ensuite il nous fallait déterminé comment afficher toutes ces informations sur une seule carte et faciliter la recherche et la navigation afin de proposer une solution aux problèmes de nos utilisateurs."
     role: "Chef de projet
     <br>Design UX/UI"
   en:
-    description: "HelloPass is an integral online map for refugees living or moving Bordeaux. Our goal is to help them moving in and integrate more easily in the city by centralizing informations in a single place.
-    <br><br>Here I work as product owner and ux designer (benchmark, personas, wireframes, product & sprint backlog). The project has only started on march 1st, and it will be available on april 13th."
+    description: "HelloPass is an integral online map for refugees living or moving Bordeaux. Our goal is to help them moving in and integrate more easily in the city by centralizing informations in a single plateform.
+    <br><br>This school project happened into 2 "
     problem: ""
     role: "Project manager
     <br>UX/UI Design"
