@@ -8,10 +8,8 @@ class isInViewport {
         distance.left >= 0 &&
         distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
         distance.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-      };
-
-
+        )
+      }
 
     window.onload = function() {
       var elems = document.querySelectorAll('[data-animate-auto]')

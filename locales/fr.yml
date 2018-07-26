@@ -82,9 +82,9 @@ fr:
   projects:
     h1: "Projets"
     next: "Projet suivant"
-    labelUrl: "Site web"
-    labelTeam: "Équipe"
-    seeSite: "Voir le site"
+    titleTeam: "Équipe et rôle"
+    titleConcept: "Concept"
+    titleProblem: "Problème"
 
   footer:
-    p: Imaginé et développé par mes soins,<br> avec le starter de [Bastien Robert](https://github.com/bastienrobert/portfolio-starter).
+    p: "Imaginé et développé par mes soins,<br> avec le starter de [Bastien Robert](https://github.com/bastienrobert/portfolio-starter)."

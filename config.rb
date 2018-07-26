@@ -9,7 +9,7 @@ end
 # Pretty URLs
 activate :directory_indexes
 # Localization
-activate :i18n, :mount_at_root => :fr
+activate :i18n, :mount_at_root => :en
 # Middleman i18n can't convert page URL to another language. This is the solution.
 activate :transpath do |t|
   t.label = {

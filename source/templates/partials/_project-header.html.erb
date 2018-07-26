@@ -4,23 +4,17 @@
 
   <section class="main-infos"  data-animate-auto>
     <aside>
-      <h3 class="small-title">Role</h3>
+      <h3 class="small-title"><%= t('projects.titleConcept') %></h3>
       <p><%= project[locale.to_s].role %></p>
-      <h3 class="small-title"><%= t('projects.labelTeam') %></h3>
-      <p><%= markdown project.team %></p>
-      <h3 class="small-title">Date</h3>
-      <p><%= project.date %></p>
-      <h3 class="small-title"><%= t('projects.labelUrl') %></h3>
-      <% if project.url == "offline" %>
-        <p class="offline">offline</p>
-      <% else %>
-        <a href="<%= project.url %>"><%= t('projects.seeSite') %></a>
-      <% end %>
+      <h3 class="small-title"><%= t('projects.titleTeam') %></h3>
+      <p><%= project.team %></p>
+      <h3 class="small-title"><%= t('projects.titleProblem') %></h3>
+      <p><%= project.problem %></p>
 
     </aside>
 
     <article class="project-desc">
-      <p><%= project[locale.to_s].description %></p>
+      <p><%= project[locale.to_s].concept %></p>
     </article>
   </section>
 

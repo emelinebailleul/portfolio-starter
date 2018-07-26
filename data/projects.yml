@@ -13,7 +13,8 @@
     Pour ce projet, nous étions une équipe de 6 étudiants. J’étais en charge du développement front et du design UX/UI de la refont du projet.
     <br><br>Suite à la sortie de la première version du site, nous avons mis en place un formulaire sur la plateforme et sur les réseaux sociaux. Notre but étant de récolter des retours utilisateurs sur la plateforme et connaître les fonctionnalités les plus utilisées.
     Les données ont révélées plusieurs problèmes dans la navigation, les performances et ont mis en lumière les fonctionnalités qui attiraient nos utilisateurs. C’est sur cette base que nous avons démarré la refont du site web."
-    role: "Design UX/UI<br>Développement front"
+    role: "Design UX/UI
+    <br>Développement front"
   en:
     description: "Sounds in Bordeaux is a student initiave, aiming to make known techno artists and events in Bordeaux.
     <br><br>
@@ -21,7 +22,8 @@
     <br><br>
     Sounds in Bordeaux was my main project during my last 2 years of studies and the first time I had the chance to study users needs and behavior."
     problem: ""
-    role: "UX/UI Design<br>Front end development"
+    role: "UX/UI Design
+    <br>Front end development"
 
 
 - name: "HelloPass"
@@ -45,9 +47,8 @@
     description: "HelloPass is an integral online map for refugees living or moving Bordeaux. Our goal is to help them moving in and integrate more easily in the city by centralizing informations in a single plateform.
     <br><br>This school project happened into 2 "
     problem: ""
-    role: "Project manager
-    <br>UX/UI Design"
-
+    role: "Project management
+    <br>UX/UI design"
 
 - name: "Mandat"
   slug: "mandat"
@@ -63,14 +64,16 @@
     description: "Mandat est un jeu simple où le joueur incarne le président français et fait face à des choix binaires. Chaque décisions a ses conséquences et le but est d’effetcuer le mandat le plus long.
     Ce projet est le résultat d’un workshop de 5 jours. Dans une équipe de 8 étudiants, j’étais en charge du branding et du design de la web app avec Joshua Richard.
     <br><br>Nous avons créé ce jeu à quelques semaines du dernier tour des élections présidentielles de 2017. Nous devions donc créer une image de marque neutre et sans polémique. Nous avons ensuite travaillé sur le design du site, l’objectif étant de créer une interface interactive mais pas trop complexe à développer car nous étions très limité dans le temps."
-    role: "Brand & UI Designer"
+    role: "Branding
+    <br>Design UI"
   en:
     description: "Mandat is a Reigns like game. The player take the role of the french president and faces binary decisions. Each of them have different consequences on the 3 gauges he has to maintain above 0% to continue the game as far as he can.
     <br><br>
     I have worked on the brand identity with Joshua Richard and on the UX/UI design of the web app.
     I have also helped to develop the game with the CSS framework Bootstrap."
     problem: ""
-    role: "Brand & UI Designer"
+    role: "Branding
+    <br>UI Design"
 
 - name: "Capsule"
   slug: "capsule"
@@ -88,12 +91,12 @@
     <br><br>
     Une fois que le cadre du projet était établi, je me suis occupé de contacter les créateurs et les médias influents afin de produire le contenu du site et commencer la communication sur les réseaux sociaux."
     problem: ""
-    role: "Designer UX
+    role: "Design UX
     <br>Chef de projet"
   en:
     description: "Capsule is an ephemeral e-shop, selling products made by creator from Bordeaux, during a month.
     <br>Here I worked as UX designer and project manager with Joshua Richard as art director and UI designer. Our main goal was to create an identity for Capsule, matching with the several creators’ identities.
     <br>Once the benchmark, personas and wireframes were done, my role was to coordinate developers and creatives. In the same time, I was in charge of the intern communication, find and contact creators to fill the website."
     problem: ""
-    role: "UX designer
-    <br>Project manager"
+    role: "UX design
+    <br>Project management"

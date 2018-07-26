@@ -12,19 +12,21 @@ dir:
 ---
 
 <main id="project" class="wrapper">
-  <%= partial 'partials/project-header' %>
-
+  <!-- <%= partial 'partials/project-header' %> -->
+<!-- 
   <% if (current_page.data.slug == "capsule") %>
     <%= partial 'partials/video' %>
   <% end %>
 
-  <% if (current_page.data.slug != "hello-pass") %>
-    <%= partial 'partials/fluffy-slider' %>
+  <% if (current_page.data.slug == "soundsinbordeaux") %>
+    <%= partial 'partials/numbers' %>
   <% end %>
+
+  <%= partial 'partials/fluffy-slider' %>
 
   <% if (current_page.data.slug == "mandat") %>
     <%= partial 'partials/phoneMockups' %>
-  <% end %>
+  <% end %> -->
 
 </main>
 
