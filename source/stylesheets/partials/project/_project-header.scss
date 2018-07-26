@@ -1,9 +1,9 @@
 @include breakpoint(tablet) {
-  aside {
-    width: calc((100% / 6)*2);
-  }
-  .project-desc {
-    width: calc((1024px /6)*3);
+  // aside {
+  //   width: calc((100% / 6)*2);
+  // }
+  .project-info {
+    width: 1024px;
   }
 }
 
@@ -45,48 +45,56 @@
     color: #fff;
   }
 
-  .project-desc {
-    font-size: 2.25vh;
-    font-weight: normal;
-    p {
-      line-height: 2;
-      color: #fff;
-      opacity: 0;
-      transform: translateY(50%);
-      transition: opacity 1s cubic-bezier(.43,.01,.25,1);
-      transition-delay: 1.5s;
-    }
-  }
-
-  .small-title {
-    font-weight: bold;
-    font-size: 2.75vh;
-    margin-bottom: 10px;
-    color: #fff;
-    opacity: 0;
-    transform: translateY(80%);
-    transition: .25s cubic-bezier(.43,.01,.25,1);
-    transition-delay: 1.2s;
-  }
-
-  aside {
-    margin-bottom: 25px;
-  }
-
-  aside p, aside a {
-    margin-bottom: 25px;
-    color: #fff;
+  article.project-info {
     opacity: 0;
     transform: translateY(50%);
     transition: .5s cubic-bezier(.43,.01,.25,1);
+    h3 {
+      width: 25%;
+    }
+    p {
+      width: 70%;
+      font-size: 2.25vh;
+      line-height: 2;
+      color: #fff;
+      font-weight: 100;
+      margin-bottom: 1em;
+    }
+  }
+  article.project-info.concept {
+    transition-delay: 1s;
+  }
+  article.project-info.team {
     transition-delay: 1.25s;
   }
+  article.project-info.problem {
+    transition-delay: 1.5s;
+  }
+  .small-title {
+    font-weight: bold;
+    font-size: 3.25vh;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  // aside {
+  //   margin-bottom: 25px;
+  // }
+  //
+  // aside p, aside a {
+  //   margin-bottom: 25px;
+  //   color: #fff;
+  //   opacity: 0;
+  //   transform: translateY(50%);
+  //   transition: .5s cubic-bezier(.43,.01,.25,1);
+  //   transition-delay: 1.25s;
+  // }
 
   @include breakpoint(tablet) {
     padding: 50px 7vh 150px 7vh;
-    aside {
-      padding-right: 50px;
-    }
+    // aside {
+    //   padding-right: 50px;
+    // }
 
     h1.project-name, h2.project-number {
       width: 100%;
@@ -99,9 +107,7 @@
 
     section.main-infos {
       margin: auto;
-      justify-content: space-between;
       width: 100%;
-      display: flex;
     }
     .offline {
       opacity: 0;
@@ -115,7 +121,7 @@
 }
 
 .project-header.visible {
-  .project-number, h1.project-name, .project-desc p, .small-title, aside p, aside a {
+  .project-number, h1.project-name, article.project-info {
     transform: translateY(0);
     opacity: 1;
   }
@@ -124,5 +130,14 @@
   }
   .project-number:before {
     width: 45px;
+  }
+}
+
+@include breakpoint(laptop) {
+  article.project-info {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
   }
 }

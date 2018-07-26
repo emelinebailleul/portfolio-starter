@@ -54,7 +54,7 @@ fr:
 
     work:
       h2: "Expériences"
-      h3-1: "Poste actuel"
+      h3-1: "04/2018 au 09/2018"
       p-1: "Product Designer à [Keecker](http://keecker.com)"
       s-1: "Tests utilisateurs, illustrations, dessins techniques, design UI mobile et web, réflexion et recommandation sur l’onboarding et l’expérience utilisateur globale."
       h3-2: "06/2017 au 09/2017"
@@ -82,9 +82,8 @@ fr:
   projects:
     h1: "Projets"
     next: "Projet suivant"
-    labelUrl: "Site web"
-    labelTeam: "Équipe"
-    seeSite: "Voir le site"
+    labelTeam: "Équipe et rôle"
+    labelProblem: "Problème"
 
   footer:
     p: Imaginé et développé par mes soins,<br> avec le starter de [Bastien Robert](https://github.com/bastienrobert/portfolio-starter).

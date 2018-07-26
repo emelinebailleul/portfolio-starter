@@ -78,9 +78,8 @@ en:
   projects:
     h1: "Projects"
     next: "Next project"
-    labelUrl: "Web site"
-    labelTeam: "Team"
-    seeSite: "See the website"
+    labelTeam: "Team & role"
+    labelProblem: "Problem"
 
   footer:
     p: Designed and developped by me,<br> with [Bastien's starter](https://github.com/bastienrobert/portfolio-starter).
