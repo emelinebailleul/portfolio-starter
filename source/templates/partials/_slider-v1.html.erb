@@ -1,8 +1,10 @@
-<div data-fluffy-container data-fluffy-options='{"mousePadding": 100}'>
-  <h2>Version</h2>
-  <div data-fluffy-content style="background-color: <%= project.secondaryColor %>;">
-    <%= project_image(project, 'v1-1.jpg') %>
-    <%= project_image(project, 'v1-2.jpg') %>
-    <%= project_image(project, 'v1-3.jpg') %>
+<section id="sliderV1">
+  <h2><%= project[locale.to_s].titleSlider %></h2>
+  <div data-fluffy-container data-fluffy-options='{"mousePadding": 100}'>
+    <div data-fluffy-content>
+      <%= project_image(project, 'v1-1.jpg') %>
+      <%= project_image(project, 'v1-2.jpg') %>
+      <%= project_image(project, 'v1-3.jpg') %>
+    </div>
   </div>
-</div>
+</section>

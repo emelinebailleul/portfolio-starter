@@ -8,30 +8,32 @@
   primaryColor: "#304ffe"
   secondaryColor: "#FAFAFA"
   fr:
-    description: "Sounds in Bordeaux est une plateforme recensant les événements et artistes bordelais et électro."
-    team: "Pour ce projet, nous étions une équipe de 6 étudiants. J’étais en charge du design de la nouvelle version ainsi que de l’intégration des maquettes."
+    description: "Sounds in Bordeaux est une plateforme recensant les événements et artistes électro bordelais."
+    team: "Pour ce projet, nous étions une équipe de 6 étudiants. J'étais en charge du développement front de la première version du site, puis de design et l'intégration de la deuxième version que je présente ici."
     problem: "Suite à la sortie de la première version du site, nous avons mis en place un formulaire sur la plateforme et sur les réseaux sociaux. Notre but étant de récolter des retours utilisateurs sur la plateforme et connaître les fonctionnalités les plus utilisées.<br>
     Les données ont révélées plusieurs problèmes dans la navigation, les performances et ont mis en lumière les fonctionnalités qui attiraient nos utilisateurs. C’est sur cette base que nous avons démarré la refont du site web."
     role: "Design UX/UI
     <br>Développement front"
+    titleSlider: "Maquettes de la V1"
     pb_title: "Observations, problèmes & opportunités"
     pb1_number: "67%"
-    pb1_text: "des intérrogés ont mentionné des difficultés à naviguer dans le site"
+    pb1_text: "des interrogés ont mentionné des difficultés à naviguer dans le site"
     pb2_number: "73%"
-    pb2_text: "des intérrogés visitent la page 'Best Of The Week' en premier"
+    pb2_text: "des interrogés visitent la page 'Best Of The Week' en premier"
     pb3_number: "80%"
-    pb3_text: "des intérrogés visitent le site à la recherche d’événements"
+    pb3_text: "des interrogés visitent le site à la recherche d’événements"
     solution1_title: "Page d'accueil"
     solution1_text: "J’ai entièrement retravaillé la home page en gardant comme premier élément la section 'Cette semaine' qui, d'après les résultats du formulaire, amenait une bonne partie des utilisateurs à prolonger leur visite sur la plateforme. J'ai ensuite placé un bloc pour rappeler l'objectif du site et deux sliders proposant des événements ou des artistes locaux pour amener l'utilisateurs à approfondir sa visite sur le site et trouver du contenur capable de l'intéresser."
     solution2_title: "Simplification de la navigation"
     solution2_text: "Dans cette nouvelle version, j’ai abandonné la side bar pour préférer un menu burger sur mobile et desktop. Cela m’a permis de gagner du temps de développement et cela reste en accord avec les résultats du formulaire montrant que la majorité de nos utilisateurs naviguent sur mobile."
     solution3_title: "Faciliter la recherche d'événements"
-    solution3_text: "Le formulaire nous a révélé qu'une grande partie de nos utilisateurs visite le site à la recherche d'événements. La première version avait été conçu saus aucun système de recherche alors que le site présentait environ trente à quarante événements simultanément. Dans cette nouvelle version, j'ai pensé un système de tri grâce à4 filtre, le genre musical, la date, le lieu et le prix de l'événement."
+    solution3_text: "Le formulaire nous a révélé qu'une grande partie de nos utilisateurs visite le site à la recherche d'événements. La première version avait été conçu saus aucun système de recherche alors que le site présentait environ trente à quarante événements simultanément. Dans cette nouvelle version, j'ai pensé un système de tri grâce à 4 filtres: le genre musical, la date, le lieu et le prix de l'événement."
   en:
     description: "Sounds in Bordeaux est une plateforme recensant les événements et artistes bordelais et électro."
     team: "For this project, we wera 6 first year students. I was in charge of the website design and the front end development."
     problem: "After the release of the first version, we have decided to place a form to get some users' feedbacks about their experience on our website. Our goal was to know more about our users' goals, the problems they may have encountered and which device they use the most to go on our plateform. These responses guided the refont of the entire website."
     role: "UX/UI Design<br>Front end development"
+    titleSlider: "Design of the fist version by another student"
     pb_title: "Observations, problems & opportunities"
     pb1_number: "67%"
     pb1_text: "of interviewed people declared being lost in the web site"
@@ -39,12 +41,12 @@
     pb2_text: "of interviewed people first visited 'Best Of The Week' page"
     pb3_number: "80%"
     pb3_text: "of interviewed people declared visiting the website to find events"
-    solution1_title: "Homepage"
+    solution1_title: "Home page"
     solution1_text: "I have entirely redesigned the home page but I have kept the 'Event of the week' section which seems to be popular thanks to the form. I added two slider showing events and artists so users have quick access to interesting content."
     solution2_title: "Mobile first"
     solution2_text: "Dans cette nouvelle version, j’ai abandonné la side bar pour préférer un menu burger sur mobile et desktop. Cela m’a permis de gagner du temps de développement et cela reste en accord avec les résultats du formulaire montrant que la majorité de nos utilisateurs naviguent sur mobile."
     solution3_title: "Develop event feature"
-    solution3_text: "Pour améliorer la recherche d’événements sur la plateforme, j’ai mis en place un système de filtre par genre musical, lieu, date et prix. Notre cible principale étant étudiante, ces filtres leur permettent de trouver des événements gratuits autour d’eux, à la date qui leur convient et accélère la recherche."
+    solution3_text: "To help users find events which may interest them, I have imagined a search system with 4 filter : place, music style, price and date."
 
 - name: "HelloPass"
   slug: "hellopass"
@@ -56,19 +58,24 @@
   secondaryColor: "#fff"
   fr:
     description: "Hellopass est une carte interactive en ligne réunissant tous les lieux, associations, organismes et collectifs capable d’aider et soutenir l’installation d’un migrant à Bordeaux."
-    team: "Ce projet est le résultat d’un workshop de 5 jours. Dans une équipe de 8 étudiants, j’étais en charge du branding et du design de la web app."
-    problem: "Durant la conception et la réalisation du projet, plusieurs problèmes nous sont apparus. Tout d’abord, il nous fallait comprendre des utilisateurs à la situation et culture très différente de la notre et dont toute les informations disponibles publiquement sont souvent basées à partir de clichés.
-    Ensuite il nous fallait déterminé comment afficher toutes ces informations sur une seule carte et faciliter la recherche et la navigation afin de proposer une solution aux problèmes de nos utilisateurs."
+    team: "Ce projet s'est passé en deux temps, il y a d'abord eu trois jours de conception pour trouver l'idée et définir nos objectifs, puis quelques semaines plus tard, cinq jours de réalisation."
+    problem: "Durant la conception et la réalisation du projet, plusieurs problèmes nous sont apparus. Avant de commencer à maquetter, j'ai démarré des recherches sur nos futurs utilisateurs. Les sources d'informations étant très pauvres ou trop anciennes, j'ai décidé de discuter avec les personnes en contact direct avec des migrants à Bordeaux. Une fois les informations collectées, j'ai élaboré deux personas qui m'ont aidé à comprendre et cerner un peu mieux les utilisateurs.
+    Une fois cela fait, je me suis penché sur le design de l'interface web et principalement le système de tri des lieux. Nous avions déjà listé une quarantaine de lieux dans la ville, il fallait donc trouver un système de recherche adapté."
     role: "Chef de projet
     <br>Design UX/UI"
+    solution1_title: "Personas"
+    solution1_text: "Pour la conception des personas, je me suis basée sur deux personnes réelles. Tout deux partagent un but commun, s’installer et retrouver une vie normale à Bordeaux. Mais leurs besoins sont complètement différents, par exemple Calvin est arrivé seul et a besoin d’un logement alors que Aya est hébergée chez une amie avec ses deux enfants. Ces personas m’ont aidé à cerner des besoins auxquels nous n’avions pas pensé au début du projet."
+    solution3_title: "Système de recherche"
+    solution3_text: "Afin de fournir les informations nécessaires et recherchées par nos utilisateurs, j’ai imaginé un système de tri des lieux par besoin. Chaque lieux répondaient à plusieurs besoins, il était donc impossible de les classer et trier par catégorie fermée. La recher par besoin, accessible via un Call To Action bleu, permet à nos utilisateurs de faire une recherche rapide en fonction de leur besoin."
+    solution2_title: "Accès rapide"
+    solution2_text: "Pour les pages d’informations sur les lieux, le but était de donner accès à un condensé d’explication sur leurs actions et leurs disponibilités. Cette page contient donc une courte description, les horaires du lieu, l’adresse exacte et deux Call To Action. Le premier, si l’utilisateur est sur mobile, permet de contacter l’association par téléphone. Le second mène vers le site web qui peut contenir plus d’informations ou indications que notre plateforme."
   en:
-    team: "This project was divided into two period. First, three days to find the idea and define the scope and objectives, then five days to design ans develop the plateform."
+    team: "This project was divided into two time period. First, three days to find the idea and define the scope and objectives, then five days to design ans develop the plateform."
     description: "HelloPass is an integral online map for refugees living or moving Bordeaux. Our goal is to help them moving in and integrate more easily in the city by centralizing informations in a single plateform."
     problem: "During the first part of the project, a few problems started to appear. First, we had to understand users with differents cultures and needs far from our own. It was very difficult to find valid data and hard for me to trying to figure out how to give the right informations in the right way.
     Then we had to determine how to give them the right informations easily and quickly."
     role: "Project manager
     <br>UX/UI Design"
-
 
 - name: "Mandat"
   slug: "mandat"
@@ -83,13 +90,15 @@
     description: "Mandat est un jeu simple où le joueur incarne le président français et fait face à des choix binaires. Chaque décisions a ses conséquences et le but est d’effetcuer le mandat le plus long."
     problem: "Nous avons créer ce jeu à quelques semaines du dernier tour des élections présidentielles de 2017. Je me suis avant tout occuppé de l’identité graphique du jeu avec Joshua.
     Nous avons ensuite travaillé sur le design du site, l’objectif étant de créer une interface interactive mais pas trop complexe à développer car nous étions très limité dans le temps."
-    role: "Brand & UI Designer"
+    role: "Branding
+    <br>UI Designer"
   en:
     description: "Mandat is a Reigns like game. The player take the role of the french president and faces binary decisions. Each of them have different consequences on the 3 gauges he has to maintain above 0% to continue the game as far as he can."
     team: "I have worked on the brand identity with Joshua Richard and on the UX/UI design of the web app. I have also helped to develop the game with the CSS framework Bootstrap. We had 5 days to design and develop the game."
     problem: "This project happened a few weeks before the second round of french presidential elections in 2017. I have worked on the branding of the game with (Joshua)[http://www.joshua-richard.fr].
     Then I was on the UI design, the objective was to create an interactive interface but not too complexe so developers could integrate it in a day or two to respect the short deadline."
-    role: "Brand & UI Designer"
+    role: "Branding
+    <br>UI Designer"
 
 - name: "Capsule"
   slug: "capsule"
@@ -100,15 +109,15 @@
   primaryColor: "#4A95EC"
   secondaryColor: "#fcfcfc"
   fr:
-    description: "Dans ce projet nous étions 3 étudiants, j'étais en charge de l'UX et la bonne conduite du projet, du benchmark, à la création des personas jusqu'aux sprint backlog."
-    team: "Capsule est un e-shop éphémère présentant chaque mois une sélection de produits d'un créateur bordelais."
-    problem: "Nous avons créer ce jeu à quelques semaines du dernier tour des élections présidentielles de 2017. Je me suis avant tout occuppé de l’identité graphique du jeu avec Joshua. Nous avons ensuite travaillé sur le design du site, l’objectif étant de créer une interface interactive mais pas trop complexe à développer car nous étions très limité dans le temps.
-    <br>Une fois que le cadre du projet était établi, je me suis occupé de contacter les créateurs et les médias influents afin de produire le contenu du site et commencer la communication sur les réseaux sociaux."
+    description: "Capsule est un e-shop éphémère présentant chaque mois une sélection de produits d'un créateur bordelais."
+    team: "Dans ce projet nous étions 3 étudiants, j'étais en charge de l'UX et la bonne conduite du projet, du benchmark, à la création des personas jusqu'aux sprint backlog."
+    problem: "Je n'ai pas participé à la création de l'identité graphique ou le design UI dans ce site. J'ai fourni un site map, des wireframe simples, ainsi que les textes pour chaque pages du site afin que le designer UI créé l'interface final avec un story telling travaillé.
+    <br>Après cela, je me suis occupé de contacter les créateurs, les médias influents et commencer la communication sur les réseaux sociaux."
     role: "Designer UX
     <br>Chef de projet"
   en:
     description: "Capsule is an ephemeral e-shop, selling products made by creator from Bordeaux, during a month."
-    team: "Here I worked as UX designer and project manager with Joshua Richard as art director and UI designer."
+    team: "Here I worked as UX designer and project manager with two other students, one as art director and one developer."
     problem: "Our main goal was to create an identity matching with the several creators’ identities.
     <br>Once the benchmark, personas and wireframes were done, my role was to coordinate the developer and the creative. In the same time, I was in charge of the intern communication, find and contact creators to promote on the website."
     role: "UX designer

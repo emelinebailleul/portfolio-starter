@@ -29,12 +29,12 @@ en:
   # Page translations
   # ------------------
   homepage:
-    intro-1: "<strong>Nice to e-meet you!</strong> I’m Emeline, UX design student, currently working at [Keecker](http://keecker.com) as product design intern."
+    intro-1: "<strong>Nice to e-meet you!</strong> I’m Emeline, UX design student, currently working at [Keecker](http://keecker.com) as UX/UI design intern."
     intro-2: "Aesthetic is as much important as usability in my work, I love and always try to combine harmony and efficiency to create a simple, intuitive and pleasant user experience."
     intro-3: "You can check [my work here](/en/projects) and learn more [about me here](/en/about)."
 
   about:
-    intro: "I’m Emeline Bailleul, french product design intern at Keecker in Paris, specialised in user experience design with some skills in front end development. I'm looking for a 1-year apprenticeship contract starting last week of september in Paris.
+    intro: "I’m Emeline Bailleul, UX/UI design intern at Keecker in Paris, with some skills in front end development. I'm looking for a 1-year apprenticeship contract in user centered design, starting last week of september in Paris.
     <br><br>Feel free to [email me here](mailto:hello@emelinebailleul.com) & download [my resume here](/images/static/cv-en.pdf)."
     studies:
       h2: "Studies"
