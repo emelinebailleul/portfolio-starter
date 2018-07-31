@@ -2,14 +2,11 @@
   // aside {
   //   width: calc((100% / 6)*2);
   // }
-  .project-info {
-    width: 1024px;
-  }
 }
 
 .project-header {
   color: #fff;
-  max-width: calc(1024px + 7vh);
+  max-width: calc(1000px + 7vh);
   padding: 50px 7vh 50px 7vh;
   margin: auto;
   min-height: 100vh;
@@ -55,10 +52,11 @@
     p {
       width: 70%;
       font-size: 2.25vh;
-      line-height: 2;
+      line-height: 1.5;
       color: #fff;
       font-weight: 100;
       margin-bottom: 1em;
+      text-align: justify;
     }
   }
   article.project-info.concept {

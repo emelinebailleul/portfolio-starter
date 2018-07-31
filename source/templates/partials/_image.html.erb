@@ -1,0 +1,23 @@
+<section id="solutions">
+  <article class="first">
+    <%= project_image(project, 'wf-hp-sib.png', data: { animate: ''})%>
+    <div class="text">
+      <h3 data-animate><%= project[locale.to_s].solution1_title %></h3>
+      <p data-animate><%= project[locale.to_s].solution1_text %></p>
+    </div>
+  </article>
+  <article class="second">
+    <div class="text">
+      <h3 data-animate><%= project[locale.to_s].solution3_title %></h3>
+      <p data-animate><%= project[locale.to_s].solution3_text %></p>
+    </div>
+    <%= project_image(project, 'filters.png', data: { animate: ''}) %>
+  </article>
+  <article class="third">
+    <%= project_image(project, 'nav.png', data: { animate: ''})%>
+    <div class="text">
+      <h3 data-animate><%= project[locale.to_s].solution2_title %></h3>
+      <p data-animate><%= project[locale.to_s].solution2_text %></p>
+    </div>
+  </article>
+</section>

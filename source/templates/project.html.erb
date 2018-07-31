@@ -14,6 +14,12 @@ dir:
 <main id="project" class="wrapper">
   <%= partial 'partials/project-header' %>
 
+  <% if (current_page.data.slug == "sounds-in-bordeaux") %>
+    <%= partial 'partials/slider-v1' %>
+    <%= partial 'partials/problems' %>
+    <%= partial 'partials/image' %>
+  <% end %>
+
   <% if (current_page.data.slug == "capsule") %>
     <%= partial 'partials/video' %>
   <% end %>

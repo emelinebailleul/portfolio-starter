@@ -11,8 +11,6 @@ class isInViewport {
         );
       };
 
-
-
     window.onload = function() {
       var elems = document.querySelectorAll('[data-animate-auto]')
       for (var elem of elems) {

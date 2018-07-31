@@ -30,7 +30,7 @@ en:
   # ------------------
   homepage:
     intro-1: "<strong>Nice to e-meet you!</strong> I’m Emeline, UX design student, currently working at [Keecker](http://keecker.com) as product design intern."
-    intro-2: "Aesthetic is as mush important as usability in my work, I love and always try to combine harmony and efficiency to create a simple, intuitive and pleasant user experience."
+    intro-2: "Aesthetic is as much important as usability in my work, I love and always try to combine harmony and efficiency to create a simple, intuitive and pleasant user experience."
     intro-3: "You can check [my work here](/en/projects) and learn more [about me here](/en/about)."
 
   about:
@@ -53,7 +53,7 @@ en:
     work:
       h2: "Work"
       h3-1: "04/2018 to 09/2018"
-      p-1: "Product designer at [Keecker](http://keecker.com)"
+      p-1: "UX/UI designer at [Keecker](http://keecker.com)"
       s-1: "User tests, illustrations, technical drawings, web & mobile UI design, reflexion & propositions on the actual onboarding."
       h3-2: "06/2017 to 09/2017"
       p-2: "Front end developer at [Disko](https://www.disko.fr/)"

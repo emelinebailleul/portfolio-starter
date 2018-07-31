@@ -1,0 +1,76 @@
+section#problems {
+  color: white;
+  padding: 200px 7vh;
+  h2 {
+    font-size: 3.25vh;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto 100px;
+    transition: .5s cubic-bezier(.43,.01,.25,1);
+    transform: translateY(50%);
+    opacity: 0;
+    &.visible {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+  .container {
+    margin: auto;
+    max-width: 1000px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    article {
+      width: 27%;
+      h3.percent {
+        line-height: 1;
+        font-size: 9vh;
+        font-weight: bold;
+        transition: .5s cubic-bezier(.43,.01,.25,1);
+        transform: translateY(50%);
+        opacity: 0;
+      }
+      p.legend {
+        line-height: 1.5;
+        font-weight: 100;
+        transition: .5s cubic-bezier(.43,.01,.25,1);
+        transform: translateY(75%);
+        opacity: 0;
+      }
+    }
+    article {
+      &.first {
+        h3 {
+          transition-delay: .05s;
+        }
+        p {
+          transition-delay: .10s;
+        }
+      }
+      &.second {
+        h3 {
+          transition-delay: .25s;
+        }
+        p {
+          transition-delay: .30s;
+        }
+      }
+      &.third {
+        h3 {
+          transition-delay: .45s;
+        }
+        p {
+          transition-delay: .50s;
+        }
+      }
+    }
+
+    &.visible {
+      article h3.percent, article p.legend {
+        transform: translate(0);
+        opacity: 1;
+      }
+    }
+  }
+}
