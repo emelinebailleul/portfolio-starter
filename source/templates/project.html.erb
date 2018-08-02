@@ -21,11 +21,6 @@ dir:
     <%= partial 'partials/fluffy-slider' %>
   <% end %>
 
-  <% if (current_page.data.slug == "capsule") %>
-    <!-- <%= partial 'partials/video' %> -->
-    <%= partial 'partials/fluffy-slider' %>
-  <% end %>
-
   <% if (current_page.data.slug == "hellopass") %>
     <%= partial 'partials/image' %>
     <%= partial 'partials/phoneMockups' %>
@@ -36,6 +31,11 @@ dir:
     <%= partial 'partials/fluffy-slider' %>
   <% end %>
 
+  <% if (current_page.data.slug == "capsule") %>
+    <!-- <%= partial 'partials/video' %> -->
+    <%= partial 'partials/fluffy-slider' %>
+  <% end %>
+  
 </main>
 
 <div class="safari-bug"></div>

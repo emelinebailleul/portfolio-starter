@@ -3,23 +3,18 @@
   <h1 class="project-name"><%= project.name %></h1>
 
   <section class="main-infos"  data-animate-auto>
-    <!-- <aside>
-      <h3 class="small-title">Date</h3>
-      <p><%= project.date %></p>
-
-    </aside> -->
 
     <article class="project-info concept">
-      <h3 class="small-title">Concept</h3>
-      <p class="large"><%= project[locale.to_s].description %></p>
+      <h3 class="medium">Concept</h3>
+      <p class="regular"><%= project[locale.to_s].description %></p>
     </article>
     <article class="project-info team">
-      <h3 class="small-title"><%= t('projects.labelTeam') %></h3>
-      <p class="large"><%= markdown project[locale.to_s].team %></p>
+      <h3 class="medium"><%= t('projects.labelTeam') %></h3>
+      <p class="regular"><%= markdown project[locale.to_s].team %></p>
     </article>
     <article class="project-info problem">
-      <h3 class="small-title"><%= t('projects.labelProblem') %></h3>
-      <p class="large"><%= markdown project[locale.to_s].problem %></p>
+      <h3 class="medium"><%= t('projects.labelProblem') %></h3>
+      <p class="regular"><%= markdown project[locale.to_s].problem %></p>
     </article>
   </section>
 

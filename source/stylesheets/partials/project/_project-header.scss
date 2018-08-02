@@ -9,7 +9,7 @@
     text-indent: 60px;
     opacity: 0;
     transition: opacity .5s cubic-bezier(.43,.01,.25,1);
-    transition-delay: .5s;
+    transition-delay: .75s;
     &:before {
       content: '';
       position: absolute;
@@ -19,7 +19,7 @@
       left: 0;
       top: 50%;
       transform: translateY(-50%);
-      transition: 2s cubic-bezier(.43,.01,.25,1);
+      transition: 1.5s cubic-bezier(.43,.01,.25,1);
     }
   }
 
@@ -38,7 +38,7 @@
     }
     p {
       width: 70%;
-      margin-bottom: 1em;
+      margin-bottom: 2em;
       text-align: justify;
     }
   }
@@ -51,13 +51,10 @@
   article.project-info.problem {
     transition-delay: 1.5s;
   }
-  .small-title {
-    font-weight: bold;
-    font-size: 3.25vh;
-    margin-bottom: 10px;
-    color: #fff;
-  }
 
+h3.medium {
+  color: #fff;
+}
   // aside {
   //   margin-bottom: 25px;
   // }
@@ -72,10 +69,9 @@
   // }
 
   @include breakpoint(tablet) {
-    padding: 50px 7vh 150px 7vh;
-    // aside {
-    //   padding-right: 50px;
-    // }
+    padding: 50px 0 150px 0;
+    width: calc((1000px / 6) * 4);
+    margin: auto;
 
     h1.project-name, h2.project-number {
       width: 100%;

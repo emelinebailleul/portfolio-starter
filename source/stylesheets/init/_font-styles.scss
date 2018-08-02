@@ -3,7 +3,7 @@ h1 {
     margin-bottom: 50px;
     opacity: 0;
     color: #fff;
-    font-size: 4em;
+    font-size: 3.5em;
   }
   &.home-intro {
     width: 100%;
@@ -31,7 +31,7 @@ h2 {
     transform: translateY(25%);
   }
   &.project-number{
-    font-size: 3em;
+    font-size: 2em;
     position: relative;
     color: #fff;
   }
@@ -42,10 +42,20 @@ h2 {
 }
 
 h3 {
-  &.article-title {
-    margin-bottom: 10px;
+  &.small {
+    margin-bottom: 15px;
     font-size: 1em;
     font-weight: bold
+  }
+  &.medium {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  &.large {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1.5;
   }
 }
 
@@ -53,9 +63,6 @@ h4 {
 
 }
 
-.project-number {
-
-}
 
 p {
   line-height: 1.5;
@@ -66,10 +73,12 @@ p {
     color: #fff;
   }
   &.regular {
-
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: normal;
   }
   &.small {
-    font-size: 1em;
+    font-size: .9em;
     line-height: 1.5;
     opacity: .5;
     margin-top: 5px;
