@@ -1,4 +1,4 @@
-#solutions {
+section.image-text {
   background: #fff;
   padding: 200px 7vh;
   article {
@@ -10,49 +10,52 @@
     align-items: center;
     max-width: 1000px;
     margin-bottom: 100px;
-  }
+    .text, .picture {
+      width: 50%;
+    }
 
-  div {
-    width: 50%;
-    h3.large {
-      opacity: 0;
-      transition: .5s cubic-bezier(.43,.01,.25,1);
-      margin-bottom: 20px;
-      color: #000;
-      transform: translateY(50%);
-      transition-delay: .15s;
-      &.visible {
-        transform: translate(0);
-        opacity: 1;
+    .picture {
+      height: 500px;
+      text-align: center;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      img {
+        height: auto;
+        width: auto;
+        object-fit: contain;
+        transition: .5s cubic-bezier(.43,.01,.25,1);
+        transform: translateY(5%);
+        opacity: 0;
+        &.visible {
+          transform: translate(0);
+          opacity: 1;
+        }
       }
     }
-    p.regular {
-      opacity: 0;
-      transition: .5s cubic-bezier(.43,.01,.25,1);
-      transform: translateY(50%);
-      transition-delay: .20s;
-      text-align: justify;
-      &.visible {
-        transform: translate(0);
-        opacity: 1;
+    .text {
+      h3.large {
+        opacity: 0;
+        transition: .5s cubic-bezier(.43,.01,.25,1);
+        margin-bottom: 20px;
+        color: #000;
+        transform: translateY(50%);
+        transition-delay: .15s;
+        &.visible {
+          transform: translate(0);
+          opacity: 1;
+        }
       }
-    }
-  }
-
-  .picture {
-    width: 40%;
-    height: 500px;
-    display: flex;
-    img {
-      height: auto;
-      width: auto;
-      object-fit: contain;
-      transition: .5s cubic-bezier(.43,.01,.25,1);
-      transform: translateY(5%);
-      opacity: 0;
-      &.visible {
-        transform: translate(0);
-        opacity: 1;
+      p.regular {
+        opacity: 0;
+        transition: .5s cubic-bezier(.43,.01,.25,1);
+        transform: translateY(50%);
+        transition-delay: .20s;
+        text-align: justify;
+        &.visible {
+          transform: translate(0);
+          opacity: 1;
+        }
       }
     }
   }
@@ -63,14 +66,10 @@
       height: auto;
     }
   }
+}
 
-  .third, .first {
-    .picture {
-      justify-content: flex-start;
-    }
+article.first {
+  .picture img {
+    margin-left: 25%;
   }
-  .second .picture {
-    justify-content: flex-end;
-  }
-
 }

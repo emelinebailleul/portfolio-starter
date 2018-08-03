@@ -79,7 +79,7 @@ en:
     h1: "Projects"
     next: "Next project"
     labelTeam: "Team & role"
-    labelProblem: "Problem"
+    labelProblem: "Process"
 
   footer:
     p: Designed and developped by me,<br> with [Bastien's starter](https://github.com/bastienrobert/portfolio-starter).

@@ -83,7 +83,7 @@ fr:
     h1: "Projets"
     next: "Projet suivant"
     labelTeam: "Équipe et rôle"
-    labelProblem: "Problème"
+    labelProblem: "Process"
 
   footer:
     p: Imaginé et développé par mes soins,<br> avec le starter de [Bastien Robert](https://github.com/bastienrobert/portfolio-starter).

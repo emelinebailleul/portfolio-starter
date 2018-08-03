@@ -2,15 +2,15 @@
   slug: "sounds-in-bordeaux"
   number: "01"
   date: "2016-2017"
-  url: "https://www.soundsinbordeaux.com"
   nextProjectName: "HelloPass"
   nextProjectSlug: "hellopass"
   primaryColor: "#304ffe"
   secondaryColor: "#FAFAFA"
   fr:
-    description: "Sounds in Bordeaux est une plateforme recensant les événements et artistes électro bordelais."
-    team: "Pour ce projet, nous étions une équipe de 6 étudiants. J'étais en charge du développement front de la première version du site, puis de design et l'intégration de la deuxième version que je présente ici."
-    problem: "Suite à la sortie de la première version du site, nous avons mis en place un formulaire sur la plateforme et sur les réseaux sociaux. Notre but étant de récolter des retours utilisateurs sur la plateforme et connaître les fonctionnalités les plus utilisées.<br>
+    description: "Sounds in Bordeaux est une plateforme qui recense les événements et artistes électro bordelais."
+    team: "Pour ce projet, nous étions une équipe de 6 étudiants. J'étais en charge du développement front de la première version du site, puis de design et l'intégration de la deuxième."
+    problem: "Quelques mois après la sortie de la V1, nous avons mis en place un formulaire sur la plateforme et sur les réseaux sociaux pour obtenir des feedbacks sur la plateforme et connaitre les features les plus populaires.
+    <br>
     Les données ont révélées plusieurs problèmes dans la navigation, les performances et ont mis en lumière les fonctionnalités qui attiraient nos utilisateurs. C’est sur cette base que nous avons démarré la refont du site web."
     role: "Design UX/UI
     <br>Développement front"
@@ -22,14 +22,14 @@
     pb2_text: "des interrogés visitent la page 'Best Of The Week' en premier"
     pb3_number: "80%"
     pb3_text: "des interrogés visitent le site à la recherche d’événements"
-    solution1_title: "Page d'accueil"
+    solution1_title: "Une nouvelle page d'accueil pour un accès plus rapide au contenu"
     solution1_text: "J’ai entièrement retravaillé la home page en gardant comme premier élément la section 'Cette semaine' qui, d'après les résultats du formulaire, amenait une bonne partie des utilisateurs à prolonger leur visite sur la plateforme. J'ai ensuite placé un bloc avec la baseline pour rappeler le concept du site, puis deux sliders proposant du contenu suceptible d'intéresser le visiteur."
-    solution2_title: "Simplification de la navigation"
+    solution2_title: "Simplifier la navigation avec un menu burger en mobile et desktop"
     solution2_text: "Dans cette nouvelle version, j’ai abandonné la side bar pour préférer un menu burger sur mobile et desktop. Cela m’a permis de gagner du temps de développement et cela reste en accord avec les résultats du formulaire montrant que plus de la moitié de nos utilisateurs navigue sur mobile."
-    solution3_title: "Faciliter la recherche d'événements"
+    solution3_title: "Faciliter la recherche d'événements avec un système de filtres"
     solution3_text: "Le formulaire nous a révélé qu'une grande partie de nos utilisateurs visite le site à la recherche d'événements. La première version avait été conçu saus aucun système de recherche alors que le site présentait environ trente à quarante événements simultanément. Dans cette nouvelle version, j'ai pensé un système de tri grâce à 4 filtres: le genre musical, la date, le lieu et le prix de l'événement."
   en:
-    description: "Sounds in Bordeaux est une plateforme recensant les événements et artistes bordelais et électro."
+    description: "(Sounds in Bordeaux)[https://www.soundsinbordeaux.com] is a student initiave, aiming to make known techno artists and events in Bordeaux."
     team: "For this project, we wera 6 first year students. I was in charge of the website design and the front end development."
     problem: "After the release of the first version, we have decided to place a form to get some users' feedbacks about their experience on our website. Our goal was to know more about our users' goals, the problems they may have encountered and which device they use the most to go on our plateform. These responses guided the refont of the entire website."
     role: "UX/UI Design<br>Front end development"
@@ -45,7 +45,7 @@
     solution1_text: "I have entirely redesigned the home page but I have kept the 'Event of the week' section which seems to be popular thanks to the form. I added two slider showing events and artists so users have quick access to interesting content."
     solution2_title: "Mobile first"
     solution2_text: "Dans cette nouvelle version, j’ai abandonné la side bar pour préférer un menu burger sur mobile et desktop. Cela m’a permis de gagner du temps de développement et cela reste en accord avec les résultats du formulaire montrant que la majorité de nos utilisateurs naviguent sur mobile."
-    solution3_title: "Develop event feature"
+    solution3_title: "Improve event feature with a filter system"
     solution3_text: "To help users find events which may interest them, I have imagined a search system with 4 filter : place, music style, price and date."
 
 - name: "HelloPass"
@@ -57,18 +57,18 @@
   primaryColor: "#3662FF"
   secondaryColor: "#fff"
   fr:
-    description: "Hellopass est une carte interactive en ligne qui rassemble tous les lieux, associations, organismes et collectifs capable d’aider et soutenir l’installation d’un migrant à Bordeaux."
-    team: "Ce projet s'est passé en deux temps, il y a d'abord eu trois jours de conception pour trouver l'idée et définir nos objectifs, puis quelques semaines plus tard, cinq jours de réalisation."
-    problem: "Avec ce projet, c'est la première fois que je devais me mettre à la place d'utilisateur à la vie, culture et au passif aussi différent que moi. Mon premier objectif a donc été d'essayer de mieux connaître les potentiels futurs utlisateurs du site. J'ai d'abord  envoyé un formulaire à plusieurs associations avec quelques questions afin de réaliser une étude quantitative pour connaitre la fréquence à laquelle ils ont accès à internet, si ils possédent un smartphone, quelles langues savent il parler, etc. Je n'ai pas obtenu une quantité de résultats suffisant avec le temps qui m'était donné, donc je me suis tourné vers une autre méthode pour essayer de connaitre mieux les potentiels utilisateurs.
+    description: "Hellopass est une carte en ligne qui rassemble tous les lieux, associations, organismes et collectifs capable d’aider et soutenir l’installation d’un migrant à Bordeaux."
+    team: "Ce projet s'est déroulé en deux temps, il y a d'abord eu trois jours de conception pour trouver l'idée et définir nos objectifs, puis quelques semaines plus tard, cinq jours de réalisation."
+    problem: "Mon premier objectif en démarrant ce projet, a été d'essayer de mieux connaître les potentiels utlisateurs du site. J'ai d'abord  envoyé un formulaire à plusieurs associations afin de connaitre leur fréquence d'accès à internet, si ils possèdent un smartphone, les langues les plus parlées, etc... Je n'ai pas obtenu une quantité de réponses suffisante donc je me suis tourné vers une autre méthode.
     <br>Une fois cela fait, je me suis penché sur le design de l'interface web et principalement le système de tri des lieux. Nous avions déjà listé une quarantaine de lieux dans la ville, il fallait donc trouver un système de recherche adapté."
     role: "Chef de projet
     <br>Design UX/UI"
     solution1_title: "Personas"
-    solution1_text: "N'ayant pas obtenu de résultats à mon questionnaire, j'ai décidé de rencontrer directement des personnes correspondant au profil de nos utilisateurs et de m'en servir de base pour créer des personas ensuite. J'ai rencontré Calvin et ai établis un portrait après avoir discuté avec lui, mais je n'ai pas eu l'occasion de discuter en personne avec quelqu'un d'autre, alors j'ai basé mon 2ème persona sur une interview d'une jeune maman qui raconte son arrivé et les problèmes qu'elle a pu rencontré en arrivant en France. Ces personas m’ont aidé à cerner des besoins auxquels nous n’avions pas pensé au début du projet."
-    solution3_title: "Système de recherche"
-    solution3_text: "Afin de fournir les informations nécessaires et recherchées par nos utilisateurs, j’ai pensé système de tri des lieux par besoin. Chaque lieux répondaient à plusieurs besoins, il était donc impossible de les classer et trier par catégorie fermée. La recher par besoin, accessible via un Call To Action bleu, permet à nos utilisateurs de faire une recherche rapide en fonction de leur besoin."
-    solution2_title: "Accès rapide aux informations essentiels"
-    solution2_text: "Pour les pages d’informations sur les lieux, le but était de donner accès à un condensé d’explications sur leurs actions et leurs disponibilités. Cette page contient donc une courte description, les horaires du lieu, l’adresse exacte et deux Call To Action. Le premier affiche le numéro de téléphone, et si l’utilisateur est sur mobile il lui suffit de cliquer sur le bouton pour appeler directement avec son téléphone. Le second mène vers le site web de l'association ou le lieu en question."
+    solution1_text: "Pour améliorer ma compréhension des utilisateurs, j'ai travaillé sur 2 personas basés sur des personnes réelles. Cela m'a également aidé à cerner des besoins auxquels nous n’avions pas pensé au début du projet."
+    solution3_title: "Système de tri des lieux par besoins"
+    solution3_text: "J'ai d'abord pensé à un système de tri par catégories, mais il était très difficile d'établir des titres clairs. Un système de tri par besoin nous permettais de classer l'intégralité des lieux et "
+    solution2_title: "Donner les informations essentielles et un moyen de contact rapide"
+    solution2_text: "Seul les informations importantes sur les associations sont affichées dans la page détails des lieux. Il y a également 2 CTA qui permettent à l'utilisateur de rentrer en contact direct avec l'association."
   en:
     team: "This project was divided into two time period. First, three days to find the idea and define the scope and objectives, then five days to design ans develop the plateform."
     description: "HelloPass is an integral online map for refugees living or moving Bordeaux. Our goal is to help them moving in and integrate more easily in the city by centralizing informations in a single plateform."
@@ -88,7 +88,7 @@
   fr:
     team: "Ce projet est le résultat d’un workshop de 5 jours. Dans une équipe de 8 étudiants, j’étais en charge du branding et du design de la web app avec Joshua Richard."
     description: "Mandat est un jeu simple où le joueur incarne le président français et fait face à des choix binaires. Chaque décisions a ses conséquences et le but est d’effetcuer le mandat le plus long."
-    problem: "Nous avons créer ce jeu à quelques semaines du dernier tour des élections présidentielles. Je me suis avant tout occuppé de l’identité graphique du jeu avec Joshua.
+    problem: "Nous avons créer ce jeu à quelques semaines du dernier tour des élections présidentielles. Je me suis avant tout occuppé de l’identité graphique du jeu avec (Joshua)[http://www.joshua-richard.fr].
     Nous avons ensuite travaillé sur le design du site, l’objectif étant de créer une interface interactive sans être trop complexe à développer car nous étions très limité dans le temps."
     role: "Branding
     <br>UI Designer"
