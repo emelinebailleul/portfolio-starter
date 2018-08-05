@@ -1,11 +1,11 @@
 .btn-next {
 	width: 100vw;
 	background: #000;
-	padding: 20vh 7vh;
+	padding: 14vh 7vh;
 	position: fixed;
   bottom: 0;
   left: 0;
-	height: 50vh;
+	height: 40vh;
 
 	.next-project, .next {
     max-width: 1000px;
@@ -17,7 +17,7 @@
 	}
 
   .next {
-    font-size: 6vh;
+    font-size: 3em;
     mix-blend-mode: difference;
     position: relative;
     font-weight: normal;
@@ -25,7 +25,7 @@
 
   .next-project {
     font-weight: normal;
-    font-size: 4vh;
+    font-size: 2em;
   }
 
 	&:before {

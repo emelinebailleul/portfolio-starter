@@ -6,7 +6,7 @@
 
     <article class="project-info concept">
       <h3 class="medium">Concept</h3>
-      <p class="regular"><%= project[locale.to_s].description %></p>
+      <p class="regular"><%= markdown project[locale.to_s].description %></p>
     </article>
     <article class="project-info team">
       <h3 class="medium"><%= t('projects.labelTeam') %></h3>

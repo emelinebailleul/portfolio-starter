@@ -23,12 +23,14 @@ section.image-text {
       img {
         height: auto;
         width: auto;
+        max-width: 100%;
+        max-height: 100%;
         object-fit: contain;
         transition: .5s cubic-bezier(.43,.01,.25,1);
         transform: translateY(5%);
         opacity: 0;
         &.visible {
-          transform: translate(0);
+          transform: translateY(0);
           opacity: 1;
         }
       }
@@ -42,7 +44,7 @@ section.image-text {
         transform: translateY(50%);
         transition-delay: .15s;
         &.visible {
-          transform: translate(0);
+          transform: translateY(0);
           opacity: 1;
         }
       }
@@ -53,7 +55,7 @@ section.image-text {
         transition-delay: .20s;
         text-align: justify;
         &.visible {
-          transform: translate(0);
+          transform: translateY(0);
           opacity: 1;
         }
       }
@@ -71,5 +73,16 @@ section.image-text {
 article.first {
   .picture img {
     margin-left: 25%;
+  }
+}
+
+.oneImg {
+  background: #304ffe;
+  width: 100vw;
+  height: 500px;
+  text-align: center;
+  img {
+    height: 100%;
+    object-fit: contain;
   }
 }

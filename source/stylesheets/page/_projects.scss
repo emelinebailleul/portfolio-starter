@@ -14,7 +14,7 @@
       transition: 1s cubic-bezier(.03,.13,.08,1);
       height: 250px;
       width: 100%;
-      padding: 2.5vw;
+      padding: 15px;
       display: block;
       display: flex;
       align-items: center;
@@ -56,7 +56,7 @@
 
       .project {
         &-number {
-          font-size: 3vh;
+          font-size: 1.25em;
           text-indent: 60px;
           position: relative;
           &:before {
@@ -71,7 +71,8 @@
           }
         }
         &-name {
-          font-size: 5vh;
+          font-size: 2em;
+          font-weight: bold;
         }
       }
     }

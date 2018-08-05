@@ -7,9 +7,9 @@
   primaryColor: "#304ffe"
   secondaryColor: "#FAFAFA"
   fr:
-    description: "Sounds in Bordeaux est une plateforme qui recense les événements et artistes électro bordelais."
-    team: "Pour ce projet, nous étions une équipe de 6 étudiants. J'étais en charge du développement front de la première version du site, puis de design et l'intégration de la deuxième."
-    problem: "Quelques mois après la sortie de la V1, nous avons mis en place un formulaire sur la plateforme et sur les réseaux sociaux pour obtenir des feedbacks sur la plateforme et connaitre les features les plus populaires.
+    description: "[Sounds in Bordeaux](https://www.soundsinbordeaux.com) est une plateforme qui recense les événements et artistes électro bordelais."
+    team: "Pour ce projet, nous étions une équipe de 6 étudiants. J'étais en charge de l'intégration des maquettes de la première version du site, puis de design et l'intégration de la deuxième."
+    problem: "La première difficulté était de créer une plateforme la plus attrayante possible avec le peu de compétence en développement web que nous avions. Quelques mois après la sortie de la V1, nous avons mis en place un formulaire sur la plateforme et sur les réseaux sociaux pour obtenir des feedbacks sur la plateforme et connaitre les features les plus populaires.
     <br>
     Les données ont révélées plusieurs problèmes dans la navigation, les performances et ont mis en lumière les fonctionnalités qui attiraient nos utilisateurs. C’est sur cette base que nous avons démarré la refont du site web."
     role: "Design UX/UI
@@ -23,15 +23,16 @@
     pb3_number: "80%"
     pb3_text: "des interrogés visitent le site à la recherche d’événements"
     solution1_title: "Une nouvelle page d'accueil pour un accès plus rapide au contenu"
-    solution1_text: "J’ai entièrement retravaillé la home page en gardant comme premier élément la section 'Cette semaine' qui, d'après les résultats du formulaire, amenait une bonne partie des utilisateurs à prolonger leur visite sur la plateforme. J'ai ensuite placé un bloc avec la baseline pour rappeler le concept du site, puis deux sliders proposant du contenu suceptible d'intéresser le visiteur."
+    solution1_text: "Retravailler la page d'accueil
+    J’ai entièrement retravaillé la home page en gardant comme premier élément la section 'Cette semaine' qui, d'après les résultats du formulaire, amenait une bonne partie des utilisateurs à prolonger leur visite sur la plateforme. J'ai ensuite placé un bloc avec la baseline pour rappeler le concept du site, puis deux sliders proposant du contenu suceptible d'intéresser le visiteur."
     solution2_title: "Simplifier la navigation avec un menu burger en mobile et desktop"
     solution2_text: "Dans cette nouvelle version, j’ai abandonné la side bar pour préférer un menu burger sur mobile et desktop. Cela m’a permis de gagner du temps de développement et cela reste en accord avec les résultats du formulaire montrant que plus de la moitié de nos utilisateurs navigue sur mobile."
-    solution3_title: "Faciliter la recherche d'événements avec un système de filtres"
-    solution3_text: "Le formulaire nous a révélé qu'une grande partie de nos utilisateurs visite le site à la recherche d'événements. La première version avait été conçu saus aucun système de recherche alors que le site présentait environ trente à quarante événements simultanément. Dans cette nouvelle version, j'ai pensé un système de tri grâce à 4 filtres: le genre musical, la date, le lieu et le prix de l'événement."
+    solution3_title: "Faciliter la recherche d'événements"
+    solution3_text: "Le formulaire nous a révélé qu'une grande partie de nos utilisateurs visite le site à la recherche d'événements. La première version avait été conçu saus aucun système de recherche alors que le site présentait environ trente à quarante événements simultanément. Dans cette nouvelle version, j'ai choisi un système de tri grâce à 4 filtres: le genre musical, la date, le lieu et le prix de l'événement. "
   en:
-    description: "(Sounds in Bordeaux)[https://www.soundsinbordeaux.com] is a student initiave, aiming to make known techno artists and events in Bordeaux."
-    team: "For this project, we wera 6 first year students. I was in charge of the website design and the front end development."
-    problem: "After the release of the first version, we have decided to place a form to get some users' feedbacks about their experience on our website. Our goal was to know more about our users' goals, the problems they may have encountered and which device they use the most to go on our plateform. These responses guided the refont of the entire website."
+    description: "[Sounds in Bordeaux](https://www.soundsinbordeaux.com) is a student initiave, aiming to make known techno artists and events in Bordeaux."
+    team: "For this project, we were 6 first-year students. I was in charge of the website design and the front end development. "
+    problem: "Our skills in web development were very limited at that time, so we had to build the best plateform without any complexe features. After the release of the first version, we decided to place a form to get some users' feedbacks about their experience on our website. Our goal was to know more about our users' goals, the problems they may have encountered and which device they use the most to go on our plateform. These responses guided the refont of the entire website."
     role: "UX/UI Design<br>Front end development"
     titleSlider: "Design of the fist version by another student"
     pb_title: "Observations, problems & opportunities"
@@ -42,11 +43,11 @@
     pb3_number: "80%"
     pb3_text: "of interviewed people declared visiting the website to find events"
     solution1_title: "Home page"
-    solution1_text: "I have entirely redesigned the home page but I have kept the 'Event of the week' section which seems to be popular thanks to the form. I added two slider showing events and artists so users have quick access to interesting content."
+    solution1_text: "I have entirely redesigned the home page but I have kept the 'Event of the week' section which seems to be popular according to the form. I have added two slider showing events and artists so users have quick access to interesting content."
     solution2_title: "Mobile first"
-    solution2_text: "Dans cette nouvelle version, j’ai abandonné la side bar pour préférer un menu burger sur mobile et desktop. Cela m’a permis de gagner du temps de développement et cela reste en accord avec les résultats du formulaire montrant que la majorité de nos utilisateurs naviguent sur mobile."
-    solution3_title: "Improve event feature with a filter system"
-    solution3_text: "To help users find events which may interest them, I have imagined a search system with 4 filter : place, music style, price and date."
+    solution2_text: "For the new version, I replace the side bar by a burger menu in desktop and mobile, more simple and clear unlike the first version."
+    solution3_title: "Event page improved with a search system"
+    solution3_text: "To help users find events which may interest them, I chosen a search system with 4 filter : place, music style, price and date."
 
 - name: "HelloPass"
   slug: "hellopass"
@@ -59,14 +60,14 @@
   fr:
     description: "Hellopass est une carte en ligne qui rassemble tous les lieux, associations, organismes et collectifs capable d’aider et soutenir l’installation d’un migrant à Bordeaux."
     team: "Ce projet s'est déroulé en deux temps, il y a d'abord eu trois jours de conception pour trouver l'idée et définir nos objectifs, puis quelques semaines plus tard, cinq jours de réalisation."
-    problem: "Mon premier objectif en démarrant ce projet, a été d'essayer de mieux connaître les potentiels utlisateurs du site. J'ai d'abord  envoyé un formulaire à plusieurs associations afin de connaitre leur fréquence d'accès à internet, si ils possèdent un smartphone, les langues les plus parlées, etc... Je n'ai pas obtenu une quantité de réponses suffisante donc je me suis tourné vers une autre méthode.
-    <br>Une fois cela fait, je me suis penché sur le design de l'interface web et principalement le système de tri des lieux. Nous avions déjà listé une quarantaine de lieux dans la ville, il fallait donc trouver un système de recherche adapté."
+    problem: "Ce projet a démarré avec beaucoup de contraintes, comme le temps et les compétences limitées des développeurs ou la difficulté d'échanger directement avec des utilisateurs potentiels.
+    <br>Ma première priorité était de récolter le plus d'informations sur notre cible. Une fois cela fait, j'ai commencé à réfléchir à la catégorisation et la recherche des lieux, puis sur papier j'ai travaillé les premiers wireframes."
     role: "Chef de projet
     <br>Design UX/UI"
     solution1_title: "Personas"
     solution1_text: "Pour améliorer ma compréhension des utilisateurs, j'ai travaillé sur 2 personas basés sur des personnes réelles. Cela m'a également aidé à cerner des besoins auxquels nous n’avions pas pensé au début du projet."
-    solution3_title: "Système de tri des lieux par besoins"
-    solution3_text: "J'ai d'abord pensé à un système de tri par catégories, mais il était très difficile d'établir des titres clairs. Un système de tri par besoin nous permettais de classer l'intégralité des lieux et "
+    solution3_title: "Trier des lieux par besoins"
+    solution3_text: "J'ai d'abord pensé à un système de tri par catégories, mais il était très difficile d'établir des titres clairs et compris par tous. Un système de tri par besoin permet de répondre de manière exacte à la demande de l'utilisateur mais aussi de référencer tous les domaines d'action d'une association qui sont souvent multiples."
     solution2_title: "Donner les informations essentielles et un moyen de contact rapide"
     solution2_text: "Seul les informations importantes sur les associations sont affichées dans la page détails des lieux. Il y a également 2 CTA qui permettent à l'utilisateur de rentrer en contact direct avec l'association."
   en:
@@ -88,17 +89,17 @@
   fr:
     team: "Ce projet est le résultat d’un workshop de 5 jours. Dans une équipe de 8 étudiants, j’étais en charge du branding et du design de la web app avec Joshua Richard."
     description: "Mandat est un jeu simple où le joueur incarne le président français et fait face à des choix binaires. Chaque décisions a ses conséquences et le but est d’effetcuer le mandat le plus long."
-    problem: "Nous avons créer ce jeu à quelques semaines du dernier tour des élections présidentielles. Je me suis avant tout occuppé de l’identité graphique du jeu avec (Joshua)[http://www.joshua-richard.fr].
+    problem: "Nous avons créer ce jeu à quelques semaines du dernier tour des élections présidentielles. Je me suis avant tout occuppé de l’identité graphique du jeu avec [Joshua](http://www.joshuarichard.fr).
     Nous avons ensuite travaillé sur le design du site, l’objectif étant de créer une interface interactive sans être trop complexe à développer car nous étions très limité dans le temps."
     role: "Branding
-    <br>UI Designer"
+    <br>Design UI"
   en:
     description: "Mandat is a Reigns like game. The player take the role of the french president and faces binary decisions. Each of them have different consequences on the 3 gauges he has to maintain above 0% to continue the game as far as he can."
     team: "I have worked on the brand identity with Joshua Richard and on the UX/UI design of the web app. I have also helped to develop the game with the CSS framework Bootstrap. We had 5 days to design and develop the game."
-    problem: "This project happened a few weeks before the second round of french presidential elections in 2017. I have worked on the branding of the game with (Joshua)[http://www.joshua-richard.fr].
+    problem: "This project happened a few weeks before the second round of french presidential elections in 2017. I have worked on the branding of the game with [Joshua](http://www.joshuarichard.fr).
     Then I was on the UI design, the objective was to create an interactive interface but not too complexe so developers could integrate it in a day or two to respect the short deadline."
     role: "Branding
-    <br>UI Designer"
+    <br>UI Design"
 
 # - name: "Capsule"
 #   slug: "capsule"
