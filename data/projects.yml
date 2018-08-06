@@ -23,12 +23,11 @@
     pb3_number: "80%"
     pb3_text: "des interrogés visitent le site à la recherche d’événements"
     solution1_title: "Une nouvelle page d'accueil pour un accès plus rapide au contenu"
-    solution1_text: "Retravailler la page d'accueil
-    J’ai entièrement retravaillé la home page en gardant comme premier élément la section 'Cette semaine' qui, d'après les résultats du formulaire, amenait une bonne partie des utilisateurs à prolonger leur visite sur la plateforme. J'ai ensuite placé un bloc avec la baseline pour rappeler le concept du site, puis deux sliders proposant du contenu suceptible d'intéresser le visiteur."
+    solution1_text: "Retravailler la page d'accueil était primordial si nous voulions augmenter le nombres de visites et réduire le taux de rebond. Pour cela, je me suis basé sur les feedbacks du formulaire en gardant la section 'Cette semaine' et en proposant quelques événements de la semaine."
     solution2_title: "Simplifier la navigation avec un menu burger en mobile et desktop"
-    solution2_text: "Dans cette nouvelle version, j’ai abandonné la side bar pour préférer un menu burger sur mobile et desktop. Cela m’a permis de gagner du temps de développement et cela reste en accord avec les résultats du formulaire montrant que plus de la moitié de nos utilisateurs navigue sur mobile."
+    solution2_text: "Dans cette nouvelle version, j’ai abandonné la side bar pour préférer un menu burger sur mobile et desktop. Cela m’a permis de gagner du temps de développement et de rester en accord avec les résultats du formulaire montrant que plus de la moitié de nos utilisateurs navigue sur mobile."
     solution3_title: "Faciliter la recherche d'événements"
-    solution3_text: "Le formulaire nous a révélé qu'une grande partie de nos utilisateurs visite le site à la recherche d'événements. La première version avait été conçu saus aucun système de recherche alors que le site présentait environ trente à quarante événements simultanément. Dans cette nouvelle version, j'ai choisi un système de tri grâce à 4 filtres: le genre musical, la date, le lieu et le prix de l'événement. "
+    solution3_text: "La recherche d'événement étant la raison principale des visites sur notre site, j'ai pensé à ajouter un système de filtres (prix, date, lieu et genre musical) afin de permettre à l'utilisateur de trouver rapidement le contenu qui l'intéresse."
   en:
     description: "[Sounds in Bordeaux](https://www.soundsinbordeaux.com) is a student initiave, aiming to make known techno artists and events in Bordeaux."
     team: "For this project, we were 6 first-year students. I was in charge of the website design and the front end development. "
@@ -67,7 +66,7 @@
     solution1_title: "Personas"
     solution1_text: "Pour améliorer ma compréhension des utilisateurs, j'ai travaillé sur 2 personas basés sur des personnes réelles. Cela m'a également aidé à cerner des besoins auxquels nous n’avions pas pensé au début du projet."
     solution3_title: "Trier des lieux par besoins"
-    solution3_text: "J'ai d'abord pensé à un système de tri par catégories, mais il était très difficile d'établir des titres clairs et compris par tous. Un système de tri par besoin permet de répondre de manière exacte à la demande de l'utilisateur mais aussi de référencer tous les domaines d'action d'une association qui sont souvent multiples."
+    solution3_text: "J'ai d'abord pensé à un système de tri par catégories, mais il était très difficile d'établir des titres clairs et compris par tous. Un système de tri par besoin permet de répondre à une demande claire de l'utilisateur mais aussi de référencer tous les domaines d'action d'une association, qui sont souvent multiples."
     solution2_title: "Donner les informations essentielles et un moyen de contact rapide"
     solution2_text: "Seul les informations importantes sur les associations sont affichées dans la page détails des lieux. Il y a également 2 CTA qui permettent à l'utilisateur de rentrer en contact direct avec l'association."
   en:
