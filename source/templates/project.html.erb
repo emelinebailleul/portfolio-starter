@@ -14,24 +14,24 @@ dir:
 <main id="project" class="wrapper">
   <%= partial 'partials/project-header' %>
 
-  <% if (current_page.data.slug == "sounds-in-bordeaux") %>
-    <%= partial 'partials/slider-v1' %>
-    <%= partial 'partials/problems' %>
-    <div class="oneImg"><%= project_image(project, 'mockupSIB.png')%></div>
-    <%= partial 'partials/3-image' %>
-    <%= partial 'partials/fluffy-slider' %>
-  <% end %>
+    <% if (current_page.data.slug == "sounds-in-bordeaux") %>
+      <%= partial 'partials/slider-v1' %>
+      <%= partial 'partials/problems' %>
+      <div class="oneImg"><%= project_image(project, 'mockupSIB.png')%></div>
+      <%= partial 'partials/3-image' %>
+      <%= partial 'partials/fluffy-slider' %>
+    <% end %>
 
-  <% if (current_page.data.slug == "hellopass") %>
-    <%= partial 'partials/2-image' %>
-    <%= partial 'partials/phoneMockups' %>
-    <%= partial 'partials/fluffy-slider' %>
-  <% end %>
+    <% if (current_page.data.slug == "hellopass") %>
+      <%= partial 'partials/2-image' %>
+      <%= partial 'partials/phoneMockups' %>
+      <%= partial 'partials/fluffy-slider' %>
+    <% end %>
 
-  <% if (current_page.data.slug == "mandat") %>
-    <%= partial 'partials/phoneMockups' %>
-    <%= partial 'partials/fluffy-slider' %>
-  <% end %>
+    <% if (current_page.data.slug == "mandat") %>
+      <%= partial 'partials/phoneMockups' %>
+      <%= partial 'partials/fluffy-slider' %>
+    <% end %>
 
 </main>
 

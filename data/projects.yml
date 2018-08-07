@@ -30,8 +30,8 @@
     solution3_text: "La recherche d'événement étant la raison principale des visites sur notre site, j'ai pensé à ajouter un système de filtres (prix, date, lieu et genre musical) afin de permettre à l'utilisateur de trouver rapidement le contenu qui l'intéresse."
   en:
     description: "[Sounds in Bordeaux](https://www.soundsinbordeaux.com) is a student initiave, aiming to make known techno artists and events in Bordeaux."
-    team: "For this project, we were 6 first-year students. I was in charge of the website design and the front end development. "
-    problem: "Our skills in web development were very limited at that time, so we had to build the best plateform without any complexe features. After the release of the first version, we decided to place a form to get some users' feedbacks about their experience on our website. Our goal was to know more about our users' goals, the problems they may have encountered and which device they use the most to go on our plateform. These responses guided the refont of the entire website."
+    team: For this project, we were 6 first-year students. For the first version, I was in charge of front end development but for the refont I was in charge of the website design and the front end development."
+    problem: "Our skills in web development were very limited at that time, so we had to build the best plateform without any complexe features. After the release of the first version, we decided to add a form to get some users' feedbacks about their experience on our website. Our goal was to know more about our users' goals, the problems they may have encountered and which device they use the most to visit our plateform. These answers guided the refont of the entire website."
     role: "UX/UI Design<br>Front end development"
     titleSlider: "Design of the fist version by another student"
     pb_title: "Observations, problems & opportunities"
@@ -41,12 +41,12 @@
     pb2_text: "of interviewed people first visited 'Best Of The Week' page"
     pb3_number: "80%"
     pb3_text: "of interviewed people declared visiting the website to find events"
-    solution1_title: "Home page"
-    solution1_text: "I have entirely redesigned the home page but I have kept the 'Event of the week' section which seems to be popular according to the form. I have added two slider showing events and artists so users have quick access to interesting content."
-    solution2_title: "Mobile first"
-    solution2_text: "For the new version, I replace the side bar by a burger menu in desktop and mobile, more simple and clear unlike the first version."
-    solution3_title: "Event page improved with a search system"
-    solution3_text: "To help users find events which may interest them, I chosen a search system with 4 filter : place, music style, price and date."
+    solution1_title: "A new home page to give quick access to consistent content"
+    solution1_text: "I have entirely redesigned the home page but I have kept the 'Event of the week' section which seems to be popular according to the form. I have added two sliders showing events and artists so users have quick access to interesting content."
+    solution2_title: "Simplify navigation"
+    solution2_text: "For the new version, I replace the side bar by a burger menu in desktop and mobile, more simple and clear unlike the first version. The team wanted to create a minimalist new version, so hiding links in responsive menu was the best solution."
+    solution3_title: Event page improved with a search system"
+    solution3_text: "To help users find events which may interest them, I chosen to add a search system with 4 filters : place, music style, price and date."
 
 - name: "HelloPass"
   slug: "hellopass"
@@ -70,12 +70,20 @@
     solution2_title: "Donner les informations essentielles et un moyen de contact rapide"
     solution2_text: "Seul les informations importantes sur les associations sont affichées dans la page détails des lieux. Il y a également 2 CTA qui permettent à l'utilisateur de rentrer en contact direct avec l'association."
   en:
-    team: "This project was divided into two time period. First, three days to find the idea and define the scope and objectives, then five days to design ans develop the plateform."
-    description: "HelloPass is an integral online map for refugees living or moving Bordeaux. Our goal is to help them moving in and integrate more easily in the city by centralizing informations in a single plateform."
+    team: "This project was divided into two time period. First, three days to find the idea and define the scope and objectives, then five days to design ans develop the platform."
+    description: "HelloPass is an integral online map for refugees living or moving Bordeaux. Our goal is to help them moving in and integrate more easily in the city by centralizing informations in a single platform."
     problem: "During the first part of the project, a few problems started to appear. First, we had to understand users with differents cultures and needs far from our own. It was very difficult to find valid data and hard for me to trying to figure out how to give the right informations in the right way.
     Then we had to determine how to give them the right informations easily and quickly."
     role: "Project manager
     <br>UX/UI Design"
+    titleSlider: "Personas"
+    solution1_title: "Research"
+    solution1_text: Between the 3 days of reflexion and the 5 days of production, there was a pause of a week and a half. I decided to use this time to find gather informations about my futur users thanks to a quantitative research but it lead to  nothing due to numerous factors. So I decided to focus on a more classic method, persona. I made two from two real people, Aya and Calvin. I met Calvin in real life but for Aya, I inspired from the testimony of a refugee in a article of Nice Matin."
+    solution2_title: "Give the right informations and a quick contact access"
+    solution2_text: "I tried to give only the necessary informations about a locations so it will be easy for users to find what they need without searching among a large amount of informations. And it allow us to translate the platform faster."
+    solution3_title: "Filtering places by needs"
+    solution3_text: "Fisrt, I thought about a classic search and started to categorized all the 45 locations we already had listed. But soon, I realized this kind of search would not be reliable because each locations corresponded to a several categories, plus it was really difficult to find clear name to each categories and I had to think about the translation in arab and other languages maybe. It was too risky so I thought about a search by needs which allow us to classify every actions of every listed locations."
+
 
 - name: "Mandat"
   slug: "mandat"
