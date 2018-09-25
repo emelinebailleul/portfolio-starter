@@ -4,11 +4,11 @@ fr:
   # Root translations
   # ------------------
   titles:
-    homepage: "Accueil"
-    about: "à propos"
-    projects: "projets"
+    homepage: "Emeline Bailleul"
+    about: "À propos"
+    projects: "Projets"
     project: "Projet"
-    contact: "contact"
+    contact: "Contact"
 
   descriptions:
     homepage: "Emeline Bailleul | Étudiante en design UI/UX et gestion de projet digital."
