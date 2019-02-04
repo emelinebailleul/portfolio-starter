@@ -54,12 +54,15 @@ fr:
 
     work:
       h2: "Expériences"
-      h3-1: "04/2018 au 09/2018"
-      p-1: "Product designer à [Keecker](http://keecker.com)"
-      s-1: "Design UI mobile & web, tests utilisateurs, illustrations, motions design, réflexion et recommandation sur l’onboarding et l’expérience utilisateur globale."
-      h3-2: "06/2017 au 09/2017"
-      p-2: "Développeur Front End à [Disko](https://www.disko.fr/)"
-      s-2: "Clients: Hennessy, Schmidt, Roxim, Santander, Grandir."
+      h3-1: "10/2018 à 09/2019"
+      p-1: "Product designer de la startup d'État Anotea, incubé par (Pole Emploi)[https://www.pole-emploi.fr/accueil/] "
+      s-1: "Conception de la charte graphique, librairie de composants UI et démarrage d'un design system. Refont complète des dashboard, interviews et tests utilisateurs."
+      h3-2: "04/2018 à 09/2018"
+      p-2: "Product designer à [Keecker](http://keecker.com)"
+      s-2: "Design UI mobile & web, tests utilisateurs, illustrations, motions design, réflexion et recommandation sur l’onboarding et l’expérience utilisateur globale."
+      h3-3: "06/2017 à 09/2017"
+      p-3: "Développeur Front End à [Disko](https://www.disko.fr/)"
+      s-3: "Clients: Hennessy, Schmidt, Roxim, Santander, Grandir."
 
     skills:
       h2: "Compétences"

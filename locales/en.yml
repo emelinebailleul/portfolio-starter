@@ -4,14 +4,14 @@ en:
   # Root translations
   # ------------------
   titles:
-    homepage: "Home"
+    homepage: "Emeline Bailleul"
     about: "About"
     projects: "Projects"
     project: "Project"
     contact: "Say hello"
 
   descriptions:
-    homepage: "Emeline Bailleul | UI/UX design & digital project management french student."
+    homepage: "Emeline Bailleul | UX design french student."
 
   paths:
     # Paths
@@ -34,7 +34,7 @@ en:
     intro-3: "You can check [my work here](/en/projects) and learn more [about me here](/en/about)."
 
   about:
-    intro: "I’m Emeline Bailleul, product design intern at Keecker in Paris, with some skills in front end development. I'm looking for a 1-year apprenticeship contract in user centered design, starting last week of september in Paris.
+    intro: "I’m Emeline Bailleul, UX design student in Paris. I'm currently working as product designer for
     <br><br>Feel free to [email me here](mailto:hello@emelinebailleul.com) & download [my resume here](/images/static/cv-en.pdf)."
     studies:
       h2: "Studies"
@@ -52,12 +52,15 @@ en:
       s-3: "English, russian, study of foreign cultures, law, management and communication."
     work:
       h2: "Work"
-      h3-1: "04/2018 to 09/2018"
-      p-1: "Product designer at [Keecker](http://keecker.com)"
-      s-1: "User tests, illustrations, technical drawings, web & mobile UI design, reflexion & propositions on the actual onboarding."
-      h3-2: "06/2017 to 09/2017"
-      p-2: "Front end developer at [Disko](https://www.disko.fr/)"
-      s-2: "Clients: Hennessy, Schmidt, Roxim, Santander, Grandir."
+      h3-1: "10/2018 to 09/2019"
+      p-1: "Product designer at Anotea, startup incubated by (Pole Emploi)[https://www.pole-emploi.fr/accueil/] "
+      s-1: "Creation of a UI components librairy, design guidelines & brand identity. Complete refont of the UI of dashboards, user interviews & usability tests."
+      h3-2: "04/2018 to 09/2018"
+      p-2: "Product designer at [Keecker](http://keecker.com)"
+      s-2: "User tests, illustrations, technical drawings, web & mobile UI design, reflexion & propositions on the onboarding."
+      h3-3: "06/2017 to 09/2017"
+      p-3: "Front end developer at [Disko](https://www.disko.fr/)"
+      s-3: "Clients: Hennessy, Schmidt, Roxim, Santander, Grandir."
     skills:
       h2: "Skills"
       h3-1: "Fields"
