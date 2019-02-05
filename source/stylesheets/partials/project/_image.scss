@@ -53,7 +53,6 @@ section.image-text {
         transition: .5s cubic-bezier(.43,.01,.25,1);
         transform: translateY(50%);
         transition-delay: .20s;
-        text-align: justify;
         &.visible {
           transform: translateY(0);
           opacity: 1;

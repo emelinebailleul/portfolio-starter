@@ -30,13 +30,13 @@ fr:
   # Page translations
   # ------------------
   homepage:
-    intro-1: "<strong>Enchantée!</strong> Je suis Emeline, étudiante en design UX au Campus Fonderie de l'Image et actuellement en stage à [Keecker](http://keecker.com)."
+    intro-1: "<strong>Enchantée!</strong> Je suis Emeline, étudiante en design UX au Campus Fonderie de l'Image à Paris."
     intro-2: "Soucieuse aussi bien de l’esthétisme que de l'efficience, j’aime et recherche à toujours allier le beau et l'utile pour rendre l'expérience utilisateur simple, intuitive et agréable."
     # concevoir des interfaces alliant efficience et harmonie.
     intro-3: "Vous pouvez voir [mon travail ici](/projets) et en savoir un peu plus sur [mon parcours là](/a-propos)."
 
   about:
-    intro: "Je suis Emeline Bailleul, futur étudiante au Campus Fonderie de l'Image en UX design. Je suis à la recherche d'un contrat d'apprentissage de 1 an à compter de fin septembre début octobre.
+    intro: "Actuellement, je suis UX/UI designer en apprentissage pour la startup d'État Anotea, incubé par Pôle emploi. Je suis ouverte à la discussion pour une éventuelle alternance en design UX à la rentrée 2019, pour ma 1ère année de master.
     <br><br>
     Vous pouvez me [contacter ici](mailto:hello@emelinebailleul.com) et voir [mon cv là](/images/static/cv-fr.pdf)."
 
@@ -55,7 +55,7 @@ fr:
     work:
       h2: "Expériences"
       h3-1: "10/2018 à 09/2019"
-      p-1: "Product designer de la startup d'État Anotea, incubé par (Pole Emploi)[https://www.pole-emploi.fr/accueil/] "
+      p-1: "UX/UI designer de la startup d'État Anotea, incubé par (Pole Emploi)[https://www.pole-emploi.fr/accueil/] "
       s-1: "Conception de la charte graphique, librairie de composants UI et démarrage d'un design system. Refont complète des dashboard, interviews et tests utilisateurs."
       h3-2: "04/2018 à 09/2018"
       p-2: "Product designer à [Keecker](http://keecker.com)"

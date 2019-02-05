@@ -29,12 +29,12 @@ en:
   # Page translations
   # ------------------
   homepage:
-    intro-1: "<strong>Nice to e-meet you!</strong> I’m Emeline, UX design student, currently working at [Keecker](http://keecker.com) as product design intern."
+    intro-1: "<strong>Nice to e-meet you!</strong> I’m Emeline, UX design student in Paris. I'm currently working as UX/UI designer for the state startup Anotéa."
     intro-2: "Aesthetic is as much important as usability in my work, I love and always try to combine harmony and efficiency to create a simple, intuitive and pleasant user experience."
     intro-3: "You can check [my work here](/en/projects) and learn more [about me here](/en/about)."
 
   about:
-    intro: "I’m Emeline Bailleul, UX design student in Paris. I'm currently working as product designer for
+    intro: "I’m Emeline Bailleul, UX design student in Paris. I'm currently working as UX/UI designer for Anotéa, a state startup incubated by Pôle emploi. I'm not actively looking for a new contract but I'm open to discussion so feel free to contact me.
     <br><br>Feel free to [email me here](mailto:hello@emelinebailleul.com) & download [my resume here](/images/static/cv-en.pdf)."
     studies:
       h2: "Studies"
@@ -53,7 +53,7 @@ en:
     work:
       h2: "Work"
       h3-1: "10/2018 to 09/2019"
-      p-1: "Product designer at Anotea, startup incubated by (Pole Emploi)[https://www.pole-emploi.fr/accueil/] "
+      p-1: "UX/UI designer at Anotea, startup incubated by (Pole Emploi)[https://www.pole-emploi.fr/accueil/] "
       s-1: "Creation of a UI components librairy, design guidelines & brand identity. Complete refont of the UI of dashboards, user interviews & usability tests."
       h3-2: "04/2018 to 09/2018"
       p-2: "Product designer at [Keecker](http://keecker.com)"
