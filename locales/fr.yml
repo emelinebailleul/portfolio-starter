@@ -4,18 +4,17 @@ fr:
   # Root translations
   # ------------------
   titles:
-    homepage: "Emeline Bailleul"
-    about: "À propos"
+    homepage: ""
+    about: "A propos"
     projects: "Projets"
     project: "Projet"
-    contact: "Contact"
 
   descriptions:
-    homepage: "Emeline Bailleul | Étudiante en design UI/UX et gestion de projet digital."
+    homepage: "Emeline Bailleul, étudiante en design UX et product designer apprentie à Pôle Emploi"
 
   paths:
     # Paths
-    homepage: ""
+    homepage: ''
     about: "a-propos"
     projects: "projets"
 
@@ -23,70 +22,16 @@ fr:
   # Header & footer
   # ------------------
   header:
-    home: "accueil"
-    about: "à propos"
-    projects: "projets"
+    home: "Accueil"
+
   # ------------------
   # Page translations
   # ------------------
   homepage:
-    intro-1: "<strong>Enchantée!</strong> Je suis Emeline, étudiante en design UX au Campus Fonderie de l'Image à Paris."
-    intro-2: "Soucieuse aussi bien de l’esthétisme que de l'efficience, j’aime et recherche à toujours allier le beau et l'utile pour rendre l'expérience utilisateur simple, intuitive et agréable."
-    # concevoir des interfaces alliant efficience et harmonie.
-    intro-3: "Vous pouvez voir [mon travail ici](/projets) et en savoir un peu plus sur [mon parcours là](/a-propos)."
+    h1: "Accueil"
 
   about:
-    intro: "Actuellement, je suis UX/UI designer en apprentissage pour la startup d'État Anotea, incubé par Pôle emploi. Je suis ouverte à la discussion pour une éventuelle alternance en design UX à la rentrée 2019, pour ma 1ère année de master.
-    <br><br>
-    Vous pouvez me [contacter ici](mailto:hello@emelinebailleul.com) et voir [mon cv là](/images/static/cv-fr.pdf)."
-
-    studies:
-      h2: "Études"
-      h3-1: "2018/2019"
-      p-1: "L3 Concepteur Designer UX - Campus Fonderie de l'Image"
-      s-1: "Recherche et conception graphique, méthodologie de l’User Centered Design, gestion de projet, design de support de communication visuelle."
-      h3-2: "2016/2018"
-      p-2: "DUT Métiers du Multimédia et de l’Internet - IUT Bordeaux Montaigne"
-      s-2: "Design UI/UX, développement web et mobile, communication, gestion de projet agile et marketing."
-      h3-3: "2014/2016"
-      p-3: "Licence Langues Étrangères Appliquées - Université de Bordeaux"
-      s-3: "Anglais, russe, cultures étrangères, droit, management et communication."
-
-    work:
-      h2: "Expériences"
-      h3-1: "10/2018 à 09/2019"
-      p-1: "UX/UI designer de la startup d'État Anotea, incubé par (Pole Emploi)[https://www.pole-emploi.fr/accueil/] "
-      s-1: "Conception de la charte graphique, librairie de composants UI et démarrage d'un design system. Refont complète des dashboard, interviews et tests utilisateurs."
-      h3-2: "04/2018 à 09/2018"
-      p-2: "Product designer à [Keecker](http://keecker.com)"
-      s-2: "Design UI mobile & web, tests utilisateurs, illustrations, motions design, réflexion et recommandation sur l’onboarding et l’expérience utilisateur globale."
-      h3-3: "06/2017 à 09/2017"
-      p-3: "Développeur Front End à [Disko](https://www.disko.fr/)"
-      s-3: "Clients: Hennessy, Schmidt, Roxim, Santander, Grandir."
-
-    skills:
-      h2: "Compétences"
-      h3-1: "Domaines"
-      p-1: "Design UI et UX, motion design, photographie, montage vidéo, illustration, branding, développement front."
-      h3-2: "Outils"
-      p-2: "Suite Adobe (Photoshop, Illustrator, InDesign, After Effects), Sketch, InVision App, Marvel, Zeplin, Principle, Github."
-      h3-3: "Langues"
-      p-3: "Français (langue maternelle), anglais (courant)."
-
-    more:
-      h2: "Divers"
-      h3-1: "Depuis 06/2018"
-      p-1: "Rédactrice web à Lofi, webzine sur la musique éléctronique."
-      h3-2: "2017 et 2018"
-      p-2: "Concours d’éloquence de l’IUT Bordeaux Montaigne."
-      h3-3: "09/2017"
-      p-3: "Captation vidéo de la conférence APM à Bordeaux."
+    h1: "A propos"
 
   projects:
     h1: "Projets"
-    next: "Projet suivant"
-    labelTeam: "Équipe et rôle"
-    labelProblem: "Process"
-
-  footer:
-    p: Imaginé et développé par mes soins,<br> avec le starter de [Bastien Robert](https://github.com/bastienrobert/portfolio-starter).

@@ -27,46 +27,13 @@
     <!-- Google Webmaster Tools -->
     <meta name="google-site-verification" content="<%= data.meta.google %>" />
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MVRCZXB');</script>
-    <!-- End Google Tag Manager -->
-
-    <!-- Favicons -->
-    <% if (current_page.data.slug == "sounds-in-bordeaux") %>
-      <%= favicon_tag 'images/favicon/favicon-sib.png' %>
-    <% elsif (current_page.data.slug == "capsule") %>
-      <%= favicon_tag 'images/favicon/favicon-cap.png' %>
-    <% elsif (current_page.data.slug == "mandat") %>
-      <%= favicon_tag 'images/favicon/favicon-man.png' %>
-    <% elsif (current_page.data.slug == "hellopass") %>
-      <%= favicon_tag 'images/favicon/favicon-hellopass.png' %>
-    <% else %>
-      <%= favicon_tag 'images/favicon/favicon.png' %>
-    <% end %>
-
-
     <%= stylesheet_link_tag "application" %>
   </head>
   <body>
-
     <%= partial 'layouts/partials/header' %>
-
     <%= yield %>
+    <%= partial 'layouts/partials/footer' %>
 
     <%= javascript_include_tag "all" %>
   </body>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-93817341-1', 'auto');
-    ga('send', 'pageview');
-
-  </script>
 </html>

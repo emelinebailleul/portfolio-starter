@@ -1,76 +1,144 @@
-@import "init/fonts";
-@import "init/font-styles";
-@import "init/reset";
-@import "init/breakpoint";
+body {
+  color: #333;
+  font-family: 'HK Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: .5rem;
+  text-align: left;
+}
 
-@import "page/homepage";
-@import "page/about";
-@import "page/projects";
-@import "page/project";
+#main {
+  max-width: 700px;
+  margin: 15vh auto;
+  padding: 32px;
 
-@import "partials/header";
-@import "partials/footer";
+  h2, p {
+    color: rgba(#000, .5);
+    line-height: 1.5;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 18px;
+  }
 
-@import "partials/project/project-header";
-@import "partials/project/fluffy-slider";
-@import "partials/project/btn-project";
-@import "partials/project/phoneMockups";
-@import "partials/project/problems";
-@import "partials/project/sliderV1";
-@import "partials/project/image";
-@import "partials/header";
+  h1 {
+    font-size: 21px;
+    color: rgba(#000, .5);
+    margin-bottom: 7px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  strong {
+    color: rgba(#000, .75);
+    font-weight: 600;
+  }
+  a#blue {
+    color: #4FADFF;
+    font-weight: 600;
+  }
+  a#violet {
+    color: #B98BFF;
+    font-weight: 600;
+  }
+}
 
-// #loader {
-//   display: none;
-//   #progress, #progress:after {
-//     display: none;
-//   }
-// }
-//
-// #loader.visible {
-//   display: block;
-//   top: 0;
-//   left: 0;
-//   height: 100vh;
-//   width: 100vw;
-//   z-index: 99;
-//   position: fixed;
-//
-//   #progress {
-//     background: black;
-//     height: 100vh;
-//     position: fixed;
-//     z-index: 9;
-//     transition: 1s ease-in-out;
-//     animation: loading linear infinite;
-//     &:after {
-//       position: absolute;
-//       z-index: 19;
-//       content: "0%";
-//       display: block;
-//       text-align: center;
-//       font-size: 40vh;
-//       color: red;
-//       mix-blend-mode: difference;
-//       animation: percentage linear infinite;
-//     }
-//   }
-//
-// }
-//
-// @keyframes loading {
-//   0% {
-//     width: 0;
-//   } 100% {
-//     width: 100%;
-//   }
-// }
-//
-// @keyframes percentage {
-//   @for $i from 1 through 100 {
-//     $percentage: $i + "%";
-//     #{$percentage} {
-//       content: $percentage;
-//     }
-//   }
-// }
+.middleman-logo {
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+a:visited {
+  color: inherit;
+}
+
+img {
+  max-width: 10vw;
+}
+
+// When you're on the link
+[aria-current] {
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+  color: inherit;
+}
+
+footer {
+  font-size: 21px;
+  max-width: 700px;
+  padding: 32px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+
+  div {
+    h3 {
+      margin-right: 14px;
+      font-weight: 400;
+      color: rgba(#000, .25);
+    }
+    a, p {
+      color: rgba(#000, .75);
+      margin-bottom: 7px;
+    }
+
+    &.contact {
+      display: flex;
+      align-items: flex-start;
+      h3 {
+        width: 100px;
+      }
+      a:hover {
+        color: rgba(#000, 1);
+        cursor: "images/static/hi.png";
+      }
+    }
+
+    &.social {
+      display: flex;
+      width: 200px;
+      div {
+        width: 110px;
+        display: flex;
+        justify-content: space-between;
+      }
+      h3 {
+        width: 90px;
+      }
+    }
+  }
+
+  a {
+    transition: .5s ease-out;
+    text-decoration: none;
+  }
+
+  img {
+    height: 21px;
+    height: 21px;
+    opacity: .75;
+    transition: .5s ease-out;
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+}

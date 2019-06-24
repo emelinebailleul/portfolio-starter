@@ -10,13 +10,15 @@ end
 activate :directory_indexes
 # Localization
 activate :i18n, :mount_at_root => :fr
-# Middleman i18n can't convert page URL to another language. This is the solution.
-activate :transpath do |t|
-  t.label = {
-    en: 'EN',
-    fr: 'FR'
-  }
+# Using asset helpers
+activate :asset_hash do |f|
+  f.ignore = [
+    'images/static/*',
+    'images/compress/*'
+  ]
 end
+# Middleman i18n can't convert page URL to another language. This is the solution.
+activate :transpath
 # For indicating an active link
 activate :transpath_aria_current
 
@@ -80,7 +82,7 @@ end
 
 # Under deploy
 configure :build do
-  config[:host] = "https://emelinebailleul.com"
+  config[:host] = "https://emeline-bailleul.netlify.com"
 
   activate :minify_html
   activate :minify_css
