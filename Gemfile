@@ -5,7 +5,6 @@ gem 'middleman', '~> 4.2'
 
 # Assets management
 gem 'middleman-minify-html'
-gem 'middleman-imageoptim', :github => 'plasticine/middleman-imageoptim'
 gem 'middleman-critical', '~>0.0.2'
 
 # Misc
